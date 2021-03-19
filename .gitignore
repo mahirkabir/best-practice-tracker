@@ -128,4 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-results/
+# Only ignore the folders inside audit_checker (Keep audit_results.txt)
+results/audit_checker/*/
