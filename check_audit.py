@@ -98,6 +98,10 @@ if __name__ == "__main__":
                     after_i_lock_result = {
                         "status": init_audit_result["status"], "info": ""}
 
+                install_lock_output = ["", ""]
+                fix_audit_output = ["", ""]
+                force_fix_audit_output = ["", ""]
+
                 if after_i_lock_result["status"] == constants.AUDIT_FALSE:
                     fix_audit_output = fix_audit(repo_loc)
                     after_fix_result = get_audit(repo_loc)
