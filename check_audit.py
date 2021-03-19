@@ -159,11 +159,11 @@ if __name__ == "__main__":
                               after_fix_force_result["info"])
 
                 helper.record(
-                    foldername, "install_lock_output.txt", install_lock_output)
+                    foldername, "install_lock_output.txt", install_lock_output[1])
                 helper.record(foldername, "fix_audit_output.txt",
-                              fix_audit_output)
+                              fix_audit_output[1])
                 helper.record(
-                    foldername, "force_fix_audit_output.txt", force_fix_audit_output)
+                    foldername, "force_fix_audit_output.txt", force_fix_audit_output[1])
 
             except Exception as ex:
                 print("Error processing [%s]: %s" % (repo["name"], str(ex)))
