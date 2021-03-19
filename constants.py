@@ -1,0 +1,3 @@
+AUDIT_ERROR = "ERR"
+AUDIT_TRUE = "True"
+AUDIT_FALSE = "False"
