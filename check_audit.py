@@ -25,17 +25,17 @@ def get_audit(repo_loc):
 
 def install_package_lock(repo_lock):
     "Install package-lock.json file in repo_loc"
-    helper.execute_cmd(repo_loc, "npm i --package-lock-only")
+    return helper.execute_cmd(repo_loc, "npm i --package-lock-only")
 
 
 def fix_audit(repo_loc):
     """Run `npm audit fix` in repo_loc"""
-    helper.execute_cmd(repo_loc, "npm audit fix")
+    return helper.execute_cmd(repo_loc, "npm audit fix")
 
 
 def fix_audit_force(repo_loc):
     """Run `npm audit fix --force` in repo_loc"""
-    helper.execute_cmd(repo_loc, "npm audit fix --force")
+    return helper.execute_cmd(repo_loc, "npm audit fix --force")
 
 
 if __name__ == "__main__":
@@ -91,7 +91,7 @@ if __name__ == "__main__":
                 init_audit_result = get_audit(repo_loc)
 
                 if init_audit_result["status"] == constants.AUDIT_ERROR:
-                    install_package_lock(repo_loc)
+                    install_lock_output = install_package_lock(repo_loc)
                     after_i_lock_result = get_audit(repo_loc)
                 else:
                     # If initial result was not an ERR, we don't do anything for after_i_lock
@@ -99,16 +99,24 @@ if __name__ == "__main__":
                         "status": init_audit_result["status"], "info": ""}
 
                 if after_i_lock_result["status"] == constants.AUDIT_FALSE:
-                    fix_audit(repo_loc)
+                    fix_audit_output = fix_audit(repo_loc)
                     after_fix_result = get_audit(repo_loc)
+                elif after_i_lock_result["status"] == constants.AUDIT_ERROR:
+                    # If error is still there, then fixing won't solve it
+                    after_fix_result = {
+                        "status": constants.AUDIT_ERROR, "info": ""}
                 else:
                     # If previous result was already vulnerability-free, no need to fix anything
                     after_fix_result = {
                         "status": constants.AUDIT_TRUE, "info": ""}
 
                 if after_fix_result["status"] == constants.AUDIT_FALSE:
-                    fix_audit_force(repo_loc)
+                    force_fix_audit_output = fix_audit_force(repo_loc)
                     after_fix_force_result = get_audit(repo_loc)
+                elif after_fix_result["status"] == constants.AUDIT_ERROR:
+                    # If error is still there, then force fixing won't solve it
+                    after_fix_force_result = {
+                        "status": constants.AUDIT_ERROR, "info": ""}
                 else:
                     # If previous result was already vulnerability-free, no need to fix anything
                     after_fix_force_result = {
@@ -149,6 +157,13 @@ if __name__ == "__main__":
                               after_fix_result["info"])
                 helper.record(foldername, "after_fix_force.txt",
                               after_fix_force_result["info"])
+
+                helper.record(
+                    foldername, "install_lock_output.txt", install_lock_output)
+                helper.record(foldername, "fix_audit_output.txt",
+                              fix_audit_output)
+                helper.record(
+                    foldername, "force_fix_audit_output.txt", force_fix_audit_output)
 
             except Exception as ex:
                 print("Error processing [%s]: %s" % (repo["name"], str(ex)))
