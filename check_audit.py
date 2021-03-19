@@ -2,18 +2,25 @@ import helper
 import os
 from tqdm import tqdm
 import constants
+import re
 
 
 def get_audit(repo_loc):
     """Run `npm audit` and return the result. True if no vulnerability detected"""
     result = helper.execute_cmd(repo_loc, "npm audit")
-    if "found 0 vulnerabilities" in result[1]:
-        return {"status": constants.AUDIT_TRUE, "info": result[1]}
-    elif result[0] == False:
-        # If no info of vulnerability found but ERR is there, we are treating it as ERR
+    # ommitting found from regex pattern as it doesn't always appear ***for > 0 vulnerabilities***
+    vul_search_res = re.search("\d+ vulnerabilities", result[1])
+
+    if vul_search_res:
+        if "found 0 vulnerabilities" in result[1]:
+            return {"status": constants.AUDIT_TRUE, "info": result[1]}
+        else:
+            return {"status": constants.AUDIT_FALSE, "info": result[1]}
+    elif "npm ERR!" in result[1]:
+        # If npm audit failed due to some error, we are treating it as ERR
         return {"status": constants.AUDIT_ERROR, "info": result[1]}
     else:
-        return {"status": constants.AUDIT_FALSE, "info": result[1]}
+        return {"status": constants.AUDIT_UNKNOWN, "info": result[1]}
 
 
 def install_package_lock(repo_lock):
@@ -100,7 +107,7 @@ if __name__ == "__main__":
                         "status": constants.AUDIT_TRUE, "info": ""}
 
                 if after_fix_result["status"] == constants.AUDIT_FALSE:
-                    fix_audit(repo_loc)
+                    fix_audit_force(repo_loc)
                     after_fix_force_result = get_audit(repo_loc)
                 else:
                     # If previous result was already vulnerability-free, no need to fix anything
@@ -110,13 +117,13 @@ if __name__ == "__main__":
                 result["initial"] = init_audit_result["status"]
                 result["package-lock"] = helper.IFF(
                     init_audit_result["status"] == after_i_lock_result["status"],
-                    after_i_lock_result["status"], after_i_lock_result["status"] + " (Changed)")
+                    after_i_lock_result["status"], str(after_i_lock_result["status"]) + " (Changed)")
                 result["audit-fix"] = helper.IFF(
                     after_i_lock_result["status"] == after_fix_result["status"],
-                    after_fix_result["status"], after_fix_result["status"] + " (Changed)")
+                    after_fix_result["status"], str(after_fix_result["status"]) + " (Changed)")
                 result["audit-fix-force"] = helper.IFF(
                     after_fix_result["status"] == after_fix_force_result["status"],
-                    after_fix_force_result["status"], after_fix_force_result["status"] + " (Changed)")
+                    after_fix_force_result["status"], str(after_fix_force_result["status"]) + " (Changed)")
 
                 writer = open(os.path.join("results", "audit_checker",
                                            "audit_results.txt"), "a", encoding="utf-8")
