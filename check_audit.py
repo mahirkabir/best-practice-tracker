@@ -87,6 +87,9 @@ if __name__ == "__main__":
 
                 result = {"name": repo["name"], "initial": "", "package-lock": "",
                           "audit-fix": "", "audit-fix-force": ""}
+                install_lock_output = ["", ""]
+                fix_audit_output = ["", ""]
+                force_fix_audit_output = ["", ""]
 
                 init_audit_result = get_audit(repo_loc)
 
@@ -97,10 +100,6 @@ if __name__ == "__main__":
                     # If initial result was not an ERR, we don't do anything for after_i_lock
                     after_i_lock_result = {
                         "status": init_audit_result["status"], "info": ""}
-
-                install_lock_output = ["", ""]
-                fix_audit_output = ["", ""]
-                force_fix_audit_output = ["", ""]
 
                 if after_i_lock_result["status"] == constants.AUDIT_FALSE:
                     fix_audit_output = fix_audit(repo_loc)
