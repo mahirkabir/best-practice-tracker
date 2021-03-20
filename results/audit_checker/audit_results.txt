@@ -1,0 +1,604 @@
+Repository	Initial Audit	After i package-lock	After audit fix	After audit fix --force
+fontawesome	ERR	No Vul (Changed)	No Vul	No Vul
+fortawesomefontawesomesvgcore	ERR	No Vul (Changed)	No Vul	No Vul
+fortawesomefreesolidsvgicons	ERR	No Vul (Changed)	No Vul	No Vul
+crypto	ERR	No Vul (Changed)	No Vul	No Vul
+fs	ERR	No Vul (Changed)	No Vul	No Vul
+http	ERR	No Vul (Changed)	No Vul	No Vul
+childprocess	ERR	No Vul (Changed)	No Vul	No Vul
+passportstrategy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+os	ERR	No Vul (Changed)	No Vul	No Vul
+clear	ERR	No Vul (Changed)	No Vul	No Vul
+requirejs	ERR	No Vul (Changed)	No Vul	No Vul
+connectflash	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+pathisabsolute	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+hashsum	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+deepassign	ERR	No Vul (Changed)	No Vul	No Vul
+path	ERR	No Vul (Changed)	No Vul	No Vul
+babelhelpervuejsxmergeprops	ERR	No Vul (Changed)	No Vul	No Vul
+vinylbuffer	ERR	No Vul (Changed)	No Vul	No Vul
+base64	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jestenvironmentjsdomfourteen	ERR	ERR	ERR	ERR
+keypress	ERR	No Vul (Changed)	No Vul	No Vul
+iniparser	ERR	No Vul (Changed)	No Vul	No Vul
+jestpnpresolver	ERR	No Vul (Changed)	No Vul	No Vul
+gulpconflict	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+identityobjproxy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+texttable	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utilsmerge	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+arrify	ERR	ERR	ERR	ERR
+uniquerandomarray	ERR	ERR	ERR	ERR
+jsonstablestringify	ERR	No Vul (Changed)	No Vul	No Vul
+sha1	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sprintf	ERR	No Vul (Changed)	No Vul	No Vul
+tspnp	ERR	No Vul (Changed)	No Vul	No Vul
+querystring	ERR	No Vul (Changed)	No Vul	No Vul
+utf8	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+babelplugintransformdecoratorslegacy	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+jsonstringifysafe	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+pathexists	ERR	ERR	ERR	ERR
+userhome	ERR	No Vul (Changed)	No Vul	No Vul
+validurl	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+slash	ERR	ERR	ERR	ERR
+debounce	ERR	No Vul (Changed)	No Vul	No Vul
+assertplus	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+requiredir	ERR	No Vul (Changed)	No Vul	No Vul
+vinylsourcestream	ERR	No Vul (Changed)	No Vul	No Vul
+ispromise	ERR	No Vul (Changed)	No Vul	No Vul
+fancylog	ERR	ERR	ERR	ERR
+stacktrace	No Vul	No Vul	No Vul	No Vul
+postcssnormalize	ERR	No Vul (Changed)	No Vul	No Vul
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+resolvefrom	ERR	ERR	ERR	ERR
+inherits	Vul Found	Vul Found	No Vul (Changed)	No Vul
+eslintconfigairbnb	ERR	ERR	ERR	ERR
+escapestringregexp	ERR	ERR	ERR	ERR
+eslintconfigairbnbbase	ERR	ERR	ERR	ERR
+urljoin	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+clui	No Vul	No Vul	No Vul	No Vul
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+isurl	ERR	No Vul (Changed)	No Vul	No Vul
+fuzzy	ERR	No Vul (Changed)	No Vul	No Vul
+merge	No Vul	No Vul	No Vul	No Vul
+logsymbols	ERR	ERR	ERR	ERR
+pkginfo	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+tildify	ERR	ERR	ERR	ERR
+nprogress	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+dot	ERR	No Vul (Changed)	No Vul	No Vul
+casesensitivepathswebpackplugin	No Vul	No Vul	No Vul	No Vul
+jsonloader	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+readline	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+pnpwebpackplugin	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+xmlhttprequest	ERR	No Vul (Changed)	No Vul	No Vul
+clispinner	ERR	No Vul (Changed)	No Vul	No Vul
+escapehtml	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+randomstring	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+requireindex	ERR	No Vul (Changed)	No Vul	No Vul
+createhash	ERR	No Vul (Changed)	No Vul	No Vul
+opener	No Vul	No Vul	No Vul	No Vul
+extendshallow	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+wordwrap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportlocal	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+mergestream	ERR	No Vul (Changed)	No Vul	No Vul
+seleniumwebdriver	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+leftpad	ERR	No Vul (Changed)	No Vul	No Vul
+jwtsimple	Vul Found	Vul Found	No Vul (Changed)	No Vul
+url	ERR	ERR	ERR	ERR
+warning	Vul Found	Vul Found	Vul Found	Vul Found
+connecthistoryapifallback	Vul Found	Vul Found	No Vul (Changed)	No Vul
+readpkgup	ERR	ERR	ERR	ERR
+fspromise	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+read	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+commandexists	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+readpkg	ERR	ERR	ERR	ERR
+md5	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+gulpreplace	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+multimatch	ERR	ERR	ERR	ERR
+keycode	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportoauth2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+normalizecss	No Vul	No Vul	No Vul	No Vul
+pify	ERR	ERR	ERR	ERR
+requireall	ERR	No Vul (Changed)	No Vul	No Vul
+hoganjs	ERR	No Vul (Changed)	No Vul	No Vul
+decamelize	ERR	ERR	ERR	ERR
+isobject	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+contenttype	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulprename	ERR	No Vul (Changed)	No Vul	No Vul
+progress	ERR	No Vul (Changed)	No Vul	No Vul
+bindings	ERR	No Vul (Changed)	No Vul	No Vul
+ip	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+gulpif	ERR	No Vul (Changed)	No Vul	No Vul
+verror	ERR	No Vul (Changed)	No Vul	No Vul
+clitable2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+i	ERR	No Vul (Changed)	No Vul	No Vul
+objectassign	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+figlet	No Vul	No Vul	No Vul	No Vul
+rawloader	Vul Found	Vul Found	No Vul (Changed)	No Vul
+sprintfjs	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+gulpinstall	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+reacttapeventplugin	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+httpstatuscodes	No Vul	No Vul	No Vul	No Vul
+minimist	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+invariant	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+requestpromisenative	ERR	Vul Found (Changed)	Vul Found	Vul Found
+yamljs	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+safebuffer	ERR	No Vul (Changed)	No Vul	No Vul
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+reflectmetadata	ERR	ERR	ERR	ERR
+postcssflexbugsfixes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+throttledebounce	ERR	ERR	ERR	ERR
+gulptemplate	ERR	ERR	ERR	ERR
+hyperquest	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+xtend	ERR	No Vul (Changed)	No Vul	No Vul
+cryptojs	ERR	ERR	ERR	ERR
+ncp	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jwtdecode	No Vul	No Vul	No Vul	No Vul
+childprocesspromise	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+makedir	ERR	ERR	ERR	ERR
+crossenv	ERR	ERR	ERR	ERR
+camelcase	ERR	ERR	ERR	ERR
+approotpath	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+pump	ERR	No Vul (Changed)	No Vul	No Vul
+stripjsoncomments	ERR	ERR	ERR	ERR
+oauth	ERR	No Vul (Changed)	No Vul	No Vul
+isplainobject	ERR	No Vul (Changed)	No Vul	No Vul
+componentemitter	ERR	No Vul (Changed)	No Vul	No Vul
+restler	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+koamount	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+ansiescapes	ERR	ERR	ERR	ERR
+findup	ERR	ERR	ERR	ERR
+getport	ERR	ERR	ERR	ERR
+nodedir	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+progressbarwebpackplugin	No Vul	No Vul	No Vul	No Vul
+ini	No Vul	No Vul	No Vul	No Vul
+clipboardy	ERR	ERR	ERR	ERR
+koalogger	ERR	ERR	ERR	ERR
+classnames	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+recursivereaddir	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+getstdin	ERR	ERR	ERR	ERR
+figures	ERR	ERR	ERR	ERR
+prettybytes	ERR	ERR	ERR	ERR
+shellquote	ERR	ERR	ERR	ERR
+serializejavascript	No Vul	No Vul	No Vul	No Vul
+envify	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+optimizecssassetswebpackplugin	Vul Found	Vul Found	No Vul (Changed)	No Vul
+runsequence	Vul Found	Vul Found	Vul Found	Vul Found
+methods	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+nomnom	ERR	No Vul (Changed)	No Vul	No Vul
+htmlentities	ERR	No Vul (Changed)	No Vul	No Vul
+xpath	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+raf	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+filesaver	Vul Found	Vul Found	Vul Found	Vul Found
+flat	No Vul	No Vul	No Vul	No Vul
+vuehotreloadapi	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+passportoauth	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+markdown	ERR	ERR	ERR	ERR
+findupsync	ERR	ERR	ERR	ERR
+webpacknodeexternals	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+eslintpluginbabel	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+nodeemoji	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+logupdate	ERR	ERR	ERR	ERR
+syncrequest	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+yosay	ERR	ERR	ERR	ERR
+isomorphicfetch	ERR	No Vul (Changed)	No Vul	No Vul
+temp	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+wrench	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+sourcemaploader	No Vul	No Vul	No Vul	No Vul
+mz	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+deepextend	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+objectpath	No Vul	No Vul	No Vul	No Vul
+detectport	ERR	ERR	ERR	ERR
+gzipsize	ERR	ERR	ERR	ERR
+nodeuuid	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+reduxthunk	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+stripansi	ERR	ERR	ERR	ERR
+bcryptjs	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+koacompose	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+deasync	No Vul	No Vul	No Vul	No Vul
+sanitizefilename	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+mockjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+koabodyparser	ERR	ERR	ERR	ERR
+gulpautoprefixer	ERR	ERR	ERR	ERR
+jestwatchtypeahead	ERR	No Vul (Changed)	No Vul	No Vul
+proptypes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+nopt	No Vul	No Vul	No Vul	No Vul
+resizeobserverpolyfill	Vul Found	Vul Found	Vul Found	Vul Found
+inflection	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+es6promisify	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+gulpfilter	ERR	ERR	ERR	ERR
+deepdiff	Vul Found	Vul Found	Vul Found	Vul Found
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mkdirp	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+util	ERR	ERR	ERR	ERR
+cleanwebpackplugin	ERR	ERR	ERR	ERR
+gruntcontribclean	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+hexletpairs	No Vul	No Vul	No Vul	No Vul
+md5file	ERR	ERR	ERR	ERR
+global	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+bs58	ERR	No Vul (Changed)	No Vul	No Vul
+bytes	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+immutabilityhelper	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+columnify	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+busboy	ERR	No Vul (Changed)	No Vul	No Vul
+long	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+crc	Vul Found	Vul Found	Vul Found	Vul Found
+hiredis	ERR	No Vul (Changed)	No Vul	No Vul
+gruntcli	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+split2	ERR	No Vul (Changed)	No Vul	No Vul
+tslib	ERR	ERR	ERR	ERR
+colors	Vul Found	Vul Found	No Vul (Changed)	No Vul
+events	ERR	ERR	ERR	ERR
+eslintpluginstandard	ERR	No Vul (Changed)	No Vul	No Vul
+unzip	ERR	Vul Found (Changed)	Vul Found	Vul Found
+convertsourcemap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+tv4	ERR	Vul Found (Changed)	Vul Found	Vul Found
+concatstream	ERR	No Vul (Changed)	No Vul	No Vul
+admzip	No Vul	No Vul	No Vul	No Vul
+base64js	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+httpstatus	ERR	No Vul (Changed)	No Vul	No Vul
+ansicolors	ERR	ERR	ERR	ERR
+clitable	ERR	No Vul (Changed)	No Vul	No Vul
+gulpconcat	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+basicauth	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+slugify	ERR	No Vul (Changed)	No Vul	No Vul
+babelplugindynamicimportnode	ERR	ERR	ERR	ERR
+nodestatic	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+extractzip	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+prettyms	ERR	ERR	ERR	ERR
+fastclick	ERR	No Vul (Changed)	No Vul	No Vul
+optimist	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+through	ERR	No Vul (Changed)	No Vul	No Vul
+jsonfile	ERR	No Vul (Changed)	No Vul	No Vul
+which	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+watch	ERR	No Vul (Changed)	No Vul	No Vul
+webpacksources	ERR	No Vul (Changed)	No Vul	No Vul
+gaze	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+httpsproxyagent	ERR	ERR	ERR	ERR
+xml2json	Vul Found	Vul Found	Vul Found	Vul Found
+dateformat	No Vul	No Vul	No Vul	No Vul
+koastatic	ERR	ERR	ERR	ERR
+portfinder	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+parseurl	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+he	ERR	Vul Found (Changed)	Vul Found	Vul Found
+color	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+brfs	ERR	ERR	ERR	ERR
+gruntcontribcopy	ERR	Vul Found (Changed)	Vul Found	Vul Found
+hoistnonreactstatics	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+argparse	ERR	No Vul (Changed)	No Vul	No Vul
+karmaphantomjslauncher	ERR	ERR	ERR	ERR
+fresh	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+passport	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+pluralize	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+boxen	ERR	ERR	ERR	ERR
+memoizeone	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+flux	ERR	ERR	ERR	ERR
+co	ERR	Vul Found (Changed)	Vul Found	Vul Found
+amqplib	Vul Found	Vul Found	Vul Found	Vul Found
+gulpbabel	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+babelpluginaddmoduleexports	ERR	Vul Found (Changed)	Vul Found	Vul Found
+tslintreact	ERR	No Vul (Changed)	No Vul	No Vul
+nodewatch	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+etag	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+changecase	No Vul	No Vul	No Vul	No Vul
+traverse	ERR	No Vul (Changed)	No Vul	No Vul
+css	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+unistutilvisit	ERR	ERR	ERR	ERR
+dayjs	ERR	ERR	ERR	ERR
+tweetnacl	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+promisepolyfill	ERR	Vul Found (Changed)	Vul Found	Vul Found
+through2	ERR	No Vul (Changed)	No Vul	No Vul
+ms	Vul Found	Vul Found	Vul Found	Vul Found
+estraverse	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+prompts	No Vul	No Vul	No Vul	No Vul
+rolluppluginutils	Vul Found	Vul Found	Vul Found	Vul Found
+intl	ERR	Vul Found (Changed)	Vul Found	Vul Found
+postcsspresetenv	ERR	No Vul (Changed)	No Vul	No Vul
+listr	ERR	ERR	ERR	ERR
+nib	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+ora	ERR	ERR	ERR	ERR
+del	ERR	ERR	ERR	ERR
+opn	ERR	ERR	ERR	ERR
+open	ERR	ERR	ERR	ERR
+multer	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+htmlloader	No Vul	No Vul	No Vul	No Vul
+string	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jsonschema	ERR	No Vul (Changed)	No Vul	No Vul
+imageminpngquant	ERR	ERR	ERR	ERR
+webpackmanifestplugin	Vul Found	Vul Found	No Vul (Changed)	No Vul
+prompt	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+shortid	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+dotenv	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+bignumberjs	ERR	No Vul (Changed)	No Vul	No Vul
+vuestyleloader	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+npmlog	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+loglevel	ERR	Vul Found (Changed)	Vul Found	Vul Found
+bl	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+forktscheckerwebpackpluginalt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+eslintpluginprettier	ERR	ERR	ERR	ERR
+plist	Vul Found	Vul Found	Vul Found	Vul Found
+normalizeurl	ERR	ERR	ERR	ERR
+whatwgfetch	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+clone	ERR	Vul Found (Changed)	Vul Found	Vul Found
+swprecachewebpackplugin	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+assert	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+json5	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+loaderutils	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+underscorestring	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+vinyl	ERR	ERR	ERR	ERR
+cookie	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+prettyjson	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+jasmine	ERR	No Vul (Changed)	No Vul	No Vul
+koabody	ERR	ERR	ERR	ERR
+pako	ERR	No Vul (Changed)	No Vul	No Vul
+meow	ERR	ERR	ERR	ERR
+numeral	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gulppostcss	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+frontmatter	ERR	Vul Found (Changed)	Vul Found	Vul Found
+urlloader	Vul Found	Vul Found	No Vul (Changed)	No Vul
+reselect	Vul Found	Vul Found	Vul Found	Vul Found
+objecthash	ERR	Vul Found (Changed)	Vul Found	Vul Found
+cli	ERR	No Vul (Changed)	No Vul	No Vul
+minimatch	No Vul	No Vul	No Vul	No Vul
+minicssextractplugin	No Vul	No Vul	No Vul	No Vul
+eslintpluginpromise	No Vul	No Vul	No Vul	No Vul
+nodecache	No Vul	No Vul	No Vul	No Vul
+fortawesomereactfontawesome	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+momenttimezone	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+clicolor	ERR	Vul Found (Changed)	Vul Found	Vul Found
+nodeschedule	ERR	No Vul (Changed)	No Vul	No Vul
+chaiaspromised	Vul Found	Vul Found	Vul Found	Vul Found
+d3shape	ERR	No Vul (Changed)	No Vul	No Vul
+rolluppluginnoderesolve	Vul Found	Vul Found	No Vul (Changed)	No Vul
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+postcsssafeparser	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+configstore	ERR	ERR	ERR	ERR
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+sinonchai	Vul Found	Vul Found	No Vul (Changed)	No Vul
+reduxactions	ERR	ERR	ERR	ERR
+cron	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+broccolimergetrees	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+karmamocha	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+extend	ERR	ERR	ERR	ERR
+globby	ERR	ERR	ERR	ERR
+rc	ERR	No Vul (Changed)	No Vul	No Vul
+prismjs	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+faker	ERR	Vul Found (Changed)	Vul Found	Vul Found
+supportscolor	ERR	ERR	ERR	ERR
+babelify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+typescripteslintparser	ERR	ERR	ERR	ERR
+typescripteslinteslintplugin	ERR	ERR	ERR	ERR
+mapstream	ERR	No Vul (Changed)	No Vul	No Vul
+tarfs	ERR	No Vul (Changed)	No Vul	No Vul
+deepmerge	Vul Found	Vul Found	No Vul (Changed)	No Vul
+gulpcleancss	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+genericpool	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+rimraf	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+sourcemapsupport	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+deepequal	ERR	ERR	ERR	ERR
+recompose	ERR	ERR	ERR	ERR
+postcssnested	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+inquirerautocompleteprompt	No Vul	No Vul	No Vul	No Vul
+JSONStream	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+babelpluginimport	ERR	ERR	ERR	ERR
+bip39	No Vul	No Vul	No Vul	No Vul
+bufferutil	ERR	ERR	ERR	ERR
+readlinesync	ERR	No Vul (Changed)	No Vul	No Vul
+backbone	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+websocket	ERR	ERR	ERR	ERR
+toughcookie	ERR	No Vul (Changed)	No Vul	No Vul
+gulpshell	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+stylelintorder	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+tracer	No Vul	No Vul	No Vul	No Vul
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+formdata	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+eventemitter2	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+d3array	ERR	No Vul (Changed)	No Vul	No Vul
+vueclasscomponent	ERR	ERR	ERR	ERR
+gruntcontribjshint	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+depd	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+pathtoregexp	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+tmp	ERR	No Vul (Changed)	No Vul	No Vul
+xmldom	No Vul	No Vul	No Vul	No Vul
+graphqltag	No Vul	No Vul	No Vul	No Vul
+gulpless	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+xregexp	Vul Found	Vul Found	Vul Found	Vul Found
+gulputil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gracefulfs	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+graymatter	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulploadplugins	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+stylusloader	No Vul	No Vul	No Vul	No Vul
+vuepropertydecorator	ERR	Vul Found (Changed)	No Vul (Changed)	No Vul
+diff	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+jsbase64	ERR	No Vul (Changed)	No Vul	No Vul
+karmachromelauncher	ERR	Vul Found (Changed)	Vul Found	Vul Found
+babelpresetenv	ERR	Vul Found (Changed)	Vul Found	Vul Found
+lrucache	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+metalsmith	Vul Found	Vul Found	Vul Found	Vul Found
+onfinished	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+pngjs	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+mime	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+asyncvalidator	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+liftoff	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+inert	ERR	No Vul (Changed)	No Vul	No Vul
+uglifyjswebpackplugin	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+decompress	ERR	ERR	ERR	ERR
+fluentffmpeg	ERR	No Vul (Changed)	No Vul	No Vul
+gulpsass	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+filesize	Vul Found	Vul Found	Vul Found	Vul Found
+blessed	ERR	No Vul (Changed)	No Vul	No Vul
+followredirects	No Vul	No Vul	No Vul	No Vul
+iconvlite	ERR	Vul Found (Changed)	Vul Found	Vul Found
+broccolifunnel	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+grpc	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+slug	No Vul	No Vul	No Vul	No Vul
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+requestpromise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+bulma	No Vul	No Vul	No Vul	No Vul
+xhr	Vul Found	Vul Found	Vul Found	Vul Found
+execa	ERR	ERR	ERR	ERR
+querystring	ERR	ERR	ERR	ERR
+webpackhotmiddleware	Vul Found	Vul Found	No Vul (Changed)	No Vul
+nconf	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+urijs	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+chalk	ERR	ERR	ERR	ERR
+fileloader	Vul Found	Vul Found	No Vul (Changed)	No Vul
+crossspawn	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+gulpimagemin	ERR	ERR	ERR	ERR
+ghpages	Vul Found	Vul Found	No Vul (Changed)	No Vul
+bytebuffer	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+xmljs	Vul Found	Vul Found	Vul Found	Vul Found
+cors	ERR	No Vul (Changed)	No Vul	No Vul
+updatenotifier	ERR	ERR	ERR	ERR
+install	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+clipboard	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+connectredis	ERR	No Vul (Changed)	No Vul	No Vul
+is	ERR	ERR	ERR	ERR
+jasminecore	ERR	No Vul (Changed)	No Vul	No Vul
+parse5	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+reacticons	ERR	Vul Found (Changed)	Vul Found	Vul Found
+reduxlogger	Vul Found	Vul Found	Vul Found	Vul Found
+babelpluginmoduleresolver	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+karmajasmine	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+gulpnotify	Vul Found	Vul Found	Vul Found	Vul Found
+supertest	No Vul	No Vul	No Vul	No Vul
+sourcemap	ERR	ERR	ERR	ERR
+split	No Vul	No Vul	No Vul	No Vul
+pullstream	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+commandlineusage	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+winstondailyrotatefile	No Vul	No Vul	No Vul	No Vul
+reacthelmet	Vul Found	Vul Found	Vul Found	Vul Found
+d3selection	ERR	Vul Found (Changed)	No Vul (Changed)	No Vul
+gulpuglify	ERR	No Vul (Changed)	No Vul	No Vul
+fastglob	ERR	ERR	ERR	ERR
+eslintloader	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+nodeextend	ERR	ERR	ERR	ERR
+httpserver	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+fsevents	ERR	ERR	ERR	ERR
+reacttransitiongroup	ERR	ERR	ERR	ERR
+vueloader	ERR	Vul Found (Changed)	Vul Found	Vul Found
+cookieparser	ERR	No Vul (Changed)	No Vul	No Vul
+gm	ERR	Vul Found (Changed)	Vul Found	Vul Found
+fbjs	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+gruntcontribuglify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+reactonclickoutside	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+shelljs	ERR	ERR	ERR	ERR
+typesnode	ERR	ERR	ERR	ERR
+typesreact	ERR	ERR	ERR	ERR
+typeslodash	ERR	ERR	ERR	ERR
+gulpsourcemaps	ERR	ERR	ERR	ERR
+typesexpress	ERR	ERR	ERR	ERR
+typesreactdom	ERR	ERR	ERR	ERR
+hammerjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+typesjest	ERR	ERR	ERR	ERR
+typesjquery	ERR	ERR	ERR	ERR
+typesfsextra	ERR	ERR	ERR	ERR
+level	ERR	No Vul (Changed)	No Vul	No Vul
+typescordova	ERR	ERR	ERR	ERR
+typesjasmine	ERR	ERR	ERR	ERR
+typesrequest	ERR	ERR	ERR	ERR
+typesuuid	ERR	ERR	ERR	ERR
+dockerode	No Vul	No Vul	No Vul	No Vul
+typesbluebird	ERR	ERR	ERR	ERR
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+typesmocha	ERR	ERR	ERR	ERR
+styleloader	No Vul	No Vul	No Vul	No Vul
+sockjsclient	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+q	ERR	Vul Found (Changed)	Vul Found	Vul Found
+servefavicon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+d3scale	ERR	Vul Found (Changed)	No Vul (Changed)	No Vul
+rolluppluginbabel	Vul Found	Vul Found	No Vul (Changed)	No Vul
+watchify	ERR	ERR	ERR	ERR
+axios	ERR	No Vul (Changed)	No Vul	No Vul
+workboxwebpackplugin	Vul Found	Vul Found	No Vul (Changed)	No Vul
+babelplugintransformreactremoveproptypes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gulpeslint	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+terserwebpackplugin	No Vul	No Vul	No Vul	No Vul
+httpproxymiddleware	ERR	ERR	ERR	ERR
+formidable	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+litelement	Vul Found	Vul Found	Vul Found	Vul Found
+ssh2	ERR	No Vul (Changed)	No Vul	No Vul
+reactmotion	ERR	ERR	ERR	ERR
+domhelpers	ERR	ERR	ERR	ERR
+uuid	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+lessloader	No Vul	No Vul	No Vul	No Vul
+nunjucks	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+stylelintconfigstandard	No Vul	No Vul	No Vul	No Vul
+chance	ERR	Vul Found (Changed)	Vul Found	Vul Found
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+jscookie	ERR	ERR	ERR	ERR
+coveralls	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+boom	ERR	No Vul (Changed)	No Vul	No Vul
+connectmongo	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+nan	ERR	Vul Found (Changed)	Vul Found	UNKNOWN (Changed)
+urlparse	ERR	ERR	ERR	ERR
+draftjs	ERR	ERR	ERR	ERR
+debug	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+bcrypt	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+rollupplugincommonjs	Vul Found	Vul Found	No Vul (Changed)	No Vul
+jqueryui	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+localforage	ERR	ERR	ERR	ERR
+gulpwatch	Vul Found	Vul Found	No Vul (Changed)	No Vul
+cosmiconfig	ERR	ERR	ERR	ERR
+babelpluginlodash	Vul Found	Vul Found	Vul Found	Vul Found
+consolidate	ERR	ERR	ERR	ERR
+jsonwebtoken	ERR	Vul Found (Changed)	Vul Found	Vul Found
+nodenotifier	No Vul	No Vul	No Vul	No Vul
+leaflet	ERR	No Vul (Changed)	No Vul	No Vul
+xml2js	Vul Found	Vul Found	No Vul (Changed)	No Vul
+eslintpluginnode	ERR	ERR	ERR	ERR
+csv	ERR	No Vul (Changed)	No Vul	No Vul
+yargsparser	ERR	No Vul (Changed)	No Vul	No Vul
+commontags	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+imagemin	ERR	ERR	ERR	ERR
+semver	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+forktscheckerwebpackplugin	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+yaml	No Vul	No Vul	No Vul	No Vul
+rx	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+phantomjsprebuilt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+needle	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+ethereumjstx	ERR	ERR	ERR	ERR
+accepts	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+reactmarkdown	ERR	ERR	ERR	ERR
+es6promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+eventstream	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+bnjs	ERR	No Vul (Changed)	No Vul	No Vul
+micromatch	ERR	ERR	ERR	ERR
+errorhandler	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+eslintpluginflowtype	ERR	Vul Found (Changed)	Vul Found	Vul Found
+nedb	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jsyaml	ERR	No Vul (Changed)	No Vul	No Vul
+eventemitter3	ERR	ERR	ERR	ERR
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+copywebpackplugin	No Vul	No Vul	No Vul	No Vul
+escodegen	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+svgo	No Vul	No Vul	No Vul	No Vul
+vinylfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+commander	No Vul	No Vul	No Vul	No Vul
+popperjs	ERR	ERR	ERR	ERR
+cuid	Vul Found	Vul Found	Vul Found	UNKNOWN (Changed)
+secp256k1	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+vuex	ERR	ERR	ERR	ERR
+postcssimport	ERR	No Vul (Changed)	No Vul	No Vul
+polished	ERR	UNKNOWN (Changed)	No Vul (Changed)	No Vul
+htmlparser2	No Vul	No Vul	No Vul	No Vul
+webpackbundleanalyzer	UNKNOWN	UNKNOWN	No Vul (Changed)	No Vul
+npmrunall	ERR	ERR	ERR	ERR
+fusejs	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+nodefetch	ERR	ERR	ERR	ERR
+eslintconfigstandard	ERR	ERR	ERR	ERR
+rcutil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+postcssloader	No Vul	No Vul	No Vul	No Vul
