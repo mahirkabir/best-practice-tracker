@@ -600,8 +600,6 @@ fusejs	https://github.com/krisk/Fuse	143
 nodefetch	https://github.com/bitinn/node-fetch	145
 eslintconfigstandard	https://github.com/standard/eslint-config-standard	145
 rcutil	https://github.com/react-component/util	145
-postcssloader	https://github.com/postcss/postcss-loader	147
-when	https://github.com/cujojs/when	147
 lowdb	https://github.com/typicode/lowdb	148
 jshint	https://github.com/jshint/jshint	149
 eslintpluginjest	https://github.com/jest-community/eslint-plugin-jest	149
