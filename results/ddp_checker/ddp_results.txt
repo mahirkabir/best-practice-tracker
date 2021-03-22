@@ -1,0 +1,2 @@
+Repository	Status After Deduplication	Note
+postcsssafeparser	Changed	*Has 22 Unmet Dependency Before**Has 3 Unmet Dependency After*

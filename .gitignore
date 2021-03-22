@@ -130,3 +130,4 @@ dmypy.json
 
 # Only ignore the folders inside audit_checker (Keep audit_results.txt)
 results/audit_checker/*/
+results/ddp_checker/*/
