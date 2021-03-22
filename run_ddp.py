@@ -92,6 +92,19 @@ def deduplicate(repo_loc, cmd, audit_step, needs_install):
     return ddp_result
 
 
+def get_package_lock_json(repo_loc):
+    """Get content of package-lock.json file from the repository"""
+    if not os.path.exists(os.path.join(repo_loc, "package-lock.json")):
+        return ""
+
+    reader = open(os.path.join(repo_loc, "package-lock.json"),
+                  "r", encoding="utf-8")
+    lines = reader.readlines()
+    result = reduce(lambda a, b: a.strip() + "\n" + b.strip(), lines)
+    reader.close()
+    return result
+
+
 if __name__ == "__main__":
     """Run `npm ddp` on repositories having no vulnerabilities"""
 
@@ -112,7 +125,7 @@ if __name__ == "__main__":
     writer = open(os.path.join("results", "ddp_checker",
                                "ddp_results.txt"), "w", encoding="utf-8")
     writer.write(
-        "Repository\tStatus After Deduplication\tNote")
+        "Repository\tStatus After Deduplication\tPackage-Lock Status\tNote")
     writer.write("\n")
     writer.close()
 
@@ -146,18 +159,23 @@ if __name__ == "__main__":
                 """
 
                 result = {"name": repo["name"],
-                          "faced-change": "Same", "note": ""}
+                          "duplicates": "Same", "package-lock": "Same", "note": ""}
 
                 before_ddp = get_npm_ls(repo_loc)
+                package_lock_before_ddp = get_package_lock_json(repo_loc)
                 ddp_result = deduplicate(
                     repo_loc, "npm ddp", dict_repo_step[repo["name"]], dict_needs_install[repo["name"]])
                 # TODO: Uncomment if npm dedupe is different
                 # dedupe_result = deduplicate(
                 #     repo_loc, "npm dedupe", dict_repo_step[repo["name"]], dict_needs_install[repo["name"]])
                 after_ddp = get_npm_ls(repo_loc)
+                package_lock_after_ddp = get_package_lock_json(repo_loc)
 
                 if before_ddp.strip() != after_ddp.strip():
-                    result["faced-change"] = "Changed"
+                    result["duplicates"] = "Changed"
+
+                if package_lock_before_ddp.strip() != package_lock_after_ddp.strip():
+                    result["package-lock"] = "Changed"
 
                 if constants.DDP_CHECKER_EMPTY in before_ddp.upper():
                     result["note"] += "*Empty Before*"
@@ -174,9 +192,10 @@ if __name__ == "__main__":
                 writer = open(os.path.join("results", "ddp_checker",
                                            "ddp_results.txt"), "a", encoding="utf-8")
                 writer.write(
-                    "%s\t%s\t%s" % (
+                    "%s\t%s\t%s\t%s" % (
                         str(result["name"]),
-                        str(result["faced-change"]),
+                        str(result["duplicates"]),
+                        str(result["package-lock"]),
                         str(result["note"])
                     ))
                 writer.write("\n")
@@ -187,6 +206,8 @@ if __name__ == "__main__":
 
                 helper.record(foldername, "before_ddp.txt",
                               before_ddp)
+                helper.record(foldername, "package_lock_before.txt",
+                              package_lock_before_ddp)
                 helper.record(foldername, "ddp_result.txt",
                               ddp_result[1])
                 # TODO: Uncomment if npm dedupe is different
@@ -194,6 +215,8 @@ if __name__ == "__main__":
                 #               dedupe_result[1])
                 helper.record(foldername, "after_ddp.txt",
                               after_ddp)
+                helper.record(
+                    foldername, "package_lock_after_ddp.txt", package_lock_after_ddp)
 
             except Exception as ex:
                 print("Error processing [%s]: %s" % (repo["name"], str(ex)))
