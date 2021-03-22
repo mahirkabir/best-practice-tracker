@@ -128,13 +128,13 @@ if __name__ == "__main__":
                 result["initial"] = init_audit_result["status"]
                 result["package-lock"] = helper.IFF(
                     init_audit_result["status"] == after_i_lock_result["status"],
-                    after_i_lock_result["status"], str(after_i_lock_result["status"]) + " (Changed)")
+                    after_i_lock_result["status"], str(after_i_lock_result["status"]) + " " + constants.AUDIT_STEP_CHANGED)
                 result["audit-fix"] = helper.IFF(
                     after_i_lock_result["status"] == after_fix_result["status"],
-                    after_fix_result["status"], str(after_fix_result["status"]) + " (Changed)")
+                    after_fix_result["status"], str(after_fix_result["status"]) + " " + constants.AUDIT_STEP_CHANGED)
                 result["audit-fix-force"] = helper.IFF(
                     after_fix_result["status"] == after_fix_force_result["status"],
-                    after_fix_force_result["status"], str(after_fix_force_result["status"]) + " (Changed)")
+                    after_fix_force_result["status"], str(after_fix_force_result["status"]) + " " + constants.AUDIT_STEP_CHANGED)
 
                 writer = open(os.path.join("results", "audit_checker",
                                            "audit_results.txt"), "a", encoding="utf-8")

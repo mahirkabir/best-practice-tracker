@@ -6,6 +6,7 @@ import constants
 def get_repo_step(lines):
     """Get the first step in which `npm audit` found no vulnerability"""
     dict_repo_step = {}
+    dict_needs_install = {}
 
     for line in lines:
         parts = line.split("\t")
@@ -23,7 +24,11 @@ def get_repo_step(lines):
         else:
             dict_repo_step[repo_name] = constants.AUDIT_STEP_FAIL
 
-    return dict_repo_step
+        dict_needs_install[repo_name] = (
+            dict_repo_step[repo_name] != constants.AUDIT_STEP_FAIL) and (
+            constants.AUDIT_STEP_CHANGED in parts[2])
+
+    return dict_repo_step, dict_needs_install
 
 
 if __name__ == "__main__":
@@ -33,6 +38,6 @@ if __name__ == "__main__":
         "results", "audit_checker", "audit_results.txt"), "r")
     lines = reader.readlines()[1:]
     reader.close()
-    dict_repo_step = get_repo_step(lines)
+    dict_repo_step, dict_needs_install = get_repo_step(lines)
 
-    print(dict_repo_step)
+    

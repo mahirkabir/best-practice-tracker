@@ -3,6 +3,7 @@ AUDIT_TRUE = "No Vul"
 AUDIT_FALSE = "Vul Found"
 AUDIT_UNKNOWN = "UNKNOWN"
 
+AUDIT_STEP_CHANGED = "(Changed)"
 AUDIT_STEP_INIT = "Initial audit"
 AUDIT_STEP_INSTALL = "After package-lock install"
 AUDIT_STEP_FIX = "After audit fix"
