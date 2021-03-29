@@ -53,9 +53,14 @@ def get_npm_ls(repo_loc):
     return result
 
 
-def install_package_lock(repo_lock):
-    "Install package-lock.json file in repo_loc"
+def install_package_lock(repo_loc):
+    """Install package-lock.json file in repo_loc"""
     return helper.execute_cmd(repo_loc, "npm i --package-lock-only")
+
+
+def install_packages(repo_loc):
+    """Run `npm i` in repo_loc"""
+    return helper.execute_cmd(repo_loc, "npm i")
 
 
 def fix_audit(repo_loc):
@@ -73,15 +78,18 @@ def deduplicate(repo_loc, cmd, audit_step, needs_install):
     if audit_step == constants.AUDIT_STEP_INIT:
         ddp_result = helper.execute_cmd(repo_loc, cmd)
     elif audit_step == constants.AUDIT_STEP_INSTALL:
-        install_package_lock(repo_loc)
+        # install_package_lock(repo_loc)
+        # NOTE-1: Skipping installing here because `npm i` is now run as prerequisite for the tool
         ddp_result = helper.execute_cmd(repo_loc, cmd)
     elif audit_step == constants.AUDIT_STEP_FIX:
         if needs_install:
+            # NOTE-2: Because of 1, needs_install will always be `False`
             install_package_lock(repo_loc)
         fix_audit(repo_loc)
         ddp_result = helper.execute_cmd(repo_loc, cmd)
     elif audit_step == constants.AUDIT_STEP_FORCE_FIX:
         if needs_install:
+            # NOTE-3: Because of 1, needs_install will always be `False`
             install_package_lock(repo_loc)
         fix_audit(repo_loc)
         fix_audit_force(repo_loc)
@@ -161,11 +169,18 @@ if __name__ == "__main__":
                 result = {"name": repo["name"],
                           "duplicates": "Same", "package-lock": "Same", "note": ""}
 
+                # NOTE-4: Always running `npm i` to reduce UNMET DEPENDENCIES
+                install_packages(repo_loc)
+
                 before_ddp = get_npm_ls(repo_loc)
                 package_lock_before_ddp = get_package_lock_json(repo_loc)
+
+                # NOTE-5: We will not need to pass `True`, because of 4
                 ddp_result = deduplicate(
-                    repo_loc, "npm ddp", dict_repo_step[repo["name"]], dict_needs_install[repo["name"]])
-                # TODO: Uncomment if npm dedupe is different
+                    repo_loc, "npm ddp", dict_repo_step[repo["name"]], False)
+                # ddp_result = deduplicate(
+                #     repo_loc, "npm ddp", dict_repo_step[repo["name"]], dict_needs_install[repo["name"]])
+                # TODO: Uncomment below if npm dedupe is different
                 # dedupe_result = deduplicate(
                 #     repo_loc, "npm dedupe", dict_repo_step[repo["name"]], dict_needs_install[repo["name"]])
                 after_ddp = get_npm_ls(repo_loc)
