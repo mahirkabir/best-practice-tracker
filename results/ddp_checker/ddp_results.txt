@@ -1,2 +1,545 @@
 Repository	Status After Deduplication	Package-Lock Status	Note
-postcsssafeparser	Changed	Changed	*Has 22 Unmet Dependency Before**Has 3 Unmet Dependency After*
+fontawesome	Same	Same	*Empty Before**Empty After*
+fortawesomefontawesomesvgcore	Same	Same	*Empty Before**Empty After*
+fortawesomefreesolidsvgicons	Same	Same	*Empty Before**Empty After*
+crypto	Same	Same	*Empty Before**Empty After*
+fs	Same	Same	*Empty Before**Empty After*
+http	Same	Same	*Empty Before**Empty After*
+childprocess	Same	Same	*Empty Before**Empty After*
+passportstrategy	Changed	Changed	
+os	Same	Same	*Empty Before**Empty After*
+clear	Same	Same	*Empty Before**Empty After*
+requirejs	Same	Same	*Empty Before**Empty After*
+connectflash	Same	Same	
+pathisabsolute	Changed	Changed	
+hashsum	Changed	Changed	
+deepassign	Changed	Changed	
+path	Same	Same	
+babelhelpervuejsxmergeprops	Same	Same	*Empty Before**Empty After*
+vinylbuffer	Changed	Changed	
+base64	Changed	Changed	
+keypress	Same	Same	*Empty Before**Empty After*
+iniparser	Same	Same	*Empty Before**Empty After*
+jestpnpresolver	Same	Same	
+gulpconflict	Changed	Changed	
+identityobjproxy	Changed	Changed	*Has 4 Unmet Dependency After*
+texttable	Changed	Changed	
+utilsmerge	Changed	Changed	
+jsonstablestringify	Same	Same	
+sha1	Changed	Changed	
+sprintf	Same	Changed	
+tspnp	Same	Same	
+utf8	Changed	Changed	
+jsonstringifysafe	Changed	Changed	
+userhome	Same	Same	
+validurl	Changed	Changed	
+once	Changed	Changed	
+debounce	Same	Same	
+assertplus	Same	Same	
+requiredir	Same	Same	
+vinylsourcestream	Same	Same	
+ispromise	Same	Same	*Empty Before**Empty After*
+stacktrace	Same	Same	
+postcssnormalize	Changed	Changed	
+inherits	Changed	Changed	
+urljoin	Changed	Changed	
+clui	Changed	Changed	
+isurl	Same	Same	
+fuzzy	Same	Same	
+merge	Changed	Changed	
+pkginfo	Same	Same	
+nprogress	Changed	Changed	*Has 3 Unmet Dependency After*
+looseenvify	Changed	Changed	
+dot	Changed	Changed	
+casesensitivepathswebpackplugin	Changed	Changed	
+jsonloader	Changed	Changed	
+validatenpmpackagename	Changed	Changed	
+readline	Changed	Changed	
+pnpwebpackplugin	Changed	Changed	*Has 4 Unmet Dependency After*
+xmlhttprequest	Same	Same	*Empty Before**Empty After*
+clispinner	Same	Same	*Empty Before**Empty After*
+escapehtml	Changed	Changed	
+randomstring	Changed	Changed	
+requireindex	Same	Same	
+createhash	Changed	Changed	
+opener	Changed	Changed	
+extendshallow	Changed	Changed	
+wordwrap	Changed	Changed	
+passportlocal	Changed	Changed	
+mergestream	Same	Same	
+seleniumwebdriver	Changed	Changed	*Empty Before**Empty After**Has 8 Unmet Dependency After*
+osenv	Changed	Changed	
+leftpad	Same	Same	
+jwtsimple	Changed	Changed	
+connecthistoryapifallback	Changed	Changed	
+fspromise	Changed	Changed	
+read	Changed	Changed	
+touch	Changed	Changed	
+commandexists	Changed	Changed	
+md5	Changed	Changed	
+gulpreplace	Same	Same	
+keycode	Changed	Changed	
+passportoauth2	Changed	Changed	
+normalizecss	Same	Same	*Empty Before**Empty After*
+requireall	Same	Same	*Empty Before**Empty After*
+hoganjs	Same	Same	
+isobject	Changed	Changed	
+contenttype	Changed	Changed	
+gulprename	Changed	Changed	
+progress	Same	Same	*Empty Before**Empty After*
+bindings	Same	Same	
+gulpif	Changed	Changed	
+verror	Same	Same	
+clitable2	Changed	Changed	*Has 1 Unmet Dependency After*
+i	Same	Same	
+figlet	Changed	Changed	
+rawloader	Changed	Changed	
+gulpinstall	Changed	Changed	
+reacttapeventplugin	Same	Same	
+httpstatuscodes	Changed	Changed	
+minimist	Changed	Changed	
+invariant	Changed	Changed	
+yamljs	Same	Same	
+safebuffer	Same	Same	
+reactlifecyclescompat	Changed	Changed	*Has 4 Unmet Dependency After*
+postcssflexbugsfixes	Changed	Changed	
+hyperquest	Same	Same	
+xtend	Same	Same	
+ncp	Changed	Changed	
+jwtdecode	Changed	Changed	*Has 1 Unmet Dependency After*
+approotpath	Changed	Changed	
+pump	Same	Same	
+oauth	Same	Same	
+isplainobject	Changed	Changed	*Has 2 Unmet Dependency Before**Has 2 Unmet Dependency After*
+componentemitter	Same	Same	
+restler	Same	Changed	
+koamount	Changed	Changed	
+nodedir	Changed	Changed	
+progressbarwebpackplugin	Same	Same	
+ini	Changed	Changed	
+classnames	Changed	Changed	
+recursivereaddir	Changed	Changed	
+serializejavascript	Changed	Changed	
+envify	Same	Same	
+optimizecssassetswebpackplugin	Changed	Changed	*Empty Before**Empty After**Has 1 Unmet Dependency After*
+methods	Changed	Changed	
+nomnom	Same	Changed	
+htmlentities	Changed	Changed	
+xpath	Same	Same	
+flat	Changed	Changed	
+vuehotreloadapi	Changed	Changed	
+passportoauth	Changed	Changed	
+webpacknodeexternals	Changed	Changed	
+eslintpluginbabel	Changed	Changed	
+nodeemoji	Changed	Changed	
+syncrequest	Same	Same	
+isomorphicfetch	Same	Same	
+temp	Changed	Changed	
+wrench	Changed	Changed	
+sourcemaploader	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+mz	Changed	Changed	
+deepextend	Same	Same	
+objectpath	Changed	Changed	
+nodeuuid	Changed	Changed	
+reduxthunk	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+bcryptjs	Same	Same	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+koacompose	Changed	Changed	*Has 4 Unmet Dependency After*
+deasync	Same	Same	
+sanitizefilename	Changed	Changed	*Has 2 Unmet Dependency After*
+jestwatchtypeahead	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+proptypes	Changed	Changed	*Has 4 Unmet Dependency After*
+nopt	Changed	Changed	
+inflection	Changed	Changed	
+es6promisify	Changed	Changed	
+mkdirp	Changed	Changed	
+gruntcontribclean	Changed	Changed	
+hexletpairs	Changed	Changed	
+global	Same	Same	
+bs58	Same	Same	
+bytes	Changed	Changed	
+immutabilityhelper	Changed	Changed	
+busboy	Same	Same	
+long	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+hiredis	Same	Same	
+gruntcli	Same	Same	
+split2	Changed	Changed	
+colors	Changed	Changed	
+eslintpluginstandard	Changed	Changed	
+convertsourcemap	Changed	Changed	
+concatstream	Same	Same	
+admzip	Changed	Changed	
+base64js	Changed	Changed	
+httpstatus	Same	Same	
+clitable	Same	Same	*Has 6 Unmet Dependency Before**Has 6 Unmet Dependency After*
+gulpconcat	Changed	Changed	*Has 1 Unmet Dependency After*
+basicauth	Changed	Changed	
+slugify	Changed	Changed	
+nodestatic	Same	Same	
+extractzip	Same	Same	
+fastclick	Same	Same	*Empty Before**Empty After*
+optimist	Changed	Changed	
+through	Same	Same	
+jsonfile	Changed	Changed	
+which	Changed	Changed	
+watch	Same	Same	
+webpacksources	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+gaze	Changed	Changed	
+dateformat	Changed	Changed	
+portfinder	Changed	Changed	
+parseurl	Changed	Changed	
+color	Changed	Changed	*Empty Before**Empty After*
+hoistnonreactstatics	Changed	Changed	
+argparse	Same	Same	
+fresh	Changed	Changed	
+passport	Changed	Changed	
+pluralize	Changed	Changed	
+memoizeone	Changed	Changed	*Empty Before**Has 6 Unmet Dependency Before**Empty After**Has 6 Unmet Dependency After*
+gulpbabel	Changed	Changed	
+gulpplumber	Changed	Changed	*Empty Before**Has 1 Unmet Dependency After*
+tslintreact	Changed	Changed	
+nodewatch	Same	Same	
+etag	Changed	Changed	
+changecase	Changed	Changed	
+traverse	Same	Same	
+css	Same	Same	
+tweetnacl	Changed	Changed	
+through2	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+estraverse	Changed	Changed	*Has 1 Unmet Dependency After*
+prompts	Changed	Changed	
+postcsspresetenv	Changed	Changed	
+nib	Changed	Changed	
+multer	Changed	Changed	
+htmlloader	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+jsonschema	Changed	Changed	
+webpackmanifestplugin	Changed	Changed	*Empty Before**Empty After*
+prompt	Same	Same	
+sax	Changed	Changed	
+dotenv	Changed	Changed	
+bignumberjs	Same	Same	*Empty Before**Empty After*
+vuestyleloader	Changed	Changed	*Has 4 Unmet Dependency After*
+bl	Changed	Changed	
+whatwgfetch	Changed	Changed	*Has 2 Unmet Dependency After*
+swprecachewebpackplugin	Changed	Changed	*Has 1 Unmet Dependency Before**Has 2 Unmet Dependency After*
+assert	Changed	Changed	*Has 1 Unmet Dependency Before**Has 2 Unmet Dependency After*
+json5	Changed	Changed	
+loaderutils	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+underscorestring	Changed	Changed	
+cookie	Changed	Changed	
+jasmine	Changed	Changed	
+pako	Same	Same	*Has 2 Unmet Dependency Before**Has 2 Unmet Dependency After*
+gulppostcss	Changed	Changed	
+urlloader	Changed	Changed	
+cli	Same	Same	
+minimatch	Changed	Changed	
+minicssextractplugin	Changed	Changed	*Has 6 Unmet Dependency Before**Has 6 Unmet Dependency After*
+eslintpluginpromise	Changed	Changed	
+nodecache	Changed	Changed	
+fortawesomereactfontawesome	Changed	Changed	
+nodeschedule	Changed	Changed	*Has 2 Unmet Dependency Before**Has 2 Unmet Dependency After*
+d3shape	Changed	Changed	
+rolluppluginnoderesolve	Changed	Changed	
+postcsssafeparser	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+fstream	Changed	Changed	
+sinonchai	Changed	Changed	
+cron	Changed	Changed	
+broccolimergetrees	Changed	Changed	
+rc	Same	Same	
+prismjs	Changed	Changed	
+babelify	Changed	Changed	
+mapstream	Same	Same	
+tarfs	Changed	Changed	
+deepmerge	Changed	Changed	
+gulpcleancss	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+genericpool	Changed	Changed	
+rimraf	Changed	Changed	
+sourcemapsupport	Changed	Changed	
+postcssnested	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+inquirerautocompleteprompt	Changed	Changed	
+JSONStream	Same	Same	
+bip39	Changed	Changed	
+readlinesync	Same	Same	*Empty Before**Empty After*
+toughcookie	Same	Same	
+gulpshell	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+stylelintorder	Changed	Changed	
+tracer	Changed	Changed	
+formdata	Changed	Changed	
+eventemitter2	Changed	Changed	
+d3array	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+gruntcontribjshint	Changed	Changed	
+depd	Changed	Changed	
+pathtoregexp	Changed	Changed	*Empty Before**Empty After**Has 3 Unmet Dependency After*
+tmp	Changed	Changed	
+xmldom	Changed	Changed	*Has 1 Unmet Dependency After*
+graphqltag	Changed	Changed	
+gulpless	Changed	Changed	
+gracefulfs	Changed	Changed	
+graymatter	Changed	Changed	
+gulploadplugins	Changed	Changed	
+stylusloader	Changed	Changed	
+vuepropertydecorator	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+diff	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+jsbase64	Same	Same	
+lrucache	Changed	Changed	
+onfinished	Changed	Changed	
+pngjs	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+mime	Changed	Changed	
+asyncvalidator	Changed	Changed	
+liftoff	Changed	Changed	
+inert	Same	Same	
+fluentffmpeg	Same	Same	
+gulpsass	Changed	Changed	*Has 1 Unmet Dependency After*
+blessed	Same	Same	*Empty Before**Empty After*
+followredirects	Changed	Changed	
+broccolifunnel	Changed	Changed	
+slug	Changed	Changed	*Has 1 Unmet Dependency After*
+gulpjshint	Changed	Changed	*Has 1 Unmet Dependency After*
+bulma	Changed	Changed	
+webpackhotmiddleware	Changed	Changed	
+nconf	Changed	Changed	
+urijs	Changed	Changed	
+fileloader	Changed	Changed	
+ghpages	Changed	Changed	
+bytebuffer	Same	Same	*Has 7 Unmet Dependency Before**Has 7 Unmet Dependency After*
+cors	Changed	Changed	
+install	Changed	Changed	
+clipboard	Changed	Changed	
+connectredis	Same	Same	
+jasminecore	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+parse5	Changed	Changed	
+babelpluginmoduleresolver	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+supertest	Changed	Changed	
+split	Same	Same	
+pullstream	Same	Same	
+commandlineusage	Changed	Changed	
+winstondailyrotatefile	Changed	Changed	
+d3selection	Changed	Changed	
+gulpuglify	Changed	Changed	
+httpserver	Changed	Changed	
+cookieparser	Changed	Changed	
+fbjs	Changed	Changed	
+gruntcontribuglify	Changed	Changed	
+reactonclickoutside	Changed	Changed	*Has 2 Unmet Dependency Before**Has 2 Unmet Dependency After*
+level	Changed	Changed	*Empty Before**Has 2 Unmet Dependency Before**Empty After**Has 2 Unmet Dependency After*
+dockerode	Changed	Changed	
+styleloader	Changed	Changed	*Has 8 Unmet Dependency Before**Has 8 Unmet Dependency After*
+sockjsclient	Changed	Changed	*Has 2 Unmet Dependency Before**Has 4 Unmet Dependency After*
+underscore	Changed	Changed	*Has 2 Unmet Dependency After*
+servefavicon	Changed	Changed	
+d3scale	Same	Same	
+rolluppluginbabel	Changed	Changed	
+axios	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+workboxwebpackplugin	Changed	Changed	
+gulpeslint	Changed	Changed	*Has 1 Unmet Dependency After*
+terserwebpackplugin	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+formidable	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+ssh2	Same	Same	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+lessloader	Changed	Changed	
+nunjucks	Changed	Changed	*Has 2 Unmet Dependency Before**Has 1 Unmet Dependency After*
+stylelintconfigstandard	Changed	Changed	*Empty Before**Has 5 Unmet Dependency Before**Empty After**Has 5 Unmet Dependency After*
+showdown	Changed	Changed	
+coveralls	Changed	Changed	
+boom	Same	Same	
+connectmongo	Changed	Changed	
+debug	Changed	Changed	*Has 4 Unmet Dependency After*
+bcrypt	Changed	Changed	
+rollupplugincommonjs	Changed	Changed	
+jqueryui	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+gulpwatch	Changed	Changed	
+nodenotifier	Changed	Changed	
+leaflet	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+xml2js	Changed	Changed	
+csv	Same	Same	
+yargsparser	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+commontags	Changed	Changed	
+semver	Changed	Changed	
+forktscheckerwebpackplugin	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+yaml	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+rx	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+needle	Changed	Changed	
+accepts	Changed	Changed	
+eventstream	Changed	Changed	
+bnjs	Changed	Changed	
+errorhandler	Changed	Changed	
+nedb	Changed	Changed	
+jsyaml	Same	Same	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+copywebpackplugin	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+escodegen	Changed	Changed	
+svgo	Changed	Changed	
+commander	Changed	Changed	
+secp256k1	Changed	Changed	
+postcssimport	Same	Same	
+polished	Changed	Changed	*Has 7 Unmet Dependency Before**Has 7 Unmet Dependency After*
+htmlparser2	Changed	Changed	
+webpackbundleanalyzer	Changed	Changed	*Empty Before**Empty After**Has 2 Unmet Dependency After*
+fusejs	Changed	Changed	*Empty Before**Has 7 Unmet Dependency Before**Empty After**Has 7 Unmet Dependency After*
+eslintpluginjest	Same	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+highlightjs	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+finalhandler	Changed	Changed	
+readablestream	Changed	Changed	*Has 2 Unmet Dependency Before**Has 2 Unmet Dependency After*
+typeis	Changed	Changed	
+serveindex	Changed	Changed	
+chai	Changed	Changed	
+xmlbuilder	Changed	Changed	
+shallowequal	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+soap	Changed	Changed	
+chartjs	Changed	Changed	
+sanitizehtml	Changed	Changed	
+protobufjs	Changed	Changed	
+stylelintscss	Changed	Changed	
+glob	Changed	Changed	
+webpackmerge	Changed	Changed	
+config	Same	Same	
+markdownit	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+hoek	Same	Same	
+csvparse	Changed	Changed	
+mssql	Changed	Changed	
+bunyan	Changed	Changed	
+eslintconfigprettier	Changed	Changed	
+morgan	Changed	Changed	
+tar	Changed	Changed	
+httpproxy	Changed	Changed	*Has 4 Unmet Dependency After*
+redis	Same	Same	
+commandlineargs	Changed	Changed	
+reactredux	Changed	Changed	*Has 12 Unmet Dependency After*
+reactdevutils	Same	Same	*Has 34 Unmet Dependency Before**Has 34 Unmet Dependency After*
+babelpresetreactapp	Same	Same	*Empty Before**Has 13 Unmet Dependency Before**Empty After**Has 13 Unmet Dependency After*
+eslintconfigreactapp	Same	Same	*Empty Before**Has 13 Unmet Dependency Before**Empty After**Has 13 Unmet Dependency After*
+reactscripts	Same	Same	*Empty Before**Has 13 Unmet Dependency Before**Empty After**Has 13 Unmet Dependency After*
+jsbeautify	Changed	Changed	*Has 2 Unmet Dependency Before**Has 2 Unmet Dependency After*
+babelpluginnamedassetimport	Same	Same	*Empty Before**Has 13 Unmet Dependency Before**Empty After**Has 13 Unmet Dependency After*
+reactapppolyfill	Same	Same	*Empty Before**Has 13 Unmet Dependency Before**Empty After**Has 13 Unmet Dependency After*
+coffeescript	Changed	Changed	
+firebaseadmin	Changed	Changed	
+reactmodal	Changed	Changed	*Has 7 Unmet Dependency After*
+reactnativevectoricons	Changed	Changed	
+moment	Changed	Changed	
+winston	Changed	Changed	
+sassloader	Changed	Changed	
+mysql	Same	Same	
+archiver	Changed	Changed	
+oclifpluginhelp	Changed	Changed	
+nodepregyp	Changed	Changed	
+xlsx	Changed	Changed	
+servestatic	Changed	Changed	
+cleancss	Changed	Changed	
+mimetypes	Same	Same	
+cheerio	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+canvas	Changed	Changed	
+nodegyp	Same	Same	
+jquery	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+rawbody	Changed	Changed	
+cssloader	Changed	Changed	*Has 7 Unmet Dependency Before**Has 7 Unmet Dependency After*
+inquirer	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+compression	Changed	Changed	
+urllib	Changed	Changed	*Has 2 Unmet Dependency After*
+stylus	Changed	Changed	
+redux	Changed	Changed	*Has 2 Unmet Dependency Before**Has 1 Unmet Dependency After*
+typescript	Changed	Changed	
+grunt	Same	Same	
+nodemon	Changed	Changed	
+imagesize	Changed	Changed	
+lintstaged	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+marked	Changed	Changed	
+htmlminifier	Changed	Changed	
+send	Changed	Changed	
+sqlite3	Changed	Changed	
+simplegit	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+codemirror	Same	Same	
+three	Changed	Changed	
+less	Changed	Changed	
+expresssession	Changed	Changed	
+tsnode	Changed	Changed	
+buffer	Changed	Changed	*Has 2 Unmet Dependency After*
+levelup	Changed	Changed	*Empty Before**Has 2 Unmet Dependency Before**Empty After**Has 2 Unmet Dependency After*
+log4js	Changed	Changed	
+yeomanenvironment	Changed	Changed	
+ioredis	Changed	Changed	
+uglifyjs	Same	Same	
+emberclibabel	Changed	Changed	*Has 3 Unmet Dependency Before*
+cliux	Changed	Changed	
+nodemailer	Same	Same	
+awesometypescriptloader	Changed	Changed	*Empty Before**Empty After**Has 1 Unmet Dependency After*
+mobxreact	Changed	Changed	*Empty Before**Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+helmet	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+jsdoc	Changed	Changed	
+mysql2	Changed	Changed	
+ejs	Changed	Changed	
+socketio	Changed	Changed	
+joi	Same	Same	
+yeomangenerator	Changed	Changed	
+systemjs	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+nodeforge	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+oclifcommand	Changed	Changed	
+bodyparser	Changed	Changed	
+nodesass	Same	Same	
+elasticsearch	Changed	Changed	*Empty Before**Has 2 Unmet Dependency Before**Empty After*
+inversify	Changed	Changed	
+webpackcli	Changed	Changed	*Has 4 Unmet Dependency Before**Has 4 Unmet Dependency After*
+nodegit	Changed	Changed	*Has 1 Unmet Dependency After*
+babylon	Changed	Changed	
+d3	Changed	Changed	
+sharp	Changed	Changed	
+discordjs	Changed	Changed	
+serialport	Changed	Changed	*Has 1 Unmet Dependency After*
+nanoid	Changed	Changed	*Empty Before**Has 6 Unmet Dependency Before**Empty After**Has 6 Unmet Dependency After*
+puppeteer	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+webpackdevmiddleware	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+oclifconfig	Changed	Changed	
+lodash	Changed	Changed	
+lodashmerge	Changed	Changed	
+lodashget	Changed	Changed	
+lodashdebounce	Changed	Changed	
+lodashisequal	Changed	Changed	
+lodashclonedeep	Changed	Changed	
+lodashthrottle	Changed	Changed	
+lodashassign	Changed	Changed	
+lodashes	Changed	Changed	
+lodashomit	Changed	Changed	
+lodashpick	Changed	Changed	
+lodashdefaults	Changed	Changed	
+lodashcamelcase	Changed	Changed	
+lodashisplainobject	Changed	Changed	
+lodashuniq	Changed	Changed	
+lodashisfunction	Changed	Changed	
+lodashisstring	Changed	Changed	
+lodashtemplate	Changed	Changed	
+lodashisempty	Changed	Changed	*Empty Before**Empty After*
+lodashmap	Changed	Changed	
+lodashforeach	Changed	Changed	
+lodashflatten	Changed	Changed	
+lodashisobject	Changed	Changed	
+mobx	Changed	Changed	*Empty Before**Has 8 Unmet Dependency Before**Has 7 Unmet Dependency After*
+rxjs	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+typeorm	Same	Same	*Has 73 Unmet Dependency Before**Has 73 Unmet Dependency After*
+reduxform	Changed	Changed	*Empty Before**Empty After**Has 4 Unmet Dependency After*
+browserslist	Changed	Changed	*Empty Before**Has 5 Unmet Dependency Before**Empty After**Has 5 Unmet Dependency After*
+tsjest	Changed	Changed	
+pg	Same	Same	*Has 15 Unmet Dependency Before**Has 15 Unmet Dependency After*
+preact	Changed	Changed	*Has 48 Unmet Dependency Before**Empty After**Has 2 Unmet Dependency After*
+googleapis	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+yargs	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+nock	Changed	Changed	
+webpackdevserver	Changed	Changed	*Has 5 Unmet Dependency Before**Has 5 Unmet Dependency After*
+recast	Changed	Changed	
+knex	Changed	Changed	*Has 1 Unmet Dependency Before**Has 1 Unmet Dependency After*
+github	Changed	Changed	
+octokitrest	Changed	Changed	
+quill	Changed	Changed	*Has 3 Unmet Dependency After*
+reactintl	Changed	Changed	*Empty Before**Has 6 Unmet Dependency Before**Empty After**Has 6 Unmet Dependency After*
+browsersync	Changed	Changed	
+graphql	Same	Same	
+graphqltools	Same	Same	*Empty Before**Has 9 Unmet Dependency Before**Empty After**Has 9 Unmet Dependency After*
+autoprefixer	Changed	Changed	*Empty Before**Has 6 Unmet Dependency Before**Empty After**Has 6 Unmet Dependency After*
+postcss	Changed	Changed	*Empty Before**Has 6 Unmet Dependency Before**Empty After**Has 6 Unmet Dependency After*
+pm2	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
+mathjs	Changed	Changed	*Has 1 Unmet Dependency Before*
+rollup	Changed	Changed	
+connect	Changed	Changed	
+stylelint	Changed	Changed	*Empty Before**Has 1 Unmet Dependency Before**Empty After**Has 1 Unmet Dependency After*
+express	Changed	Changed	
+bootstrap	Changed	Changed	
+electron	Changed	Changed	*Empty Before**Has 2 Unmet Dependency Before**Empty After**Has 1 Unmet Dependency After*
+reactapollo	Changed	Changed	*Has 9 Unmet Dependency Before**Has 1 Unmet Dependency After*
+apolloclient	Same	Same	*Has 52 Unmet Dependency Before**Has 52 Unmet Dependency After*
+apollocacheinmemory	Same	Same	*Has 52 Unmet Dependency Before**Has 52 Unmet Dependency After*
+npm	Changed	Changed	*Has 3 Unmet Dependency Before**Has 3 Unmet Dependency After*
