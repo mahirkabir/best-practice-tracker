@@ -46,3 +46,37 @@ if __name__ == "__main__":
             not_found_cnt += 1
 
     print("Missing: " + str(not_found_cnt))
+
+    keywords = ["is not recognized as an internal or external command",
+                "resolve dependency", "no such file or directory", "Unsupported URL Type",
+                "git dep preparation failed", "Cannot destructure property", "up to date"]
+
+    dict_keyword_frequency = {}
+    for keyword in keywords:
+        dict_keyword_frequency[keyword] = 0
+
+    for repo in err_repos:
+        install_output_loc = os.path.join(
+            "results", "find_audit_errors", "install_lock", repo[0] + ".txt")
+
+        try:
+            reader = open(install_output_loc, "r")
+            lines = reader.readlines()
+            reader.close()
+
+            match_found = 0
+            for line in lines:
+                for keyword in keywords:
+                    if keyword in line:
+                        dict_keyword_frequency[keyword] += 1
+                        match_found = True
+                        break
+                if match_found:
+                    break
+
+            if not match_found:
+                print("No match found for: " + repo[0])
+        except Exception as ex:
+            print(ex)
+
+    print(dict_keyword_frequency)
