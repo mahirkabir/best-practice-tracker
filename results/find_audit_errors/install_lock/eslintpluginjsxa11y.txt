@@ -1,0 +1,26 @@
+
+> eslint-plugin-jsx-a11y@6.4.1 prepublish
+> safe-publish-latest && not-in-publish || (npm run lint && npm run flow && npm run jest && npm run build)
+
+'safe-publish-latest' is not recognized as an internal or external command,
+operable program or batch file.
+
+> eslint-plugin-jsx-a11y@6.4.1 lint
+> eslint  --config .eslintrc src __tests__ __mocks__ scripts
+
+'eslint' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\eslintpluginjsxa11y
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c eslint  --config .eslintrc src __tests__ __mocks__ scripts
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_36_23_026Z-debug.log
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\eslintpluginjsxa11y
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c safe-publish-latest && not-in-publish || (npm run lint && npm run flow && npm run jest && npm run build)
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_36_23_051Z-debug.log

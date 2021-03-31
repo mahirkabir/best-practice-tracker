@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: @alifd/next@1.22.12
+npm ERR! Found: stylelint@13.12.0
+npm ERR! node_modules/stylelint
+npm ERR!   dev stylelint@"^13.0.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer stylelint@"^9.2.1" from @alifd/stylelint-config-next@1.0.0
+npm ERR! node_modules/@alifd/stylelint-config-next
+npm ERR!   dev @alifd/stylelint-config-next@"^1.0.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_47_28_434Z-debug.log

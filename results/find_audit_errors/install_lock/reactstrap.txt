@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: reactstrap@8.9.0
+npm ERR! Found: eslint-plugin-flowtype@3.13.0
+npm ERR! node_modules/eslint-plugin-flowtype
+npm ERR!   dev eslint-plugin-flowtype@"^3.13.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer eslint-plugin-flowtype@"2.x" from eslint-config-react-app@3.0.8
+npm ERR! node_modules/eslint-config-react-app
+npm ERR!   dev eslint-config-react-app@"^3.0.6" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_31_03_864Z-debug.log

@@ -1,0 +1,36 @@
+npm WARN ERESOLVE overriding peer dependency
+npm WARN Found: mocha@6.2.3
+npm WARN node_modules/mocha
+npm WARN   mocha@"^6.0.2" from egg-bin@4.15.0
+npm WARN   node_modules/egg-bin
+npm WARN     dev egg-bin@"^4.13.0" from the root project
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer mocha@">=1.18 <6" from co-mocha@1.2.2
+npm WARN node_modules/co-mocha
+npm WARN   co-mocha@"^1.2.2" from egg-bin@4.15.0
+npm WARN   node_modules/egg-bin
+
+> koa@2.13.1 prepare
+> npm run build
+
+
+> koa@2.13.1 build
+> gen-esm-wrapper . ./dist/koa.mjs
+
+'gen-esm-wrapper' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\koa
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c gen-esm-wrapper . ./dist/koa.mjs
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_07_55_322Z-debug.log
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\koa
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c npm run build
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_07_55_348Z-debug.log

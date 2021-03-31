@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: react-native@1000.0.0
+npm ERR! Found: react@17.0.1
+npm ERR! node_modules/react
+npm ERR!   dev react@"17.0.1" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer react@"^16.8.0" from use-subscription@1.0.0
+npm ERR! node_modules/use-subscription
+npm ERR!   use-subscription@"^1.0.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T02_06_48_488Z-debug.log

@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: element-ui@2.15.1
+npm ERR! Found: webpack@4.29.0
+npm ERR! node_modules/webpack
+npm ERR!   dev webpack@"^4.14.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer webpack@"^2.0.0 || ^3.0.0" from karma-webpack@3.0.5
+npm ERR! node_modules/karma-webpack
+npm ERR!   dev karma-webpack@"^3.0.5" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_59_31_636Z-debug.log

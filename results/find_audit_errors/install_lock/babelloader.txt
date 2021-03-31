@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: babel-loader@8.2.2
+npm ERR! Found: eslint-plugin-flowtype@5.4.0
+npm ERR! node_modules/eslint-plugin-flowtype
+npm ERR!   dev eslint-plugin-flowtype@"^5.2.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer eslint-plugin-flowtype@"^3.0.0" from eslint-config-babel@9.0.0
+npm ERR! node_modules/eslint-config-babel
+npm ERR!   dev eslint-config-babel@"^9.0.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_02_47_532Z-debug.log

@@ -1,0 +1,26 @@
+
+> eslint-plugin-import@2.22.1 prepublish
+> not-in-publish || npm run build
+
+'not-in-publish' is not recognized as an internal or external command,
+operable program or batch file.
+
+> eslint-plugin-import@2.22.1 prebuild
+> rimraf lib
+
+'rimraf' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\eslintpluginimport
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c rimraf lib
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T00_31_13_957Z-debug.log
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\eslintpluginimport
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c not-in-publish || npm run build
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T00_31_13_980Z-debug.log

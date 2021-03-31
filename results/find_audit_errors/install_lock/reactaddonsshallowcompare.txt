@@ -1,0 +1,27 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: undefined@undefined
+npm ERR! Found: eslint@7.7.0
+npm ERR! node_modules/eslint
+npm ERR!   dev eslint@"^7.7.0" from the root project
+npm ERR!   peer eslint@">= 4.12.1" from babel-eslint@10.0.3
+npm ERR!   node_modules/babel-eslint
+npm ERR!     dev babel-eslint@"^10.0.3" from the root project
+npm ERR!     peer babel-eslint@"^8.0.0 || ^9.0.0 || ^10.0.0" from eslint-config-fbjs@3.1.1
+npm ERR!     node_modules/eslint-config-fbjs
+npm ERR!       dev eslint-config-fbjs@"^3.1.1" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer eslint@"^5.1.0 || ^6.0.0" from eslint-config-fbjs@3.1.1
+npm ERR! node_modules/eslint-config-fbjs
+npm ERR!   dev eslint-config-fbjs@"^3.1.1" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T01_56_09_370Z-debug.log

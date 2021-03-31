@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: @angular/devkit-repo@12.0.0-next.5
+npm ERR! Found: @angular/compiler@12.0.0-next.5
+npm ERR! node_modules/@angular/compiler
+npm ERR!   dev @angular/compiler@"12.0.0-next.5" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer @angular/compiler@">=2.3.1 <12.0.0 || ^11.0.0-next || ^11.1.0-next || ^11.2.0-next" from codelyzer@6.0.1
+npm ERR! node_modules/codelyzer
+npm ERR!   dev codelyzer@"^6.0.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T02_25_06_132Z-debug.log

@@ -1,0 +1,24 @@
+
+> got@11.8.0 prepare
+> npm run build
+
+
+> got@11.8.0 build
+> del-cli dist && tsc
+
+'del-cli' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\got
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c del-cli dist && tsc
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T00_35_48_813Z-debug.log
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\got
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c npm run build
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T00_35_48_847Z-debug.log

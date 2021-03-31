@@ -1,0 +1,18 @@
+npm ERR! code 1
+npm ERR! git dep preparation failed
+npm ERR! command C:\Program Files\nodejs\node.exe C:\Users\asefk\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js install --force --cache=C:\Users\asefk\AppData\Local\npm-cache --prefer-offline=false --prefer-online=false --offline=false --no-progress --no-save --no-audit
+npm ERR! > es-observable@0.3.0 prepare
+npm ERR! > babel -d commonjs/src/ src/ && babel -d commonjs/test/ test/ && babel -d commonjs/ run-tests.js
+npm ERR! npm WARN using --force Recommended protections disabled.
+npm ERR! 'babel' is not recognized as an internal or external command,
+npm ERR! operable program or batch file.
+npm ERR! npm ERR! code 1
+npm ERR! npm ERR! path C:\Users\asefk\AppData\Local\npm-cache\_cacache\tmp\git-clone-da58aebe
+npm ERR! npm ERR! command failed
+npm ERR! npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c babel -d commonjs/src/ src/ && babel -d commonjs/test/ test/ && babel -d commonjs/ run-tests.js
+npm ERR! 
+npm ERR! npm ERR! A complete log of this run can be found in:
+npm ERR! npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T01_05_02_211Z-debug.log
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T01_05_37_645Z-debug.log

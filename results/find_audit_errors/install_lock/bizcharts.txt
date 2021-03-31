@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: bizcharts@4.1.9
+npm ERR! Found: @babel/core@7.13.10
+npm ERR! node_modules/@babel/core
+npm ERR!   dev @babel/core@"^7.7.7" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer @babel/core@">=7.0.0-beta.50 <7.0.0-rc.0" from @babel/preset-es2015@7.0.0-beta.53
+npm ERR! node_modules/@babel/preset-es2015
+npm ERR!   dev @babel/preset-es2015@"^7.0.0-beta.53" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T22_32_38_414Z-debug.log

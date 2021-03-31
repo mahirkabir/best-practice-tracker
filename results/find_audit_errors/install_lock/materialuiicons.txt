@@ -1,0 +1,23 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: docs@5.0.0-alpha.27
+npm ERR! Found: @material-ui/core@5.0.0-alpha.27
+npm ERR! node_modules/@material-ui/core
+npm ERR!   @material-ui/core@"5.0.0-alpha.27" from docs@5.0.0-alpha.27
+npm ERR!   docs
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+npm ERR! node_modules/notistack
+npm ERR!   notistack@"^1.0.0" from docs@5.0.0-alpha.27
+npm ERR!   docs
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T02_29_06_970Z-debug.log

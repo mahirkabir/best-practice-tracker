@@ -1,0 +1,14 @@
+npm WARN tarball tarball data for https://registry.npmjs.org/nyc/-/nyc-10.3.2.tgz (sha1-8n9NkfKp2zbCT1dP9cbv/wIz3kY=) seems to be corrupted. Trying again.
+
+> qs@6.10.0 prepublish
+> safe-publish-latest && (not-in-publish || npm run dist)
+
+'safe-publish-latest' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\qs
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c safe-publish-latest && (not-in-publish || npm run dist)
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T22_22_11_011Z-debug.log

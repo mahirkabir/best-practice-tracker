@@ -1,0 +1,24 @@
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v12.18.2', npm: '7.6.3' }
+npm WARN EBADENGINE }
+
+> es6-shim@0.35.6 prepublish
+> safe-publish-latest && (not-in-publish || npm run minify)
+
+'safe-publish-latest' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\es6shim
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c safe-publish-latest && (not-in-publish || npm run minify)
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_38_50_095Z-debug.log

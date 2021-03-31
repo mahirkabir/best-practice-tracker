@@ -1,0 +1,24 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: undefined@0.0.0
+npm ERR! Found: typescript@3.7.5
+npm ERR! node_modules/typescript
+npm ERR!   dev typescript@"3.7.5" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer typescript@">=3.8.3" from typedoc@0.18.0
+npm ERR! node_modules/typedoc
+npm ERR!   dev typedoc@"^0.18.0" from the root project
+npm ERR!   peer typedoc@">=0.17.3 <1.0" from @strictsoftware/typedoc-plugin-monorepo@0.3.1
+npm ERR!   node_modules/@strictsoftware/typedoc-plugin-monorepo
+npm ERR!     dev @strictsoftware/typedoc-plugin-monorepo@"^0.3.1" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T00_32_27_852Z-debug.log

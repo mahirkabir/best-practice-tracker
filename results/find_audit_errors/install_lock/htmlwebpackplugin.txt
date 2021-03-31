@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: html-webpack-plugin@5.3.1
+npm ERR! Found: pug@3.0.2
+npm ERR! node_modules/pug
+npm ERR!   dev pug@"3.0.2" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer pug@"^2.0.0" from pug-loader@2.4.0
+npm ERR! node_modules/pug-loader
+npm ERR!   dev pug-loader@"2.4.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T22_40_07_488Z-debug.log

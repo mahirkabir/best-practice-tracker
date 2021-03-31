@@ -1,0 +1,26 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! Found: eslint@6.8.0
+npm ERR! node_modules/eslint
+npm ERR!   dev eslint@"^6.8.0" from the root project
+npm ERR!   peer eslint@"^5.0.0 || ^6.0.0 || ^7.0.0" from @typescript-eslint/eslint-plugin@3.0.2
+npm ERR!   node_modules/@typescript-eslint/eslint-plugin
+npm ERR!     dev @typescript-eslint/eslint-plugin@"^3.0.0" from the root project
+npm ERR!   9 more (@typescript-eslint/parser, babel-eslint, ...)
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer eslint@"^5.0.0" from eslint-plugin-vue@5.2.3
+npm ERR! node_modules/eslint-plugin-vue-libs/node_modules/eslint-plugin-vue
+npm ERR!   eslint-plugin-vue@"^5.1.0" from eslint-plugin-vue-libs@4.0.0
+npm ERR!   node_modules/eslint-plugin-vue-libs
+npm ERR!     dev eslint-plugin-vue-libs@"^4.0.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_31_23_993Z-debug.log

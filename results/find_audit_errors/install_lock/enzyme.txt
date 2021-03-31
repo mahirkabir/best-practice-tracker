@@ -1,0 +1,45 @@
+npm WARN tarball tarball data for https://registry.npmjs.org/nyc/-/nyc-10.3.2.tgz (sha1-8n9NkfKp2zbCT1dP9cbv/wIz3kY=) seems to be corrupted. Trying again.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'karma@1.7.1',
+npm WARN EBADENGINE   required: { node: '0.10 || 0.12 || 4 || 5 || 6 || 7 || 8' },
+npm WARN EBADENGINE   current: { node: 'v12.18.2', npm: '7.6.3' }
+npm WARN EBADENGINE }
+
+> enzyme@0.0.1 postinstall
+> [ -n "${TRAVIS-}" ] || (npm link npm && lerna bootstrap)
+
+'[' is not recognized as an internal or external command,
+operable program or batch file.
+npm WARN tarball tarball data for https://registry.npmjs.org/nyc/-/nyc-10.3.2.tgz (sha1-8n9NkfKp2zbCT1dP9cbv/wIz3kY=) seems to be corrupted. Trying again.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'karma@1.7.1',
+npm WARN EBADENGINE   required: { node: '0.10 || 0.12 || 4 || 5 || 6 || 7 || 8' },
+npm WARN EBADENGINE   current: { node: 'v12.18.2', npm: '7.6.3' }
+npm WARN EBADENGINE }
+
+up to date, audited 1848 packages in 41s
+
+91 packages are looking for funding
+  run `npm fund` for details
+
+73 vulnerabilities (28 low, 10 moderate, 31 high, 4 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+'lerna' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\enzyme
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c [ -n ${TRAVIS-} ] || (npm link npm && lerna bootstrap)
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_09_39_376Z-debug.log

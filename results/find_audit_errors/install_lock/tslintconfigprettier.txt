@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: tslint-config-prettier@0.0.0-development
+npm ERR! Found: tslint@6.1.3
+npm ERR! node_modules/tslint
+npm ERR!   dev tslint@"6.1.3" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer tslint@"^5.0.0" from tslint-consistent-codestyle@1.16.0
+npm ERR! node_modules/tslint-consistent-codestyle
+npm ERR!   dev tslint-consistent-codestyle@"1.16.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_38_32_358Z-debug.log

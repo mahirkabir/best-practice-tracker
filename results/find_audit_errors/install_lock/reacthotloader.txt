@@ -1,0 +1,21 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: react-hot-loader@4.13.0
+npm ERR! Found: react@16.13.1
+npm ERR! node_modules/react
+npm ERR!   dev react@"16" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer react@"^17.0.0-0" from @wojtekmaj/enzyme-adapter-react-17@0.1.1
+npm ERR! node_modules/@wojtekmaj/enzyme-adapter-react-17
+npm ERR!   dev @wojtekmaj/enzyme-adapter-react-17@"^0.1.1" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See C:\Users\asefk\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T23_47_31_708Z-debug.log

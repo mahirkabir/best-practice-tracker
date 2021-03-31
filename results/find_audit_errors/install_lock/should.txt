@@ -1,0 +1,36 @@
+npm WARN tarball tarball data for https://registry.npmjs.org/request/-/request-2.11.4.tgz (sha1-Y0fX1E5S3FiBCMwc5c7pdfyJJt4=) seems to be corrupted. Trying again.
+
+> should@13.2.3 prepare
+> npm run build && npm run build:umd && npm run build:cjs:as-function
+
+
+> should@13.2.3 build
+> npm run build:cjs && npm run build:es6
+
+
+> should@13.2.3 build:cjs
+> rollup --output.format=cjs --output.file=cjs/should.js lib/index.js
+
+'rollup' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\should
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c rollup --output.format=cjs --output.file=cjs/should.js lib/index.js
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T22_40_30_138Z-debug.log
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\should
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c npm run build:cjs && npm run build:es6
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T22_40_30_161Z-debug.log
+npm ERR! code 1
+npm ERR! path C:\Mahir\VT\Research\npm-package-coupling\sources\dataset\should
+npm ERR! command failed
+npm ERR! command C:\WINDOWS\system32\cmd.exe /d /s /c npm run build && npm run build:umd && npm run build:cjs:as-function
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-20T22_40_30_190Z-debug.log

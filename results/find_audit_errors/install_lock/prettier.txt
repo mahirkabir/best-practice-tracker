@@ -1,0 +1,5 @@
+npm ERR! code EUNSUPPORTEDPROTOCOL
+npm ERR! Unsupported URL Type "link:": link:scripts/tools/eslint-plugin-prettier-internal-rules
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\asefk\AppData\Local\npm-cache\_logs\2021-03-21T02_29_40_599Z-debug.log
