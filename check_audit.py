@@ -91,12 +91,12 @@ if __name__ == "__main__":
                 fix_audit_output = ["", ""]
                 force_fix_audit_output = ["", ""]
 
-                init_audit_result = get_audit(repo_loc)
-
                 init_build_result = helper.build(repo_loc)
                 after_install_build_result = ["-", ""]
                 after_fix_build_result = ["-", ""]
                 after_force_fix_build_result = ["-", ""]
+
+                init_audit_result = get_audit(repo_loc)
 
                 if init_audit_result["status"] == constants.AUDIT_ERROR:
                     install_lock_output = install_package_lock(repo_loc)
