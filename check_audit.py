@@ -49,8 +49,8 @@ if __name__ == "__main__":
     writer = open(os.path.join("results", "audit_checker",
                                "audit_results.txt"), "w", encoding="utf-8")
     writer.write(
-        "Repository\tInitial Audit\tAfter i package-lock\tAfter audit fix" +
-        "\tAfter audit fix --force")
+        "Repository\tInitial Audit\tBuild-1\tAfter i package-lock\tBuild-1\tAfter audit fix\tBuild-1" +
+        "\tAfter audit fix --force\tBuild-1")
     writer.write("\n")
     writer.close()
 
@@ -93,9 +93,15 @@ if __name__ == "__main__":
 
                 init_audit_result = get_audit(repo_loc)
 
+                init_build_result = helper.build(repo_loc)
+                after_install_build_result = ["-", ""]
+                after_fix_build_result = ["-", ""]
+                after_force_fix_build_result = ["-", ""]
+
                 if init_audit_result["status"] == constants.AUDIT_ERROR:
                     install_lock_output = install_package_lock(repo_loc)
                     after_i_lock_result = get_audit(repo_loc)
+                    after_install_build_result = helper.build(repo_loc)
                 else:
                     # If initial result was not an ERR, we don't do anything for after_i_lock
                     after_i_lock_result = {
@@ -104,6 +110,7 @@ if __name__ == "__main__":
                 if after_i_lock_result["status"] == constants.AUDIT_FALSE:
                     fix_audit_output = fix_audit(repo_loc)
                     after_fix_result = get_audit(repo_loc)
+                    after_fix_build_result = helper.build(repo_loc)
                 elif after_i_lock_result["status"] == constants.AUDIT_ERROR:
                     # If error is still there, then fixing won't solve it
                     after_fix_result = {
@@ -116,6 +123,7 @@ if __name__ == "__main__":
                 if after_fix_result["status"] == constants.AUDIT_FALSE:
                     force_fix_audit_output = fix_audit_force(repo_loc)
                     after_fix_force_result = get_audit(repo_loc)
+                    after_force_fix_build_result = helper.build(repo_loc)
                 elif after_fix_result["status"] == constants.AUDIT_ERROR:
                     # If error is still there, then force fixing won't solve it
                     after_fix_force_result = {
@@ -139,12 +147,16 @@ if __name__ == "__main__":
                 writer = open(os.path.join("results", "audit_checker",
                                            "audit_results.txt"), "a", encoding="utf-8")
                 writer.write(
-                    "%s\t%s\t%s\t%s\t%s" % (
+                    "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % (
                         str(result["name"]),
                         str(result["initial"]),
+                        str(init_build_result[0]),
                         str(result["package-lock"]),
+                        str(after_install_build_result[0]),
                         str(result["audit-fix"]),
-                        str(result["audit-fix-force"])
+                        str(after_fix_build_result[0]),
+                        str(result["audit-fix-force"]),
+                        str(after_force_fix_build_result[0]),
                     ))
                 writer.write("\n")
                 writer.close()
@@ -167,6 +179,15 @@ if __name__ == "__main__":
                               fix_audit_output[1])
                 helper.record(
                     foldername, "force_fix_audit_output.txt", force_fix_audit_output[1])
+
+                helper.record(foldername, "init_build_result.txt",
+                              init_build_result[1])
+                helper.record(foldername, "after_install_build_result.txt",
+                              after_install_build_result[1])
+                helper.record(foldername, "after_fix_build_result.txt",
+                              after_fix_build_result[1])
+                helper.record(foldername, "after_force_fix_build_result.txt",
+                              after_force_fix_build_result[1])
 
             except Exception as ex:
                 print("Error processing [%s]: %s" % (repo["name"], str(ex)))

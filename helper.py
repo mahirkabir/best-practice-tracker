@@ -76,6 +76,11 @@ def clone_repo_to_dir(directory, git_url, repo_name):
         return repo_safe_name
 
 
+def build(path):
+    """Build repository located in `path`"""
+    return execute_cmd(path, "npm run build")
+
+
 def remove_folder(root, folder):
     """Remove folder in root directory"""
 
