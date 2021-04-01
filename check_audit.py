@@ -49,8 +49,8 @@ if __name__ == "__main__":
     writer = open(os.path.join("results", "audit_checker",
                                "audit_results.txt"), "w", encoding="utf-8")
     writer.write(
-        "Repository\tInitial Audit\tBuild-1\tAfter i package-lock\tBuild-1\tAfter audit fix\tBuild-1" +
-        "\tAfter audit fix --force\tBuild-1")
+        "Repository\tInitial Audit\tBuild-1\tAfter i package-lock\tBuild-2\tAfter audit fix\tBuild-3" +
+        "\tAfter audit fix --force\tBuild-4")
     writer.write("\n")
     writer.close()
 
