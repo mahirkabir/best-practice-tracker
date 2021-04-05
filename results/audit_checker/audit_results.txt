@@ -1,51 +1,349 @@
 Repository	Initial Audit	Build-1	After i package-lock	Build-2	After audit fix	Build-3	After audit fix --force	Build-4
-fontawesome	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-fortawesomefontawesomesvgcore	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-fortawesomefreesolidsvgicons	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-crypto	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-fs	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-http	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-childprocess	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-passportstrategy	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-os	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-clear	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-requirejs	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-connectflash	ERR	False	UNKNOWN (Changed)	False	No Vul (Changed)	-	No Vul	-
-pathisabsolute	ERR	False	UNKNOWN (Changed)	False	No Vul (Changed)	-	No Vul	-
-hashsum	Vul Found	False	Vul Found	-	Vul Found	False	No Vul (Changed)	False
-deepassign	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-path	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-babelhelpervuejsxmergeprops	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-vinylbuffer	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-base64	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	True
-jestenvironmentjsdomfourteen	ERR	False	ERR	False	ERR	-	ERR	-
-keypress	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-iniparser	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-jestpnpresolver	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-gulpconflict	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-identityobjproxy	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-texttable	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-utilsmerge	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-arrify	ERR	False	ERR	False	ERR	-	ERR	-
-uniquerandomarray	ERR	False	ERR	False	ERR	-	ERR	-
-jsonstablestringify	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-sha1	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-sprintf	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-tspnp	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-querystring	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-utf8	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-babelplugintransformdecoratorslegacy	ERR	False	Vul Found (Changed)	False	Vul Found	True	UNKNOWN (Changed)	True
-jsonstringifysafe	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-pathexists	ERR	False	ERR	False	ERR	-	ERR	-
-userhome	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-validurl	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-once	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
-slash	ERR	False	ERR	False	ERR	-	ERR	-
-debounce	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-assertplus	ERR	False	UNKNOWN (Changed)	False	No Vul (Changed)	-	No Vul	-
-requiredir	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-vinylsourcestream	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-ispromise	ERR	False	No Vul (Changed)	False	No Vul	-	No Vul	-
-fancylog	ERR	False	ERR	False	ERR	-	ERR	-
-stacktrace	No Vul	False	No Vul	-	No Vul	-	No Vul	-
+fontawesome	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+fortawesomefontawesomesvgcore	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+fortawesomefreesolidsvgicons	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+crypto	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+fs	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+http	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+childprocess	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+passportstrategy	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+os	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+clear	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+requirejs	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+connectflash	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+pathisabsolute	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+hashsum	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+deepassign	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+path	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+babelhelpervuejsxmergeprops	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+vinylbuffer	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+base64	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	TRUE
+jestenvironmentjsdomfourteen	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+keypress	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+iniparser	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+jestpnpresolver	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+gulpconflict	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+identityobjproxy	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+texttable	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+utilsmerge	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+arrify	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+uniquerandomarray	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+jsonstablestringify	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+sha1	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+sprintf	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+tspnp	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+querystring	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+utf8	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+babelplugintransformdecoratorslegacy	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	TRUE	UNKNOWN (Changed)	TRUE
+jsonstringifysafe	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+pathexists	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+userhome	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+validurl	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+once	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+slash	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+debounce	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+assertplus	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+requiredir	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+vinylsourcestream	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+ispromise	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+fancylog	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+stacktrace	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
 postcssnormalize	-	Build requires user input	-	-	-	-	-	-
+randombytes	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+resolvefrom	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+inherits	Vul Found	FALSE	Vul Found	-	No Vul (Changed)	FALSE	No Vul	-
+eslintconfigairbnb	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+escapestringregexp	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+eslintconfigairbnbbase	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+urljoin	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+clui	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+memoryfs	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+isurl	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+fuzzy	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+merge	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+logsymbols	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+pkginfo	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+tildify	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+nprogress	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+looseenvify	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+dot	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+casesensitivepathswebpackplugin	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+jsonloader	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+validatenpmpackagename	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	ERR (Changed)	FALSE
+readline	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+pnpwebpackplugin	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+xmlhttprequest	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+clispinner	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+escapehtml	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+randomstring	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+requireindex	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+createhash	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+opener	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+extendshallow	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+wordwrap	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+passportlocal	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+mergestream	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+seleniumwebdriver	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+osenv	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+leftpad	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+jwtsimple	Vul Found	FALSE	Vul Found	-	No Vul (Changed)	FALSE	No Vul	-
+url	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+warning	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	Vul Found	FALSE
+connecthistoryapifallback	Vul Found	FALSE	Vul Found	-	No Vul (Changed)	FALSE	No Vul	-
+readpkgup	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+fspromise	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+read	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+touch	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+commandexists	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+readpkg	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+md5	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+gulpreplace	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+multimatch	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+keycode	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+passportoauth2	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+normalizecss	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+pify	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+requireall	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+hoganjs	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+decamelize	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+isobject	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	TRUE	No Vul (Changed)	TRUE
+contenttype	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+gulprename	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+progress	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+bindings	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+ip	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	UNKNOWN (Changed)	FALSE
+gulpif	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+verror	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+clitable2	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+process	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+i	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+objectassign	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+figlet	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+rawloader	Vul Found	FALSE	Vul Found	-	No Vul (Changed)	TRUE	No Vul	-
+sprintfjs	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	UNKNOWN (Changed)	FALSE
+gulpinstall	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+reacttapeventplugin	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+httpstatuscodes	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+minimist	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+invariant	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+requestpromisenative	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+yamljs	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+safebuffer	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+reactlifecyclescompat	ERR	FALSE	Vul Found (Changed)	FALSE	UNKNOWN (Changed)	TRUE	No Vul (Changed)	-
+reflectmetadata	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+postcssflexbugsfixes	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	UNKNOWN (Changed)	FALSE
+throttledebounce	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+gulptemplate	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+hyperquest	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+xtend	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+cryptojs	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+ncp	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+jwtdecode	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+childprocesspromise	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	UNKNOWN (Changed)	FALSE
+makedir	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+crossenv	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+camelcase	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+approotpath	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+pump	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+stripjsoncomments	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+oauth	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+isplainobject	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+componentemitter	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+restler	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+koamount	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+ansiescapes	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+findup	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+getport	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+nodedir	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+progressbarwebpackplugin	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+ini	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+clipboardy	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+koalogger	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+classnames	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+recursivereaddir	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+getstdin	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+figures	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+prettybytes	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+shellquote	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+serializejavascript	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+envify	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+optimizecssassetswebpackplugin	Vul Found	FALSE	Vul Found	-	No Vul (Changed)	FALSE	No Vul	-
+runsequence	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	Vul Found	FALSE
+methods	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+nomnom	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+htmlentities	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+xpath	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+raf	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	UNKNOWN (Changed)	FALSE
+filesaver	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	Vul Found	FALSE
+flat	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+vuehotreloadapi	Vul Found	FALSE	Vul Found	-	UNKNOWN (Changed)	TRUE	No Vul (Changed)	-
+passportoauth	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+markdown	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+findupsync	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+webpacknodeexternals	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+eslintpluginbabel	ERR	FALSE	Vul Found (Changed)	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-
+nodeemoji	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+logupdate	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+syncrequest	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+yosay	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+isomorphicfetch	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+temp	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+wrench	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+sourcemaploader	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+mz	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+deepextend	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+objectpath	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+detectport	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+gzipsize	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+nodeuuid	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+reduxthunk	Vul Found	FALSE	Vul Found	-	UNKNOWN (Changed)	TRUE	No Vul (Changed)	-
+stripansi	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+bcryptjs	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+koacompose	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+deasync	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+sanitizefilename	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	No Vul (Changed)	FALSE
+mockjs	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+koabodyparser	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+gulpautoprefixer	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+jestwatchtypeahead	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+proptypes	ERR	FALSE	Vul Found (Changed)	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-
+nopt	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+resizeobserverpolyfill	Vul Found	FALSE	Vul Found	-	Vul Found	TRUE	Vul Found	TRUE
+inflection	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+es6promisify	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+gulpfilter	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+deepdiff	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	Vul Found	FALSE
+gruntcontribconcat	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+mkdirp	Vul Found	FALSE	Vul Found	-	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-
+util	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+cleanwebpackplugin	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+gruntcontribclean	Vul Found	FALSE	Vul Found	-	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-
+hexletpairs	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+md5file	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+global	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+bs58	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+bytes	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+immutabilityhelper	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	UNKNOWN (Changed)	TRUE
+columnify	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	UNKNOWN (Changed)	FALSE
+busboy	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+long	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+crc	Vul Found	FALSE	Vul Found	-	Vul Found	TRUE	Vul Found	TRUE
+hiredis	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+gruntcli	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+split2	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+tslib	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+colors	Vul Found	FALSE	Vul Found	-	No Vul (Changed)	FALSE	No Vul	-
+events	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+eslintpluginstandard	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+unzip	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+convertsourcemap	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+tv4	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+concatstream	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+admzip	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+base64js	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+httpstatus	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+ansicolors	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+clitable	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+gulpconcat	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+basicauth	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+slugify	ERR	TRUE	No Vul (Changed)	TRUE	No Vul	-	No Vul	-
+babelplugindynamicimportnode	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+nodestatic	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+extractzip	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+prettyms	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+fastclick	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+optimist	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+through	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+jsonfile	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+which	Vul Found	FALSE	Vul Found	-	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-
+watch	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+webpacksources	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+gaze	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+httpsproxyagent	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+xml2json	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	Vul Found	FALSE
+dateformat	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+koastatic	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+portfinder	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+parseurl	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+he	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+color	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+brfs	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+hoistnonreactstatics	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	TRUE	No Vul (Changed)	TRUE
+argparse	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+karmaphantomjslauncher	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+fresh	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+passport	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+pluralize	Vul Found	FALSE	Vul Found	-	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-
+boxen	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+memoizeone	ERR	FALSE	Vul Found (Changed)	FALSE	No Vul (Changed)	FALSE	No Vul	-
+flux	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+co	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+amqplib	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	Vul Found	FALSE
+gulpbabel	ERR	FALSE	Vul Found (Changed)	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-
+gulpplumber	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+babelpluginaddmoduleexports	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	TRUE	Vul Found	TRUE
+tslintreact	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+nodewatch	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+etag	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+promise	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	Vul Found	FALSE
+changecase	UNKNOWN	FALSE	UNKNOWN	-	No Vul (Changed)	-	No Vul	-
+traverse	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+css	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+unistutilvisit	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+dayjs	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+tweetnacl	ERR	FALSE	Vul Found (Changed)	FALSE	UNKNOWN (Changed)	TRUE	No Vul (Changed)	-
+promisepolyfill	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	TRUE	Vul Found	TRUE
+through2	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+ms	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	Vul Found	FALSE
+estraverse	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+prompts	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+rolluppluginutils	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	Vul Found	FALSE
+postcsspresetenv	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+listr	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+nib	Vul Found	FALSE	Vul Found	-	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-
+ora	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+del	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+opn	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+open	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+multer	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	FALSE	No Vul (Changed)	FALSE
+htmlloader	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+string	ERR	FALSE	Vul Found (Changed)	FALSE	ERR (Changed)	FALSE	ERR	-
+jsonschema	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+imageminpngquant	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+webpackmanifestplugin	No Vul	FALSE	No Vul	-	No Vul	-	No Vul	-
+prompt	ERR	FALSE	UNKNOWN (Changed)	FALSE	No Vul (Changed)	-	No Vul	-
+shortid	ERR	FALSE	Vul Found (Changed)	FALSE	Vul Found	TRUE	ERR (Changed)	TRUE
+sax	Vul Found	FALSE	Vul Found	-	Vul Found	FALSE	ERR (Changed)	FALSE
+dotenv	Vul Found	FALSE	Vul Found	-	ERR (Changed)	FALSE	ERR	-
+bignumberjs	ERR	FALSE	No Vul (Changed)	FALSE	No Vul	-	No Vul	-
+vuestyleloader	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+npmlog	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+loglevel	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+bl	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+forktscheckerwebpackpluginalt	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+eslintpluginprettier	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+plist	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+normalizeurl	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+whatwgfetch	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+clone	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+swprecachewebpackplugin	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+assert	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+json5	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+loaderutils	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+underscorestring	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+vinyl	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+cookie	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+prettyjson	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+jasmine	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+koabody	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+pako	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+meow	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+numeral	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+gulppostcss	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+frontmatter	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+urlloader	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+reselect	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+objecthash	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+cli	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+minimatch	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
+minicssextractplugin	ERR	FALSE	ERR	FALSE	ERR	-	ERR	-
