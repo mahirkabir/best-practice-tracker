@@ -81,6 +81,11 @@ def build(path):
     return execute_cmd(path, "npm run build")
 
 
+def test(path):
+    """Test repository located in `path` using `npm run test`"""
+    return execute_cmd(path, "npm run test")
+
+
 def remove_folder(root, folder):
     """Remove folder in root directory"""
 
