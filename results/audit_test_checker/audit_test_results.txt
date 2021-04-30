@@ -1,0 +1,12 @@
+Repository	Initial Audit	Test-1	After i package-lock	Test-2	After audit fix	Test-3	After audit fix --force	Test-4
+fontawesome	ERR	False	No Vul (Changed)	False	No Vul	False	No Vul	False
+fortawesomefontawesomesvgcore	ERR	False	No Vul (Changed)	False	No Vul	False	No Vul	False
+fortawesomefreesolidsvgicons	ERR	False	No Vul (Changed)	False	No Vul	False	No Vul	False
+crypto	ERR	False	No Vul (Changed)	False	No Vul	False	No Vul	False
+fs	ERR	False	No Vul (Changed)	False	No Vul	False	No Vul	False
+http	ERR	False	No Vul (Changed)	False	No Vul	False	No Vul	False
+childprocess	ERR	False	No Vul (Changed)	False	No Vul	False	No Vul	False
+passportstrategy	ERR	False	Vul Found (Changed)	False	Vul Found	False	No Vul (Changed)	False
+os	ERR	False	No Vul (Changed)	False	No Vul	False	No Vul	False
+clear	ERR	False	No Vul (Changed)	False	No Vul	False	No Vul	False
+minimist	ERR	False	Vul Found (Changed)	False	Vul Found	True	No Vul (Changed)	True

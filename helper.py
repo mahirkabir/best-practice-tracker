@@ -2,6 +2,7 @@ import os
 import subprocess
 import configparser
 from shutil import copy2
+import re
 
 
 def execute_cmd(path, cmd):
@@ -83,7 +84,21 @@ def build(path):
 
 def test(path):
     """Test repository located in `path` using `npm run test`"""
-    return execute_cmd(path, "npm run test")
+    result = execute_cmd(path, "npm run test")
+
+    fail_checker = re.search("\d+ failing", result[1])
+
+    error_messages = ["Error: no test specified",
+                      "is not recognized as an internal or external command", "npm ERR!"]
+    if any(part in result[1] for part in error_messages):
+        result[0] = False
+    elif fail_checker:
+        result[0] = False
+    else:
+        # If ERR or err is found for test, it does not mean a test failure (e.g. - ERROR: SOME INFORMATION)
+        result[0] = True
+
+    return result
 
 
 def remove_folder(root, folder):

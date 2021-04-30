@@ -132,3 +132,4 @@ dmypy.json
 results/audit_checker/*/
 results/ddp_checker/*/
 results/find_audit_errors/
+results/audit_test_checker/*/
