@@ -15,3 +15,12 @@ DDP_CHECKER_EMPTY = "EMPTY"
 
 TEST_TRUE = "PASSED"
 TEST_FALSE = "FAILED"
+
+TAG_DEPENDENCIES = "dependencies"
+TAG_DEVDEPENDENCIES = "devDependencies"
+
+TECH_TILDE = "tilde"
+TECH_CARET = "caret"
+TECH_HYPHEN = "hyphen"
+TECH_LT_GT = "lt-gt"
+TECH_OTHERS = "others"
