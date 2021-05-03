@@ -1,6 +1,5 @@
 import os
 import re
-from sys import call_tracing
 
 
 def get_packages(path):
