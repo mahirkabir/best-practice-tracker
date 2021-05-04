@@ -116,7 +116,7 @@ verror	https://github.com/davepacheco/node-verror	26
 clitable2	https://github.com/jamestalmage/cli-table2	26
 process	https://github.com/shtylman/node-process	26
 i	https://github.com/pksunkara/inflect	26
-objectassign	https://github.com/sindresorhus/object-assign	27
+object-assign	https://github.com/sindresorhus/object-assign	27
 figlet	https://github.com/patorjk/figlet.js	27
 rawloader	https://github.com/webpack-contrib/raw-loader	27
 sprintfjs	https://github.com/alexei/sprintf.js	27
@@ -446,7 +446,7 @@ requestpromise	https://github.com/request/request-promise	93
 bulma	https://github.com/jgthms/bulma	93
 xhr	https://github.com/naugtur/xhr	93
 execa	https://github.com/sindresorhus/execa	94
-querystring	https://github.com/sindresorhus/query-string	94
+query-string	https://github.com/sindresorhus/query-string	94
 webpackhotmiddleware	https://github.com/webpack-contrib/webpack-hot-middleware	94
 nconf	https://github.com/flatiron/nconf	94
 urijs	https://github.com/medialize/URI.js	94
