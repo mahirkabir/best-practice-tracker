@@ -68,8 +68,6 @@ if __name__ == "__main__":
                 print(repo)
             dict_tmp[repo["name"]] = 1
 
-    repos.reverse()
-    repos = repos[0:1]
     repos_sz = len(repos)
 
     main_folder = "audit_test_checker"
