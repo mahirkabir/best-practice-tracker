@@ -5,45 +5,71 @@ import constants
 import re
 
 
-def get_audit(repo_loc):
-    """Run `npm audit` and return the result. True if no vulnerability detected"""
-    result = helper.execute_cmd(repo_loc, "npm audit")
-    # ommitting found from regex pattern as it doesn't always appear ***for > 0 vulnerabilities***
-    vul_search_res = re.search("\d+ vulnerabilities", result[1])
-
-    if vul_search_res:
-        if "found 0 vulnerabilities" in result[1]:
-            return {"status": constants.AUDIT_TRUE, "info": result[1]}
-        else:
-            return {"status": constants.AUDIT_FALSE, "info": result[1]}
-    elif "npm ERR!" in result[1]:
-        # If npm audit failed due to some error, we are treating it as ERR
-        return {"status": constants.AUDIT_ERROR, "info": result[1]}
-    else:
-        return {"status": constants.AUDIT_UNKNOWN, "info": result[1]}
+def run_npm_i(repo_loc):
+    "Run `npm i` in repo_loc"
+    return helper.execute_cmd(repo_loc, "npm i")
 
 
-def install_package_lock(repo_lock):
-    "Install package-lock.json file in repo_loc"
-    return helper.execute_cmd(repo_loc, "npm i --package-lock-only")
+def deduplicate(repo_loc):
+    """Run `npm ddp` in repo_loc"""
+    return helper.execute_cmd(repo_loc, "npm ddp")
 
 
-def fix_audit(repo_loc):
-    """Run `npm audit fix` in repo_loc"""
-    return helper.execute_cmd(repo_loc, "npm audit fix")
+def get_fixable_repos_dict(result_filename):
+    """Find dictionary of all the repos that are fixable by audit fixings and show the steps to fix"""
+    reader = open(result_filename, "r", encoding="utf-8")
+    lines = reader.readlines()[1:]
+    reader.close()
+
+    dict_repos = {}
+    for line in lines:
+        parts = line.split("\t")
+        if constants.AUDIT_TRUE in parts[-1]:
+            dict_repos[parts[0]] = []
+            if constants.AUDIT_TRUE in parts[1]:
+                # Had no vulnerability in the first place
+                pass
+            elif constants.AUDIT_TRUE in parts[2]:
+                # "npm i" is added as prerequisite for ddp. So no need to install package-lock here
+                pass
+            elif constants.AUDIT_TRUE in parts[3]:
+                # Need to run `npm audit fix` to make the repo fixable
+                dict_repos[parts[0]].append("npm audit fix")
+            elif constants.AUDIT_TRUE in parts[4]:
+                # Need to run `npm audit fix --force` to make the repo fixable
+                dict_repos[parts[0]].append("npm audit fix")
+                dict_repos[parts[0]].append("npm audit fix --force")
+
+    return dict_repos
 
 
-def fix_audit_force(repo_loc):
-    """Run `npm audit fix --force` in repo_loc"""
-    return helper.execute_cmd(repo_loc, "npm audit fix --force")
+def run_audit_fixings(repo_loc, commands):
+    """Run all the `commands` in the `repo_loc` step by step"""
+    for command in commands:
+        helper.execute_cmd(repo_loc, command)
 
 
 if __name__ == "__main__":
-    """Check run status after audit fixes"""
+    """Check run status after audit fixes and deduplication"""
 
     dataset_path = helper.get_config("PATHS", "DATASET_PATH")
-    repos = helper.get_repos(os.path.join(".", "data", "npm_rank_sorted.txt"))
+    dict_fixable_repos = get_fixable_repos_dict(
+        os.path.join("results", "audit_checker", "audit_results.txt"))
 
+    org_repos = helper.get_repos(os.path.join(
+        ".", "data", "npm_rank_sorted.txt"))
+    repos = []
+    dict_tmp = {}
+    for repo in org_repos:
+        if repo["name"] in dict_fixable_repos:
+            repos.append(repo)
+
+            if repo["name"] in dict_tmp:
+                print(repo)
+            dict_tmp[repo["name"]] = 1
+
+    repos.reverse()
+    repos = repos[0:1]
     repos_sz = len(repos)
 
     main_folder = "audit_test_checker"
@@ -51,8 +77,7 @@ if __name__ == "__main__":
                                "audit_test_results.txt"), "w", encoding="utf-8")
 
     writer.write(
-        "Repository\tInitial Audit\tTest-1\tAfter i package-lock\tTest-2\tAfter audit fix\tTest-3" +
-        "\tAfter audit fix --force\tTest-4")
+        "Repository\tInitial Test\tTest After Audit Fix\tTest After Deduplication\tNotes")
     writer.write("\n")
     writer.close()
 
@@ -79,106 +104,62 @@ if __name__ == "__main__":
             repo_loc = os.path.join(dataset_path, repo["name"])
             try:
                 """
-                1. Check Test result after each audit steps (Initial, After Installing Package-lock, Fix, Force Fix)
+                1. Check Test Result Initially
+                2. Check Test Result after fixing audit vulneralibities
+                3. Check Test Result after running deduplication
                 """
 
-                result = {"name": repo["name"], "initial": "", "package-lock": "",
-                          "audit-fix": "", "audit-fix-force": ""}
-                install_lock_output = ["", ""]
-                fix_audit_output = ["", ""]
-                force_fix_audit_output = ["", ""]
+                result = {"name": repo["name"], "initial": "", "after-audit-fix": "",
+                          "after-ddp": "", "note": ""}
 
-                init_test_result = helper.test(repo_loc)
-                after_install_test_result = ["-", ""]
-                after_fix_test_result = ["-", ""]
-                after_force_fix_test_result = ["-", ""]
+                run_npm_i(repo_loc)  # Prerequisite
+                initial_test = helper.test(repo_loc)
 
-                init_audit_result = get_audit(repo_loc)
-
-                if init_audit_result["status"] == constants.AUDIT_ERROR:
-                    install_lock_output = install_package_lock(repo_loc)
-                    after_i_lock_result = get_audit(repo_loc)
-                    after_install_test_result = helper.test(repo_loc)
+                if "Missing script: \"test\"" in initial_test[1]:
+                    after_audit_fix_test = initial_test
+                    after_ddp_test = initial_test
+                    ddp_result = [
+                        "", "Didn't execute `npm ddp` since \"Test\" script was missing"]
+                    result["note"] = "Missing Test Script"
                 else:
-                    # If initial result was not an ERR, we don't do anything for after_i_lock
-                    after_i_lock_result = init_audit_result
-                    after_install_test_result = init_audit_result
+                    after_audit_fix_test = ["-", ""]
+                    if len(dict_fixable_repos[repo["name"]]) > 0:
+                        # This repo needs audit fixing
+                        run_audit_fixings(
+                            repo_loc, dict_fixable_repos[repo["name"]])
+                        after_audit_fix_test = helper.test(repo_loc)
 
-                if after_i_lock_result["status"] == constants.AUDIT_FALSE:
-                    fix_audit_output = fix_audit(repo_loc)
-                    after_fix_result = get_audit(repo_loc)
-                    after_fix_test_result = helper.test(repo_loc)
-                else:
-                    # If error is still there, then fixing won't solve it
-                    # Or if previous result was already vulnerability-free, no need to fix anything
-                    after_fix_result = after_i_lock_result
-                    after_fix_test_result = after_install_test_result
+                        if after_audit_fix_test[0] != initial_test[0]:
+                            after_audit_fix_test[0] += " (Changed)"
+                    else:
+                        # This repo did not need audit fixing. So no need to check test status again
+                        result["after-audit-fix"] = "-"
 
-                if after_fix_result["status"] == constants.AUDIT_FALSE:
-                    force_fix_audit_output = fix_audit_force(repo_loc)
-                    after_fix_force_result = get_audit(repo_loc)
-                    after_force_fix_test_result = helper.test(repo_loc)
-                else:
-                    # If error is still there, then force fixing won't solve it
-                    # Or if previous result was already vulnerability-free, no need to fix anything
-                    after_fix_force_result = after_fix_result
-                    after_force_fix_test_result = after_fix_test_result
+                    ddp_result = deduplicate(repo_loc)
+                    after_ddp_test = helper.test(repo_loc)
+                    if after_ddp_test[0] != initial_test[0]:
+                        after_ddp_test[0] += " (Changed)"
 
-                result["initial"] = init_audit_result["status"]
-                result["package-lock"] = helper.IFF(
-                    init_audit_result["status"] == after_i_lock_result["status"],
-                    after_i_lock_result["status"], str(after_i_lock_result["status"]) + " " + constants.AUDIT_STEP_CHANGED)
-                result["audit-fix"] = helper.IFF(
-                    after_i_lock_result["status"] == after_fix_result["status"],
-                    after_fix_result["status"], str(after_fix_result["status"]) + " " + constants.AUDIT_STEP_CHANGED)
-                result["audit-fix-force"] = helper.IFF(
-                    after_fix_result["status"] == after_fix_force_result["status"],
-                    after_fix_force_result["status"], str(after_fix_force_result["status"]) + " " + constants.AUDIT_STEP_CHANGED)
-
+                result["initial"] = initial_test[0]
+                result["after-audit-fix"] = after_audit_fix_test[0]
+                result["after-ddp"] = after_ddp_test[0]
                 writer = open(os.path.join("results", main_folder,
                                            "audit_test_results.txt"), "a", encoding="utf-8")
-                writer.write(
-                    "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % (
-                        str(result["name"]),
-                        str(result["initial"]),
-                        str(init_test_result[0]),
-                        str(result["package-lock"]),
-                        str(after_install_test_result[0]),
-                        str(result["audit-fix"]),
-                        str(after_fix_test_result[0]),
-                        str(result["audit-fix-force"]),
-                        str(after_force_fix_test_result[0]),
-                    ))
-                writer.write("\n")
+
+                writer.write("%s\t%s\t%s\t%s\t%s\n" % (
+                    repo["name"], result["initial"], result["after-audit-fix"],
+                    result["after-ddp"], result["note"]))
                 writer.close()
 
                 foldername = os.path.join(
                     "results", main_folder, repo["name"])
 
-                helper.record(foldername, "init_audit.txt",
-                              init_audit_result["info"])
-                helper.record(foldername, "after_i_lock.txt",
-                              after_i_lock_result["info"])
-                helper.record(foldername, "after_fix.txt",
-                              after_fix_result["info"])
-                helper.record(foldername, "after_fix_force.txt",
-                              after_fix_force_result["info"])
-
-                helper.record(
-                    foldername, "install_lock_output.txt", install_lock_output[1])
-                helper.record(foldername, "fix_audit_output.txt",
-                              fix_audit_output[1])
-                helper.record(
-                    foldername, "force_fix_audit_output.txt", force_fix_audit_output[1])
-
-                helper.record(foldername, "init_test_result.txt",
-                              init_test_result[1])
-                helper.record(foldername, "after_install_test_result.txt",
-                              after_install_test_result[1])
-                helper.record(foldername, "after_fix_test_result.txt",
-                              after_fix_test_result[1])
-                helper.record(foldername, "after_force_fix_test_result.txt",
-                              after_force_fix_test_result[1])
+                helper.record(foldername, "initial_test.txt", initial_test[1])
+                helper.record(foldername, "after_audit_fix_test.txt",
+                              after_audit_fix_test[1])
+                helper.record(foldername, "after_ddp_test.txt",
+                              after_ddp_test[1])
+                helper.record(foldername, "ddp_result.txt", ddp_result[1])
 
             except Exception as ex:
                 print("Error processing [%s]: %s" % (repo["name"], str(ex)))
