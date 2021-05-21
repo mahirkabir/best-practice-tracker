@@ -1,0 +1,1083 @@
+debug	<=2.6.8 || 3.0.0 - 3.0.1
+FIXED
+passportstrategy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpconflict	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utilsmerge	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+es6promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rcutil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+diff	<3.5.0
+FIXED
+passportstrategy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpconflict	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+identityobjproxy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utilsmerge	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sha1	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jsonstringifysafe	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+inherits	Vul Found	Vul Found	No Vul (Changed)	No Vul
+urljoin	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+nprogress	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+extendshallow	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+wordwrap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportlocal	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+fspromise	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+read	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+commandexists	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+md5	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+keycode	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportoauth2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+isobject	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+clitable2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpinstall	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+invariant	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+ncp	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+koamount	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nodedir	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportoauth	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+webpacknodeexternals	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+nodeemoji	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+mz	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nodeuuid	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+inflection	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gruntcontribclean	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+convertsourcemap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpconcat	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+which	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+passport	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+estraverse	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+multer	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+dotenv	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+babelify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+genericpool	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+rimraf	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+sourcemapsupport	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+gulpless	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gracefulfs	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+graymatter	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+liftoff	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gruntcontribuglify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+reactonclickoutside	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+servefavicon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+nedb	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+readablestream	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+glob	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+bunyan	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+httpproxy	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+xlsx	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jquery	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+urllib	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nodemon	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+socketio	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribcopy	ERR	Vul Found (Changed)	Vul Found	Vul Found
+promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+promisepolyfill	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+babelpresetenv	ERR	Vul Found (Changed)	Vul Found	Vul Found
+filesize	Vul Found	Vul Found	Vul Found	Vul Found
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+q	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjsprebuilt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+es6promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jshint	ERR	Vul Found (Changed)	Vul Found	Vul Found
+istanbul	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gulptypescript	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+polymerpolymer	Vul Found	Vul Found	Vul Found	Vul Found
+growl	<1.10.2
+FIXED
+passportstrategy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpconflict	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utilsmerge	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sha1	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jsonstringifysafe	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+urljoin	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+nprogress	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+extendshallow	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+wordwrap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportlocal	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+fspromise	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+commandexists	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+md5	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+keycode	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportoauth2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+isobject	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+clitable2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpinstall	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+ncp	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+koamount	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nodedir	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportoauth	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+webpacknodeexternals	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+nodeemoji	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+mz	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nodeuuid	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+inflection	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpconcat	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passport	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+estraverse	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+multer	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sourcemapsupport	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+gulpless	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+graymatter	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+liftoff	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+servefavicon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nedb	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+httpproxy	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+xlsx	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jquery	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+urllib	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nodemon	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+socketio	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+promisepolyfill	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+q	ERR	Vul Found (Changed)	Vul Found	Vul Found
+es6promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+polymerpolymer	Vul Found	Vul Found	Vul Found	Vul Found
+minimatch	<=3.0.1
+FIXED
+passportstrategy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+hashsum	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+base64	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpconflict	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+texttable	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utilsmerge	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jsonstringifysafe	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+validurl	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nprogress	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportlocal	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+read	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+commandexists	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+md5	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+passportoauth2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+isobject	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+clitable2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+minimist	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+invariant	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+ncp	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nodedir	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passportoauth	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+webpacknodeexternals	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+optimist	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+passport	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+estraverse	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+sourcemapsupport	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+diff	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+gulpsass	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+urijs	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+servefavicon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+xlsx	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jquery	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nodemon	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+runsequence	Vul Found	Vul Found	Vul Found	Vul Found
+unzip	ERR	Vul Found (Changed)	Vul Found	Vul Found
+co	ERR	Vul Found (Changed)	Vul Found	Vul Found
+promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+promisepolyfill	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+xhr	Vul Found	Vul Found	Vul Found	Vul Found
+gulpnotify	Vul Found	Vul Found	Vul Found	Vul Found
+hammerjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+q	ERR	Vul Found (Changed)	Vul Found	Vul Found
+chance	ERR	Vul Found (Changed)	Vul Found	Vul Found
+es6promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+vinylfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rcutil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+ramda	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+highland	Vul Found	Vul Found	Vul Found	Vul Found
+restify	ERR	Vul Found (Changed)	Vul Found	Vul Found
+ms	<=0.7.0
+FIXED
+passportstrategy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpconflict	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utilsmerge	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sha1	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nedb	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+q	ERR	Vul Found (Changed)	Vul Found	Vul Found
+es6promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rcutil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+lodash	<=4.17.18
+FIXED
+hashsum	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+base64	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpconflict	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+inherits	Vul Found	Vul Found	No Vul (Changed)	No Vul
+urljoin	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jsonloader	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+jwtsimple	Vul Found	Vul Found	No Vul (Changed)	No Vul
+read	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+contenttype	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+clitable2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+invariant	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+recursivereaddir	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+bytes	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+colors	Vul Found	Vul Found	No Vul (Changed)	No Vul
+convertsourcemap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+pluralize	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+estraverse	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+dotenv	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+rolluppluginnoderesolve	Vul Found	Vul Found	No Vul (Changed)	No Vul
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+babelify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+genericpool	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+rimraf	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+liftoff	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpsass	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+urijs	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+reactonclickoutside	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+gulpeslint	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+nunjucks	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+rollupplugincommonjs	Vul Found	Vul Found	No Vul (Changed)	No Vul
+readablestream	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+glob	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+bunyan	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+htmlminifier	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+awesometypescriptloader	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+runsequence	Vul Found	Vul Found	Vul Found	Vul Found
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribcopy	ERR	Vul Found (Changed)	Vul Found	Vul Found
+babelpluginaddmoduleexports	ERR	Vul Found (Changed)	Vul Found	Vul Found
+ms	Vul Found	Vul Found	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+karmachromelauncher	ERR	Vul Found (Changed)	Vul Found	Vul Found
+metalsmith	Vul Found	Vul Found	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+filesize	Vul Found	Vul Found	Vul Found	Vul Found
+xmljs	Vul Found	Vul Found	Vul Found	Vul Found
+reduxlogger	Vul Found	Vul Found	Vul Found	Vul Found
+gulpnotify	Vul Found	Vul Found	Vul Found	Vul Found
+reacthelmet	Vul Found	Vul Found	Vul Found	Vul Found
+gm	ERR	Vul Found (Changed)	Vul Found	Vul Found
+hammerjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+litelement	Vul Found	Vul Found	Vul Found	Vul Found
+chance	ERR	Vul Found (Changed)	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+babelpluginlodash	Vul Found	Vul Found	Vul Found	Vul Found
+jsonwebtoken	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjsprebuilt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+es6promise	ERR	Vul Found (Changed)	Vul Found	Vul Found
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+vinylfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jshint	ERR	Vul Found (Changed)	Vul Found	Vul Found
+istanbul	ERR	Vul Found (Changed)	Vul Found	Vul Found
+ramda	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+husky	Vul Found	Vul Found	Vul Found	Vul Found
+handlebars	Vul Found	Vul Found	Vul Found	Vul Found
+polymerpolymer	Vul Found	Vul Found	Vul Found	Vul Found
+cryptiles	<=4.1.1
+FIXED
+base64	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+identityobjproxy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utf8	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+read	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+clitable2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+invariant	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+convertsourcemap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+hoistnonreactstatics	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+genericpool	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+asyncvalidator	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+bunyan	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mockjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+he	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribcopy	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+gulputil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+filesize	Vul Found	Vul Found	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjsprebuilt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+eslintpluginflowtype	ERR	Vul Found (Changed)	Vul Found	Vul Found
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+vinylfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jshint	ERR	Vul Found (Changed)	Vul Found	Vul Found
+istanbul	ERR	Vul Found (Changed)	Vul Found	Vul Found
+esprima	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gulp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+hoek	<=4.2.0 || 5.0.0 - 5.0.2
+FIXED
+base64	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+identityobjproxy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utf8	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+read	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+clitable2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+invariant	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+convertsourcemap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+hoistnonreactstatics	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+genericpool	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+asyncvalidator	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+bunyan	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mockjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+he	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribcopy	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+gulputil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+filesize	Vul Found	Vul Found	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjsprebuilt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+eslintpluginflowtype	ERR	Vul Found (Changed)	Vul Found	Vul Found
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+vinylfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jshint	ERR	Vul Found (Changed)	Vul Found	Vul Found
+istanbul	ERR	Vul Found (Changed)	Vul Found	Vul Found
+esprima	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gulp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+js-yaml	<=3.13.0
+FIXED
+base64	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+identityobjproxy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utf8	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+jwtsimple	Vul Found	Vul Found	No Vul (Changed)	No Vul
+read	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+clitable2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+invariant	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gruntcontribclean	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+colors	Vul Found	Vul Found	No Vul (Changed)	No Vul
+convertsourcemap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+hoistnonreactstatics	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+genericpool	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+rimraf	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+asyncvalidator	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+urijs	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+gulpeslint	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+glob	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+bunyan	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+awesometypescriptloader	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+mobx	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+preact	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mockjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribcopy	ERR	Vul Found (Changed)	Vul Found	Vul Found
+ms	Vul Found	Vul Found	Vul Found	Vul Found
+chaiaspromised	Vul Found	Vul Found	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+faker	ERR	Vul Found (Changed)	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+gulputil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+metalsmith	Vul Found	Vul Found	Vul Found	Vul Found
+filesize	Vul Found	Vul Found	Vul Found	Vul Found
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjsprebuilt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+vinylfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jshint	ERR	Vul Found (Changed)	Vul Found	Vul Found
+istanbul	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gulp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+reactselect	ERR	Vul Found (Changed)	Vul Found	Vul Found
+js-yaml	<3.13.1
+FIXED
+parseurl	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+babelify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+htmlminifier	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+reduxlogger	Vul Found	Vul Found	Vul Found	Vul Found
+tunnel-agent	<0.6.0
+FIXED
+base64	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+identityobjproxy	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+utf8	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+read	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+clitable2	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+invariant	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+convertsourcemap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+hoistnonreactstatics	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+genericpool	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+asyncvalidator	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+bunyan	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mockjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+he	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribcopy	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gulputil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+filesize	Vul Found	Vul Found	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjsprebuilt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+eslintpluginflowtype	ERR	Vul Found (Changed)	Vul Found	Vul Found
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+vinylfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jshint	ERR	Vul Found (Changed)	Vul Found	Vul Found
+istanbul	ERR	Vul Found (Changed)	Vul Found	Vul Found
+esprima	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gulp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+underscore.string	<=3.3.4
+FIXED
+base64	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gruntcontribclean	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+urijs	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+q	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+handlebars	Vul Found	Vul Found	Vul Found	Vul Found
+brace-expansion	<=1.1.6
+FIXED
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+genericpool	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribcopy	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+filesize	Vul Found	Vul Found	Vul Found	Vul Found
+phantomjsprebuilt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jshint	ERR	Vul Found (Changed)	Vul Found	Vul Found
+istanbul	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+handlebars	<=4.7.3
+FIXED
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+inherits	Vul Found	Vul Found	No Vul (Changed)	No Vul
+urljoin	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jsonloader	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+jwtsimple	Vul Found	Vul Found	No Vul (Changed)	No Vul
+contenttype	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+sanitizefilename	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+proptypes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+gruntcontribclean	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+bytes	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+convertsourcemap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+which	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+hoistnonreactstatics	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+pluralize	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+dotenv	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+broccolimergetrees	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+babelify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+genericpool	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+rimraf	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+gracefulfs	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+liftoff	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+parse5	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+gruntcontribuglify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+gulpeslint	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+nunjucks	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+xml2js	Vul Found	Vul Found	No Vul (Changed)	No Vul
+readablestream	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+chai	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+glob	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+bunyan	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+httpproxy	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+buffer	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+awesometypescriptloader	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+nodegit	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribcopy	ERR	Vul Found (Changed)	Vul Found	Vul Found
+co	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+metalsmith	Vul Found	Vul Found	Vul Found	Vul Found
+filesize	Vul Found	Vul Found	Vul Found	Vul Found
+phantomjsprebuilt	ERR	Vul Found (Changed)	Vul Found	Vul Found
+phantomjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jshint	ERR	Vul Found (Changed)	Vul Found	Vul Found
+istanbul	ERR	Vul Found (Changed)	Vul Found	Vul Found
+handlebars	<=4.5.2
+FIXED
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+xhr	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+y18n	<3.2.2||=4.0.0||>=5.0.0 <5.0.5
+FIXED
+once	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+inherits	Vul Found	Vul Found	No Vul (Changed)	No Vul
+looseenvify	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jsonloader	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+jwtsimple	Vul Found	Vul Found	No Vul (Changed)	No Vul
+connecthistoryapifallback	Vul Found	Vul Found	No Vul (Changed)	No Vul
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+md5	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+contenttype	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+rawloader	Vul Found	Vul Found	No Vul (Changed)	No Vul
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+postcssflexbugsfixes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+recursivereaddir	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+optimizecssassetswebpackplugin	Vul Found	Vul Found	No Vul (Changed)	No Vul
+vuehotreloadapi	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+reduxthunk	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+proptypes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+gruntcontribclean	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+bytes	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+convertsourcemap	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+which	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+hoistnonreactstatics	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpbabel	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+dotenv	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+rolluppluginnoderesolve	Vul Found	Vul Found	No Vul (Changed)	No Vul
+sinonchai	Vul Found	Vul Found	No Vul (Changed)	No Vul
+broccolimergetrees	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+babelify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+gruntcontribconcat	ERR	Vul Found (Changed)	Vul Found	Vul Found
+gruntcontribwatch	ERR	Vul Found (Changed)	Vul Found	Vul Found
+dot-prop	<4.2.1 || >=5.0.0 <5.1.1
+FIXED
+urljoin	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+jsonloader	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+objectassign	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpinstall	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+optimizecssassetswebpackplugin	Vul Found	Vul Found	No Vul (Changed)	No Vul
+gulpbabel	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+dotenv	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+parse5	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+formidable	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+coveralls	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+forktscheckerwebpackplugin	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+fusejs	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+nodemon	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+awesometypescriptloader	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+mobxreact	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+reactapollo	Vul Found	Vul Found	No Vul (Changed)	No Vul
+UNFIXED
+babelpluginaddmoduleexports	ERR	Vul Found (Changed)	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+karmachromelauncher	ERR	Vul Found (Changed)	Vul Found	Vul Found
+jshint	ERR	Vul Found (Changed)	Vul Found	Vul Found
+polymerpolymer	Vul Found	Vul Found	Vul Found	Vul Found
+tough-cookie	<=2.3.2
+FIXED
+nprogress	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+tough-cookie	<2.3.3
+FIXED
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+mixin-deep	<=1.3.1 || 2.0.0
+FIXED
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jwtsimple	Vul Found	Vul Found	No Vul (Changed)	No Vul
+connecthistoryapifallback	Vul Found	Vul Found	No Vul (Changed)	No Vul
+gruntcontribclean	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+rimraf	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpeslint	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+nunjucks	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+readablestream	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+shallowequal	ERR	Vul Found (Changed)	No Vul (Changed)	No Vul
+glob	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+htmlminifier	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+awesometypescriptloader	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+quill	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+runsequence	Vul Found	Vul Found	Vul Found	Vul Found
+reduxlogger	Vul Found	Vul Found	Vul Found	Vul Found
+gulpnotify	Vul Found	Vul Found	Vul Found	Vul Found
+set-value	<=2.0.0 || 3.0.0
+FIXED
+validatenpmpackagename	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+jwtsimple	Vul Found	Vul Found	No Vul (Changed)	No Vul
+connecthistoryapifallback	Vul Found	Vul Found	No Vul (Changed)	No Vul
+gruntcontribclean	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+rimraf	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+sourcemapsupport	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+vuepropertydecorator	ERR	Vul Found (Changed)	No Vul (Changed)	No Vul
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpeslint	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+nunjucks	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+readablestream	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+shallowequal	ERR	Vul Found (Changed)	No Vul (Changed)	No Vul
+glob	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+htmlminifier	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+awesometypescriptloader	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+quill	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+runsequence	Vul Found	Vul Found	Vul Found	Vul Found
+reduxlogger	Vul Found	Vul Found	Vul Found	Vul Found
+gulpnotify	Vul Found	Vul Found	Vul Found	Vul Found
+extend	<2.0.2 || >=3.0.0 <3.0.2
+FIXED
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+servefavicon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpeslint	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+runsequence	Vul Found	Vul Found	Vul Found	Vul Found
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+gulpnotify	Vul Found	Vul Found	Vul Found	Vul Found
+chance	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rcutil	ERR	Vul Found (Changed)	Vul Found	Vul Found
+sshpk	<=1.13.1
+FIXED
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+proptypes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+stringstream	<=0.0.5
+FIXED
+osenv	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+touch	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+acorn	5.5.0 - 5.7.3 || 6.0.0 - 6.4.0 || 7.0.0 - 7.1.0
+FIXED
+connecthistoryapifallback	Vul Found	Vul Found	No Vul (Changed)	No Vul
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+postcssflexbugsfixes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+vuehotreloadapi	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+eslintpluginbabel	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+reduxthunk	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+sanitizefilename	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+proptypes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+colors	Vul Found	Vul Found	No Vul (Changed)	No Vul
+hoistnonreactstatics	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+pluralize	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+gulpbabel	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+tweetnacl	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+dotenv	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+rolluppluginnoderesolve	Vul Found	Vul Found	No Vul (Changed)	No Vul
+sinonchai	Vul Found	Vul Found	No Vul (Changed)	No Vul
+broccolimergetrees	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+babelify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+deepmerge	Vul Found	Vul Found	No Vul (Changed)	No Vul
+sourcemapsupport	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+gulpshell	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+install	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+parse5	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+babelpluginmoduleresolver	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+d3selection	ERR	Vul Found (Changed)	No Vul (Changed)	No Vul
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+d3scale	ERR	Vul Found (Changed)	No Vul (Changed)	No Vul
+rolluppluginbabel	Vul Found	Vul Found	No Vul (Changed)	No Vul
+gulpeslint	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+rollupplugincommonjs	Vul Found	Vul Found	No Vul (Changed)	No Vul
+shallowequal	ERR	Vul Found (Changed)	No Vul (Changed)	No Vul
+htmlminifier	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+emberclibabel	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+awesometypescriptloader	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+mobxreact	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+metalsmith	Vul Found	Vul Found	Vul Found	Vul Found
+reduxlogger	Vul Found	Vul Found	Vul Found	Vul Found
+polymerpolymer	Vul Found	Vul Found	Vul Found	Vul Found
+elliptic	<=6.5.3
+FIXED
+reduxthunk	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+sanitizefilename	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+proptypes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+tweetnacl	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+babelify	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+fusejs	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+coffeescript	Vul Found	Vul Found	No Vul (Changed)	No Vul
+htmlminifier	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+awesometypescriptloader	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+mobxreact	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+reduxform	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+quill	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+shell-quote	<=1.6.0
+FIXED
+invariant	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+sourcemapsupport	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+xhr	Vul Found	Vul Found	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+ramda	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+fstream	<1.0.12
+FIXED
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+tar	<2.2.2 || >=3.0.0 <4.4.2
+FIXED
+reactlifecyclescompat	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+sourcemapsupport	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+gulpeslint	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+awesometypescriptloader	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+warning	Vul Found	Vul Found	Vul Found	Vul Found
+resizeobserverpolyfill	Vul Found	Vul Found	Vul Found	Vul Found
+deepdiff	Vul Found	Vul Found	Vul Found	Vul Found
+crc	Vul Found	Vul Found	Vul Found	Vul Found
+babelpluginaddmoduleexports	ERR	Vul Found (Changed)	Vul Found	Vul Found
+extracttextwebpackplugin	Vul Found	Vul Found	Vul Found	Vul Found
+xmljs	Vul Found	Vul Found	Vul Found	Vul Found
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+babelplugintransformreactremoveproptypes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+lowdb	Vul Found	Vul Found	Vul Found	Vul Found
+vue	ERR	Vul Found (Changed)	Vul Found	Vul Found
+vuetemplatecompiler	ERR	Vul Found (Changed)	Vul Found	Vul Found
+serialize-javascript	<3.1.0
+FIXED
+ghpages	Vul Found	Vul Found	No Vul (Changed)	No Vul
+commontags	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+forktscheckerwebpackplugin	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+fusejs	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+coffeescript	Vul Found	Vul Found	No Vul (Changed)	No Vul
+winston	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+stylus	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+redux	Vul Found	Vul Found	No Vul (Changed)	No Vul
+mobxreact	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+reduxform	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+quill	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+electron	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+reacticons	ERR	Vul Found (Changed)	Vul Found	Vul Found
+bl	<=1.2.2 || 2.0.1 - 2.2.0 || 3.0.0 || 4.0.0 - 4.0.2
+FIXED
+sanitizefilename	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+sockjsclient	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+coffeescript	Vul Found	Vul Found	No Vul (Changed)	No Vul
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+nodegit	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+he	ERR	Vul Found (Changed)	Vul Found	Vul Found
+faker	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+esprima	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+bson	Vul Found	Vul Found	Vul Found	Vul Found
+cached-path-relative	<=1.0.1
+FIXED
+proptypes	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+lodash.merge	<=4.6.1
+FIXED
+gulpplumber	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+showdown	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+babylon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+qs	<=6.0.3 || 6.1.0 - 6.1.1 || 6.2.0 - 6.2.2 || 6.3.0 - 6.3.1
+FIXED
+sax	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+sourcemapsupport	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+servefavicon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mockjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+he	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+eslintpluginflowtype	ERR	Vul Found (Changed)	Vul Found	Vul Found
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+esprima	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+concat-stream	1.3.0 - 1.3.1 || 1.4.0 - 1.4.10 || 1.5.0 - 1.5.1
+FIXED
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+hawk	<=6.0.2
+FIXED
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mockjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+he	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+eslintpluginflowtype	ERR	Vul Found (Changed)	Vul Found	Vul Found
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+esprima	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mime	<=1.4.0 || 2.0.1 - 2.0.2
+FIXED
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+servefavicon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+mobx	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mockjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+he	ERR	Vul Found (Changed)	Vul Found	Vul Found
+intl	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+eslintpluginflowtype	ERR	Vul Found (Changed)	Vul Found	Vul Found
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+esprima	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+request	2.2.6 - 2.80.0
+FIXED
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+less	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+memoryfs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mockjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+he	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+eslintpluginflowtype	ERR	Vul Found (Changed)	Vul Found	Vul Found
+elliptic	Vul Found	Vul Found	Vul Found	Vul Found
+esprima	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+semver	<4.3.2
+FIXED
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+chai	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+hammerjs	ERR	Vul Found (Changed)	Vul Found	Vul Found
+swig	ERR	Vul Found (Changed)	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+bson	Vul Found	Vul Found	Vul Found	Vul Found
+sync-exec	*
+FIXED
+fstream	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+urllib	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+jsonwebtoken	ERR	Vul Found (Changed)	Vul Found	Vul Found
+socket.io	<=2.3.0
+FIXED
+reactonclickoutside	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+ramda	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+atob	<=2.0.3
+FIXED
+gulpjshint	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+runsequence	Vul Found	Vul Found	Vul Found	Vul Found
+gulpnotify	Vul Found	Vul Found	Vul Found	Vul Found
+marked	0.3.14 - 0.6.3
+FIXED
+install	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+soap	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+marked	1.1.1 - 1.2.9
+FIXED
+firebaseadmin	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+husky	Vul Found	Vul Found	Vul Found	Vul Found
+parsejson	*
+FIXED
+reactonclickoutside	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+ramda	Vul Found	Vul Found	Vul Found	Vul Found
+rsvp	ERR	Vul Found (Changed)	Vul Found	Vul Found
+ws	<1.1.5 || >=2.0.0 <3.3.1
+FIXED
+reactonclickoutside	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+UNFIXED
+phosphorwidgets	ERR	Vul Found (Changed)	Vul Found	Vul Found
+https-proxy-agent	<2.2.3
+FIXED
+underscore	Vul Found	Vul Found	Vul Found	No Vul (Changed)
+quill	Vul Found	Vul Found	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+jszip	Vul Found	Vul Found	Vul Found	Vul Found
+superagent	<=3.6.3
+FIXED
+servefavicon	ERR	Vul Found (Changed)	Vul Found	No Vul (Changed)
+UNFIXED
+randombytes	ERR	Vul Found (Changed)	Vul Found	Vul Found
+process	ERR	Vul Found (Changed)	Vul Found	Vul Found
+mustache	Vul Found	Vul Found	Vul Found	Vul Found
+prismjs	<1.23.0
+FIXED
+fusejs	ERR	Vul Found (Changed)	UNKNOWN (Changed)	No Vul (Changed)
+UNFIXED
+reactselect	ERR	Vul Found (Changed)	Vul Found	Vul Found
