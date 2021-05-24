@@ -93,7 +93,7 @@ def get_levels(npm_ls_file, lib_to_track, ver_range):
 
     for line in lines:
         line = line.replace("\n", "")
-        if lib_to_track in line:
+        if lib_to_track + "@" in line:
             if constants.DDP_CHECKER_UNMET_DEPENDENCY in line:
                 levels.append(constants.DDP_CHECKER_UNMET_DEPENDENCY)
             elif constants.DDP_DEDUPED in line:
@@ -108,6 +108,7 @@ def get_levels(npm_ls_file, lib_to_track, ver_range):
                     levels.append(str(lvl))
 
     levels = list(set(levels))
+    levels.sort()
     return levels
 
 
