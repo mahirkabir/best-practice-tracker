@@ -1,5 +1,10 @@
 import os
 
+from semantic_version.base import NpmSpec, SimpleSpec, Version
+import helper
+import constants
+import semantic_version
+
 
 def get_lib_mappings(libs, dict_lib_count, dict_lib_ver_count,
                      dict_severity_count, filename, repo, dict_repo_of_lib):
@@ -77,6 +82,47 @@ def get_overlaps(dict_fixed, dict_unfixed):
     return lib_vers
 
 
+def get_levels(npm_ls_file, lib_to_track, ver_range):
+    """Find all the unique levels of `lib_to_track` in `ver_range` from `npm_ls_file`'s dependency tree"""
+    reader = open(npm_ls_file, "r", encoding="utf-8")
+    # No need to process the local directory line
+    lines = reader.readlines()[1:]
+    reader.close()
+
+    levels = []
+
+    for line in lines:
+        line = line.replace("\n", "")
+        if lib_to_track in line:
+            if constants.DDP_CHECKER_UNMET_DEPENDENCY in line:
+                levels.append(constants.DDP_CHECKER_UNMET_DEPENDENCY)
+            elif constants.DDP_DEDUPED in line:
+                # levels.append(constants.DDP_DEDUPED)
+                pass
+            else:
+                version = line.split("@")[-1].replace("\n", "")
+                if Version(version) in NpmSpec(ver_range):
+                    # -4 is to get rid of first ├─┬ part
+                    # / 2 is because each level has a difference of 2
+                    lvl = int((line.index(lib_to_track) - 4) / 2) + 1
+                    levels.append(str(lvl))
+
+    levels = list(set(levels))
+    return levels
+
+
+def list_to_str(lst):
+    """Converts list to a comma separated string wrapped by []"""
+    str_lst = ""
+    for elm in lst:
+        if str_lst == "":
+            str_lst = str(elm)
+        else:
+            str_lst += ", " + str(elm)
+
+    return "[" + str_lst + "]"
+
+
 if __name__ == "__main__":
     """Find library distribution for unfixable and fixable audit failure repositories"""
 
@@ -85,6 +131,7 @@ if __name__ == "__main__":
     lines = reader.readlines()[1:]
     reader.close()
 
+    dataset_path = helper.get_config("PATHS", "DATASET_PATH")
     unfixables = []
     fixables = []
 
@@ -168,14 +215,22 @@ if __name__ == "__main__":
         # output += "======\n"
         output += "FIXED\n"
         for repo in dict_repo_of_lib_FIXED[lib_ver["lib"]][lib_ver["ver"]]:
-            output += "%s\t%s\t%s\t%s\t%s\n" % (
-                repo["name"], repo["initial"], repo["package-lock"], repo["audit-fix"], repo["audit-fix-force"])
+            levels = get_levels(os.path.join(
+                dataset_path, "fixed_ls", repo["name"] + ".txt"), lib_ver["lib"], lib_ver["ver"])
+            str_levels = list_to_str(levels)
+            output += "%s\t%s\t%s\t%s\t%s\t%s\n" % (
+                repo["name"], repo["initial"], repo["package-lock"],
+                repo["audit-fix"], repo["audit-fix-force"], str_levels)
 
         # output += "======\n"
         output += "UNFIXED\n"
         for repo in dict_repo_of_lib_UNFIXED[lib_ver["lib"]][lib_ver["ver"]]:
-            output += "%s\t%s\t%s\t%s\t%s\n" % (
-                repo["name"], repo["initial"], repo["package-lock"], repo["audit-fix"], repo["audit-fix-force"])
+            levels = get_levels(os.path.join(
+                dataset_path, "unfixed_ls", repo["name"] + ".txt"), lib_ver["lib"], lib_ver["ver"])
+            str_levels = list_to_str(levels)
+            output += "%s\t%s\t%s\t%s\t%s\t%s\n" % (
+                repo["name"], repo["initial"], repo["package-lock"],
+                repo["audit-fix"], repo["audit-fix-force"], str_levels)
 
         # output += "============\n"
 

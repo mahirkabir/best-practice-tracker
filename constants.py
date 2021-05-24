@@ -24,3 +24,5 @@ TECH_CARET = "caret"
 TECH_HYPHEN = "hyphen"
 TECH_LT_GT = "lt-gt"
 TECH_OTHERS = "others"
+
+DDP_DEDUPED = "deduped"
