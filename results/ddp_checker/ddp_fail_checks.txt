@@ -1,0 +1,73 @@
+Total # of overlapped libraries: 529
+is-windows	0.2.0
+broccolimergetrees	FIXABLE	[6]
+emberclibabel	FIXABLE	[6, 7]
+extendshallow	UNFIXABLE	[7, 8]
+graymatter	UNFIXABLE	[7, 8]
+path-browserify	0.0.1
+buffer	FIXABLE	[3, 4]
+invariant	FIXABLE	[2]
+nunjucks	FIXABLE	[3]
+reduxform	UNFIXABLE	[3]
+eslint-plugin-promise	4.2.1
+coveralls	FIXABLE	[2]
+dotenv	UNFIXABLE	[2, 3]
+gulpbabel	FIXABLE	[2]
+websocket-driver	0.7.4
+diff	FIXABLE	[4]
+sockjsclient	UNFIXABLE	[2]
+doctrine	3.0.0
+dotenv	UNFIXABLE	[3, 4]
+emberclibabel	FIXABLE	[3]
+raw-body	2.4.0
+emberclibabel	FIXABLE	[4]
+quill	UNFIXABLE	[3, 4]
+type-is	1.6.1
+emberclibabel	FIXABLE	[]
+quill	UNFIXABLE	[]
+get-stdin	7.0.0
+dotenv	UNFIXABLE	[3, 4]
+formidable	FIXABLE	[2]
+gulpbabel	FIXABLE	[2]
+memory-fs	0.5.0
+fusejs	FIXABLE	[3]
+quill	UNFIXABLE	[3]
+reduxform	FIXABLE	[3]
+onetime	1.1.0
+babylon	UNFIXABLE	[6]
+gulpplumber	FIXABLE	[6]
+reactonclickoutside	UNFIXABLE	[6]
+browser-pack	5.0.1
+invariant	FIXABLE	[2]
+proptypes	UNFIXABLE	[3]
+combine-source-map	0.6.1
+invariant	FIXABLE	[3]
+proptypes	UNFIXABLE	[4]
+inline-source-map	0.5.0
+invariant	FIXABLE	[4]
+proptypes	UNFIXABLE	[5]
+through2	1.1.1
+invariant	FIXABLE	[2]
+proptypes	UNFIXABLE	[4]
+sourcemapsupport	FIXABLE	[2]
+ws	6.2.1
+mobxreact	FIXABLE	[3, 4]
+quill	UNFIXABLE	[2]
+fs-extra	4.0.3
+emberclibabel	UNFIXABLE	[3]
+nodemon	FIXABLE	[2]
+node-libs-browser	2.2.1
+nunjucks	FIXABLE	[2]
+reduxform	UNFIXABLE	[2]
+browserify-zlib	0.2.0
+nunjucks	FIXABLE	[3]
+sanitizefilename	UNFIXABLE	[2, 3]
+https-browserify	1.0.0
+nunjucks	FIXABLE	[3]
+sanitizefilename	UNFIXABLE	[2, 3]
+os-browserify	0.3.0
+nunjucks	FIXABLE	[3]
+sanitizefilename	UNFIXABLE	[2, 3]
+vm-browserify	1.1.2
+nunjucks	FIXABLE	[3]
+reduxform	UNFIXABLE	[3]
