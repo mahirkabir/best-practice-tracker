@@ -1,0 +1,2 @@
+Repository	Initial Size	After-DDP
+inherits	74.95MB	74.51MB
