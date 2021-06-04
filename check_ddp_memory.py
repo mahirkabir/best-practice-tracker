@@ -52,7 +52,7 @@ if __name__ == "__main__":
     writer = open(os.path.join("results", "ddp_checker",
                                "ddp_size.txt"), "w", encoding="utf-8")
     writer.write(
-        "Repository\tInitial Size\tAfter-DDP")
+        "Repository\tInitial Size\tAfter DDP")
     writer.write("\n")
     writer.close()
 
@@ -99,6 +99,9 @@ if __name__ == "__main__":
                 result["after-ddp"] = get_size_format(
                     get_directory_size(os.path.join(repo_loc, "node_modules")))
 
+            except Exception as ex:
+                print("Error processing [%s]: %s" % (repo["name"], str(ex)))
+            finally:
                 writer.write(
                     "%s\t%s\t%s" % (
                         str(result["name"]),
@@ -107,9 +110,6 @@ if __name__ == "__main__":
                     ))
                 writer.write("\n")
                 writer.close()
-
-            except Exception as ex:
-                print("Error processing [%s]: %s" % (repo["name"], str(ex)))
 
         # Delete the (<= range_limit) repositories in dataset folder
         for j in tqdm(range(i, left_repos)):
