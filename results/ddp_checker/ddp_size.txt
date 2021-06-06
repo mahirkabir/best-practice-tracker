@@ -1,2 +1,795 @@
-Repository	Initial Size	After-DDP
+Repository	Initial Size	After DDP
+fontawesome		
+fortawesomefontawesomesvgcore		
+fortawesomefreesolidsvgicons		
+crypto		
+fs		
+http		
+childprocess		
+passportstrategy	1.16MB	1.16MB
+os		
+clear		
+requirejs		
+connectflash	164.62KB	164.62KB
+pathisabsolute	17.00MB	16.91MB
+hashsum	3.18MB	2.99MB
+deepassign	126.67MB	126.67MB
+path	37.17KB	37.17KB
+babelhelpervuejsxmergeprops		
+vinylbuffer	483.08KB	419.89KB
+base64	24.25MB	24.20MB
+jestenvironmentjsdomfourteen	88.95MB	88.95MB
+keypress		
+iniparser		
+jestpnpresolver		
+gulpconflict	6.89MB	6.86MB
+identityobjproxy	37.02MB	36.49MB
+texttable	1.42MB	1.42MB
+utilsmerge	1.17MB	1.17MB
+arrify	182.54MB	182.54MB
+uniquerandomarray	182.43MB	182.43MB
+jsonstablestringify	89.67KB	89.67KB
+sha1	891.64KB	891.05KB
+sprintf	43.65MB	43.67MB
+tspnp	42.40MB	42.40MB
+querystring	1.88MB	1.88MB
+utf8	9.99MB	9.99MB
+babelplugintransformdecoratorslegacy	10.46MB	10.42MB
+jsonstringifysafe	4.10MB	4.10MB
+pathexists	99.47MB	99.45MB
+userhome	8.32MB	8.32MB
+validurl	1.73MB	1.53MB
+once	16.19MB	15.61MB
+slash	182.43MB	182.43MB
+debounce	9.20MB	9.20MB
+assertplus	2.49MB	2.49MB
+requiredir	15.74MB	15.74MB
+vinylsourcestream	1.13MB	1.13MB
+ispromise		
+fancylog	25.03MB	24.39MB
+stacktrace	39.43MB	39.43MB
+postcssnormalize	26.37MB	26.37MB
+randombytes	74.79MB	73.78MB
+resolvefrom	99.47MB	99.45MB
 inherits	74.95MB	74.51MB
+eslintconfigairbnb	2.42MB	2.42MB
+escapestringregexp	182.43MB	182.43MB
+eslintconfigairbnbbase	2.42MB	2.42MB
+urljoin	9.26MB	9.24MB
+clui	845.52KB	1.31MB
+memoryfs	25.21MB	26.01MB
+isurl	5.85MB	5.85MB
+fuzzy	14.34MB	14.28MB
+merge	88.53MB	88.49MB
+logsymbols	182.51MB	182.51MB
+pkginfo	897.50KB	897.50KB
+tildify	99.47MB	99.45MB
+nprogress	10.97MB	10.97MB
+looseenvify	28.04MB	27.30MB
+dot	38.13MB	38.04MB
+casesensitivepathswebpackplugin	39.21MB	37.17MB
+jsonloader	8.22MB	8.22MB
+validatenpmpackagename	32.14MB	32.14MB
+readline	1.26MB	1.26MB
+pnpwebpackplugin	39.57MB	39.50MB
+xmlhttprequest		
+clispinner		
+escapehtml	32.41MB	32.36MB
+randomstring	875.96KB	875.96KB
+requireindex	70.78KB	70.78KB
+createhash	20.19MB	20.08MB
+opener	10.99MB	10.99MB
+extendshallow	10.03MB	10.03MB
+wordwrap	5.33MB	5.33MB
+passportlocal	1.53MB	1.53MB
+mergestream	7.20MB	7.20MB
+seleniumwebdriver	353.44MB	351.43MB
+osenv	17.69MB	17.70MB
+leftpad	10.03MB	10.03MB
+jwtsimple	14.73MB	14.13MB
+url	72.71MB	72.46MB
+warning	53.37MB	54.65MB
+connecthistoryapifallback	61.55MB	60.61MB
+readpkgup	182.95MB	182.95MB
+fspromise	5.45MB	5.45MB
+read	13.65MB	13.06MB
+touch	17.83MB	17.29MB
+commandexists	6.82MB	6.81MB
+readpkg	182.76MB	182.78MB
+md5	17.21MB	15.27MB
+gulpreplace	66.94MB	66.80MB
+multimatch	168.24MB	168.15MB
+keycode	1.62MB	1.62MB
+passportoauth2	1.72MB	1.72MB
+normalizecss		
+pify	51.08MB	51.04MB
+requireall		
+hoganjs	6.23MB	6.23MB
+decamelize	98.05MB	98.03MB
+isobject	9.21MB	9.21MB
+contenttype	33.86MB	33.82MB
+gulprename	24.96MB	24.86MB
+progress		
+bindings	8.26KB	8.26KB
+ip	32.80MB	32.79MB
+gulpif	13.81MB	13.74MB
+verror	64.50KB	64.44KB
+clitable2	22.92MB	22.79MB
+process	49.32MB	48.34MB
+i	670.13KB	670.13KB
+objectassign	22.81MB	22.72MB
+figlet	88.14MB	88.31MB
+rawloader	98.39MB	92.77MB
+sprintfjs	30.43MB	33.23MB
+gulpinstall	29.62MB	29.56MB
+reacttapeventplugin	4.69MB	4.69MB
+httpstatuscodes	105.62MB	105.89MB
+minimist	9.01MB	8.99MB
+invariant	144.55MB	143.77MB
+requestpromisenative	48.91MB	46.37MB
+yamljs	6.06MB	6.06MB
+safebuffer	17.84MB	17.84MB
+reactlifecyclescompat	45.33MB	46.80MB
+reflectmetadata	82.22MB	82.04MB
+postcssflexbugsfixes	27.77MB	27.79MB
+throttledebounce	105.78MB	105.78MB
+gulptemplate	41.03MB	40.74MB
+hyperquest	2.38MB	2.38MB
+xtend	93.60KB	93.60KB
+cryptojs		
+ncp	911.38KB	911.38KB
+jwtdecode	18.79MB	18.37MB
+childprocesspromise	18.47MB	18.43MB
+makedir	176.96MB	176.95MB
+crossenv	176.89MB	176.85MB
+camelcase	168.04MB	167.98MB
+approotpath	88.80MB	88.76MB
+pump	13.78KB	13.78KB
+stripjsoncomments	99.66MB	99.64MB
+oauth	110.00KB	110.00KB
+isplainobject	343.65MB	343.56MB
+componentemitter	6.32MB	6.32MB
+restler	45.14MB	45.13MB
+koamount	27.74MB	27.68MB
+ansiescapes	182.52MB	182.52MB
+findup	168.35MB	168.25MB
+getport	98.79MB	98.77MB
+nodedir	983.80KB	983.80KB
+progressbarwebpackplugin	13.64MB	13.64MB
+ini	95.96MB	96.12MB
+clipboardy	94.58MB	94.56MB
+koalogger	127.42MB	127.35MB
+classnames	84.40MB	84.24MB
+recursivereaddir	5.72MB	5.72MB
+getstdin	182.40MB	182.40MB
+figures	99.48MB	99.46MB
+prettybytes	99.47MB	99.45MB
+shellquote	2.38MB	2.38MB
+serializejavascript	16.06MB	15.47MB
+envify	3.81MB	3.81MB
+optimizecssassetswebpackplugin	84.06MB	76.21MB
+runsequence	6.93MB	6.93MB
+methods	23.00MB	22.99MB
+nomnom	29.47MB	29.47MB
+htmlentities	160.88MB	161.80MB
+xpath	69.76KB	69.76KB
+raf	29.75MB	29.45MB
+filesaver		
+flat	27.69MB	27.60MB
+vuehotreloadapi	41.25MB	40.27MB
+passportoauth	1.72MB	1.72MB
+markdown		
+findupsync	33.82MB	33.78MB
+webpacknodeexternals	33.53MB	33.38MB
+eslintpluginbabel	15.06MB	16.46MB
+nodeemoji	9.83MB	9.82MB
+logupdate	94.54MB	94.54MB
+syncrequest	84.20MB	84.20MB
+yosay	40.77MB	40.77MB
+isomorphicfetch	13.31MB	13.26MB
+temp	6.06MB	6.02MB
+wrench	66.89MB	66.80MB
+sourcemaploader	103.70MB	103.68MB
+mz	9.22MB	9.20MB
+deepextend	2.31MB	2.31MB
+objectpath	20.88MB	19.94MB
+detectport		
+gzipsize	174.04MB	174.03MB
+nodeuuid	1.10MB	1.10MB
+reduxthunk	115.47MB	110.81MB
+stripansi	182.43MB	182.43MB
+bcryptjs		
+koacompose	44.44MB	44.42MB
+deasync	768.82KB	768.82KB
+sanitizefilename	42.00MB	40.19MB
+mockjs	43.70MB	43.28MB
+koabodyparser	52.04MB	51.94MB
+gulpautoprefixer	138.19MB	138.10MB
+jestwatchtypeahead	155.99MB	156.25MB
+proptypes	50.71MB	50.41MB
+nopt	83.40MB	82.50MB
+resizeobserverpolyfill	82.97MB	81.36MB
+inflection	9.29MB	9.29MB
+es6promisify	57.98MB	57.52MB
+gulpfilter	131.15MB	131.07MB
+deepdiff	22.59MB	21.31MB
+gruntcontribconcat	25.82MB	25.82MB
+mkdirp	80.14MB	79.06MB
+util	41.08MB	41.09MB
+cleanwebpackplugin	135.06MB	135.05MB
+gruntcontribclean	166.26MB	166.19MB
+hexletpairs	78.86MB	78.89MB
+md5file	25.60MB	25.60MB
+global	422.51KB	422.51KB
+bs58	17.68MB	17.68MB
+bytes	32.23MB	32.19MB
+immutabilityhelper	84.69MB	84.66MB
+columnify	12.04MB	12.04MB
+busboy	71.04KB	71.04KB
+long	18.20MB	18.20MB
+crc		
+hiredis	427.98KB	427.98KB
+gruntcli	11.14MB	11.14MB
+split2	27.12MB	26.95MB
+tslib		
+colors	15.55MB	15.55MB
+events	40.67MB	40.68MB
+eslintpluginstandard	25.07MB	19.78MB
+unzip	1.83MB	1.81MB
+convertsourcemap	17.77MB	17.19MB
+tv4	27.27MB	27.02MB
+concatstream	2.58MB	2.58MB
+admzip	25.22MB	25.07MB
+base64js	29.03MB	29.00MB
+httpstatus	68.08MB	68.08MB
+ansicolors	8.57MB	8.57MB
+clitable		
+gulpconcat	17.39MB	17.37MB
+basicauth	26.42MB	26.40MB
+slugify	19.92MB	19.64MB
+babelplugindynamicimportnode	39.30MB	39.30MB
+nodestatic	25.38MB	25.35MB
+extractzip	143.42MB	143.42MB
+prettyms	169.30MB	169.20MB
+fastclick		
+optimist	1.08MB	1.08MB
+through	163.16KB	163.16KB
+jsonfile	23.15MB	23.13MB
+which	76.84MB	75.97MB
+watch	60.40KB	60.40KB
+webpacksources	116.23MB	116.29MB
+gaze	89.37MB	89.24MB
+httpsproxyagent		
+xml2json		
+dateformat	18.43MB	18.40MB
+koastatic	27.02MB	26.96MB
+portfinder	2.78MB	2.72MB
+parseurl	29.82MB	29.17MB
+he	21.19MB	21.19MB
+color	31.24MB	31.17MB
+brfs	28.79MB	28.75MB
+gruntcontribcopy	25.09MB	25.09MB
+hoistnonreactstatics	44.61MB	45.98MB
+argparse	25.32MB	25.32MB
+karmaphantomjslauncher		
+fresh	26.78MB	26.77MB
+passport	1.58MB	1.58MB
+pluralize	23.05MB	24.41MB
+boxen	189.01MB	188.99MB
+memoizeone	179.62MB	180.15MB
+flux		
+co	15.57MB	15.34MB
+amqplib		
+gulpbabel	44.80MB	44.81MB
+gulpplumber	38.39MB	38.35MB
+babelpluginaddmoduleexports	50.43MB	52.42MB
+tslintreact	55.99MB	56.16MB
+nodewatch	2.00MB	2.00MB
+etag	26.87MB	26.85MB
+promise	18.60MB	12.83MB
+changecase	62.37MB	56.83MB
+traverse	89.68KB	89.95KB
+css	7.35MB	7.35MB
+unistutilvisit	187.53MB	187.50MB
+dayjs	169.68MB	169.21MB
+tweetnacl	24.69MB	24.65MB
+promisepolyfill	127.70MB	127.26MB
+through2	399.59MB	399.41MB
+ms	32.57MB	33.96MB
+estraverse	18.87MB	18.86MB
+prompts	15.18MB	12.43MB
+rolluppluginutils		
+intl	166.00MB	165.97MB
+postcsspresetenv	34.23MB	34.22MB
+listr	165.11MB	164.92MB
+nib	8.80MB	8.76MB
+ora	187.52MB	187.51MB
+del	168.49MB	168.39MB
+opn	182.54MB	182.54MB
+open	182.54MB	182.54MB
+multer	27.50MB	27.42MB
+htmlloader	119.34MB	116.76MB
+string	94.68MB	45.39MB
+jsonschema	42.04MB	41.66MB
+imageminpngquant	166.05MB	165.92MB
+webpackmanifestplugin	93.81MB	100.60MB
+prompt	1.07MB	1.07MB
+shortid	194.54MB	193.86MB
+sax	33.10MB	27.16MB
+dotenv	257.20MB	192.36MB
+bignumberjs		
+vuestyleloader	29.24MB	29.27MB
+npmlog	75.77MB	70.48MB
+loglevel	132.68MB	131.66MB
+bl	18.73MB	18.73MB
+forktscheckerwebpackpluginalt	115.34MB	115.39MB
+eslintpluginprettier		
+plist	60.86MB	60.26MB
+normalizeurl	100.94MB	100.92MB
+whatwgfetch	126.30MB	126.18MB
+clone	16.95MB	16.37MB
+swprecachewebpackplugin	50.08MB	51.41MB
+assert	46.16MB	46.00MB
+json5	236.14MB	234.63MB
+loaderutils	66.03MB	65.96MB
+underscorestring	32.93MB	32.88MB
+vinyl	30.13MB	30.04MB
+cookie	27.18MB	27.18MB
+prettyjson	17.28MB	17.27MB
+jasmine	20.24MB	20.24MB
+koabody	15.79MB	15.68MB
+pako	46.22MB	46.16MB
+meow	183.61MB	183.61MB
+numeral	93.92MB	93.52MB
+gulppostcss	46.63MB	46.62MB
+frontmatter	137.89MB	137.28MB
+urlloader	98.42MB	92.80MB
+reselect		
+objecthash	57.06MB	56.35MB
+cli	202.23KB	202.23KB
+minimatch	20.05MB	20.05MB
+minicssextractplugin	132.23MB	132.26MB
+eslintpluginpromise	131.45MB	130.74MB
+nodecache	82.31MB	79.91MB
+fortawesomereactfontawesome	120.43MB	118.02MB
+momenttimezone	122.85MB	122.85MB
+clicolor	34.15MB	34.14MB
+nodeschedule	44.99MB	44.75MB
+chaiaspromised	18.99MB	20.20MB
+d3shape	21.69MB	21.40MB
+rolluppluginnoderesolve	74.88MB	75.42MB
+gruntcontribwatch	41.08MB	40.94MB
+postcsssafeparser	167.54MB	167.29MB
+configstore	126.70MB	126.70MB
+fstream	23.61MB	19.27MB
+sinonchai	34.55MB	34.32MB
+reduxactions		
+cron	74.59MB	74.86MB
+broccolimergetrees	33.91MB	34.15MB
+karmamocha	80.21MB	85.27MB
+extend	28.53MB	28.37MB
+globby	164.19MB	164.16MB
+rc	55.81KB	55.81KB
+prismjs	85.74MB	85.61MB
+faker	131.13MB	128.45MB
+supportscolor	126.56MB	126.56MB
+babelify	73.25MB	73.16MB
+jszip	41.59MB	39.39MB
+typescripteslintparser	206.04MB	205.70MB
+typescripteslinteslintplugin	206.04MB	205.70MB
+mapstream	1.12MB	1.12MB
+tarfs	22.95MB	22.81MB
+deepmerge	32.33MB	31.47MB
+gulpcleancss	41.01MB	40.73MB
+genericpool	75.06MB	75.06MB
+rimraf	21.04MB	20.91MB
+sourcemapsupport	31.52MB	27.62MB
+deepequal	33.09MB	33.09MB
+recompose		
+postcssnested	172.56MB	171.15MB
+inquirerautocompleteprompt	128.81MB	127.16MB
+JSONStream	1.47MB	1.47MB
+babelpluginimport		
+bip39	63.98MB	64.02MB
+bufferutil	20.56MB	20.53MB
+readlinesync		
+backbone	54.54MB	54.13MB
+websocket	14.38MB	14.25MB
+toughcookie	34.35MB	34.35MB
+gulpshell	114.43MB	114.58MB
+stylelintorder	144.71MB	144.71MB
+tracer	95.25MB	89.16MB
+extracttextwebpackplugin	88.84MB	81.91MB
+formdata	415.20MB	414.97MB
+eventemitter2	78.22MB	77.94MB
+d3array	31.34MB	30.32MB
+vueclasscomponent		
+gruntcontribjshint	75.00MB	74.81MB
+depd	35.75MB	35.46MB
+pathtoregexp	143.42MB	143.70MB
+tmp	35.42MB	34.83MB
+xmldom	83.75MB	82.88MB
+graphqltag	96.04MB	95.78MB
+gulpless	15.66MB	15.60MB
+xregexp	274.74MB	271.72MB
+gulputil	19.14MB	19.13MB
+gracefulfs	61.85MB	61.46MB
+graymatter	15.36MB	15.36MB
+gulploadplugins	27.61MB	27.61MB
+stylusloader	108.40MB	108.38MB
+vuepropertydecorator	117.96MB	118.01MB
+diff	90.76MB	93.70MB
+jsbase64	58.49MB	58.49MB
+karmachromelauncher	55.28MB	55.17MB
+babelpresetenv	103.67MB	105.44MB
+lrucache	86.18MB	82.57MB
+metalsmith	22.32MB	22.32MB
+onfinished	31.17MB	31.17MB
+pngjs	383.43MB	383.27MB
+mime	31.16MB	26.53MB
+mustache	450.92MB	444.69MB
+asyncvalidator	170.67MB	170.67MB
+liftoff	32.80MB	32.71MB
+inert	24.43MB	24.43MB
+uglifyjswebpackplugin	94.89MB	91.46MB
+decompress	127.69MB	127.64MB
+fluentffmpeg	14.60MB	14.60MB
+gulpsass	41.99MB	41.90MB
+filesize	111.75MB	111.58MB
+blessed		
+followredirects	27.90MB	27.51MB
+iconvlite		
+broccolifunnel	53.65MB	51.94MB
+grpc	113.58MB	113.53MB
+slug	87.20MB	81.10MB
+gulpjshint	12.19MB	12.12MB
+requestpromise	48.91MB	46.37MB
+bulma	21.73MB	21.67MB
+xhr	356.40MB	356.60MB
+execa	192.11MB	192.09MB
+querystring	100.56MB	100.54MB
+webpackhotmiddleware	72.17MB	65.05MB
+nconf	50.96MB	48.61MB
+urijs	8.53MB	8.53MB
+chalk	186.97MB	186.97MB
+fileloader	98.40MB	92.78MB
+crossspawn	83.02MB	82.64MB
+gulpimagemin	64.58MB	64.56MB
+ghpages	40.90MB	40.88MB
+bytebuffer		
+xmljs	177.77MB	145.34MB
+cors	29.52MB	29.19MB
+updatenotifier	131.09MB	131.08MB
+install	10.35MB	10.30MB
+clipboard	142.82MB	138.60MB
+connectredis	42.08MB	42.08MB
+is	39.57MB	39.38MB
+jasminecore	78.46MB	78.46MB
+parse5	58.49MB	56.54MB
+reacticons		
+reduxlogger	45.34MB	44.95MB
+babelpluginmoduleresolver	132.33MB	135.39MB
+karmajasmine	40.65MB	40.33MB
+gulpnotify	18.14MB	18.11MB
+supertest	34.47MB	34.22MB
+sourcemap		
+split	1.08MB	1.08MB
+pullstream	14.96MB	14.96MB
+commandlineusage	23.31MB	23.33MB
+winstondailyrotatefile	27.31MB	27.18MB
+reacthelmet	83.05MB	73.38MB
+d3selection	31.93MB	31.87MB
+gulpuglify	32.61MB	32.42MB
+fastglob	91.94MB	91.62MB
+eslintloader	107.60MB	99.06MB
+nodeextend	39.60MB	39.42MB
+httpserver	43.51MB	41.09MB
+fsevents		
+reacttransitiongroup		
+vueloader	243.05MB	240.43MB
+cookieparser	33.46MB	32.86MB
+gm	6.03MB	5.97MB
+fbjs	30.05MB	30.05MB
+gruntcontribuglify	76.95MB	76.86MB
+reactonclickoutside	83.65MB	83.63MB
+shelljs	41.08MB	41.06MB
+typesnode	113.32MB	113.26MB
+typesreact	113.32MB	113.26MB
+typeslodash	113.32MB	113.26MB
+gulpsourcemaps	47.61MB	47.59MB
+typesexpress	113.32MB	113.26MB
+typesreactdom	113.32MB	113.26MB
+hammerjs	85.31MB	85.29MB
+typesjest	113.32MB	113.26MB
+typesjquery	113.32MB	113.26MB
+typesfsextra	113.32MB	113.26MB
+level	61.12MB	60.89MB
+typescordova	113.32MB	113.26MB
+typesjasmine	113.32MB	113.26MB
+typesrequest	113.32MB	113.26MB
+typesuuid	113.32MB	113.26MB
+dockerode	9.51MB	9.36MB
+typesbluebird	113.32MB	113.26MB
+phosphorwidgets	912.37MB	962.36MB
+typesmocha	113.32MB	113.26MB
+styleloader	128.41MB	127.60MB
+sockjsclient	47.61MB	45.94MB
+underscore	75.63MB	72.91MB
+q	20.09MB	20.09MB
+servefavicon	23.64MB	23.62MB
+d3scale	23.42MB	23.44MB
+rolluppluginbabel	47.33MB	47.66MB
+watchify	14.07MB	14.06MB
+axios	140.16MB	140.11MB
+workboxwebpackplugin	228.48MB	230.14MB
+babelplugintransformreactremoveproptypes	38.63MB	39.84MB
+gulpeslint	38.32MB	32.71MB
+terserwebpackplugin	147.84MB	147.82MB
+httpproxymiddleware	166.50MB	166.44MB
+formidable	72.63MB	72.78MB
+litelement	276.85MB	274.18MB
+ssh2	11.67MB	11.67MB
+reactmotion		
+domhelpers		
+uuid	117.05MB	88.42MB
+lessloader	97.46MB	97.43MB
+nunjucks	95.11MB	94.73MB
+stylelintconfigstandard	135.63MB	134.57MB
+chance	99.46MB	98.56MB
+showdown	186.91MB	178.82MB
+jscookie		
+coveralls	54.16MB	53.99MB
+boom	77.86MB	77.86MB
+connectmongo	143.89MB	143.24MB
+nan	9.58MB	9.58MB
+urlparse	44.56MB	44.46MB
+draftjs		
+debug	64.31MB	64.23MB
+bcrypt	66.56MB	66.17MB
+rollupplugincommonjs	89.62MB	90.09MB
+jqueryui	417.10MB	417.07MB
+swig	48.59MB	43.15MB
+localforage	482.39MB	469.07MB
+gulpwatch	116.52MB	116.53MB
+cosmiconfig	138.69MB	138.69MB
+babelpluginlodash	31.71MB	27.11MB
+consolidate		
+jsonwebtoken	49.38MB	49.25MB
+nodenotifier	73.13MB	73.14MB
+leaflet	81.31MB	81.26MB
+xml2js	21.20MB	21.10MB
+eslintpluginnode		
+csv	85.11MB	85.05MB
+yargsparser	537.28MB	531.15MB
+commontags	72.83MB	71.93MB
+imagemin	135.36MB	135.30MB
+semver	80.12MB	79.09MB
+forktscheckerwebpackplugin	283.55MB	283.66MB
+yaml	132.76MB	132.77MB
+rx	357.12MB	357.11MB
+phantomjsprebuilt	31.74MB	31.70MB
+phantomjs	31.74MB	31.70MB
+needle	11.71MB	11.68MB
+ethereumjstx		
+accepts	30.02MB	29.65MB
+reactmarkdown	187.54MB	187.50MB
+es6promise	51.83MB	55.13MB
+eventstream	1.94MB	1.94MB
+bnjs	27.36MB	22.67MB
+micromatch	8.85MB	8.85MB
+errorhandler	32.50MB	31.91MB
+eslintpluginflowtype	155.80MB	155.52MB
+nedb	5.09MB	5.09MB
+jsyaml	42.56MB	42.50MB
+eventemitter3	44.55MB	44.45MB
+elliptic	78.44MB	77.70MB
+copywebpackplugin	102.84MB	102.82MB
+escodegen	45.22MB	44.81MB
+svgo	118.27MB	118.01MB
+vinylfs	42.31MB	42.16MB
+commander	172.73MB	171.98MB
+popperjs		
+cuid	121.45MB	112.78MB
+secp256k1	43.03MB	42.80MB
+vuex		
+postcssimport	38.27MB	38.27MB
+polished	290.78MB	291.11MB
+htmlparser2	120.68MB	119.53MB
+webpackbundleanalyzer	196.50MB	195.84MB
+npmrunall	47.49MB	47.46MB
+fusejs	221.39MB	220.85MB
+nodefetch	177.55MB	177.34MB
+eslintconfigstandard	16.15MB	16.15MB
+rcutil		
+postcssloader	179.37MB	177.71MB
+lowdb	108.23MB	108.23MB
+jshint	631.85MB	631.77MB
+eslintpluginjest		
+resolve	24.09MB	24.00MB
+highlightjs	107.69MB	107.71MB
+qs	42.18MB	42.15MB
+koarouter	29.16MB	29.14MB
+finalhandler	31.42MB	30.77MB
+readablestream	123.39MB	122.91MB
+jimp		
+reactdropzone		
+istanbul	29.89MB	29.31MB
+typeis	33.81MB	33.53MB
+serveindex	29.16MB	29.16MB
+chai	46.35MB	44.68MB
+gulptypescript	60.24MB	57.84MB
+xmlbuilder	26.53MB	26.44MB
+shallowequal	143.33MB	143.57MB
+acorn	252.85MB	252.79MB
+soap	102.50MB	97.37MB
+download	50.42MB	50.41MB
+chartjs	205.12MB	203.22MB
+sanitizehtml	28.26MB	27.98MB
+protobufjs	103.04MB	103.02MB
+eslintpluginvue		
+bizcharts		
+stylelintscss	80.24MB	79.54MB
+glob	81.75MB	81.27MB
+ramda	148.54MB	87.99MB
+esprima	222.75MB	219.34MB
+immer		
+crossfetch	456.91MB	456.72MB
+webpackmerge	231.13MB	225.87MB
+config	42.47MB	42.47MB
+markdownit	63.38MB	62.50MB
+hoek	77.82MB	77.83MB
+rsvp	72.37MB	76.15MB
+csvparse	99.81MB	99.75MB
+vorpal	53.86MB	53.85MB
+mssql	40.45MB	39.49MB
+bunyan	24.49MB	23.94MB
+eslintconfigprettier	154.49MB	137.28MB
+ethereumjsutil		
+morgan	35.71MB	35.42MB
+tar	97.68MB	97.27MB
+httpproxy	17.16MB	16.82MB
+htmlwebpackplugin		
+should	111.87MB	111.64MB
+reactcolor		
+vuerouter	259.02MB	257.54MB
+highland	135.23MB	121.49MB
+objectassign	51.15MB	51.01MB
+redis	48.13MB	48.13MB
+commandlineargs	21.15MB	21.15MB
+husky	180.04MB	179.91MB
+reactredux	300.98MB	300.98MB
+reactdevutils	735.50MB	735.50MB
+babelpresetreactapp	735.50MB	735.50MB
+eslintconfigreactapp	735.50MB	735.50MB
+reactscripts	735.50MB	735.50MB
+jsbeautify	34.56MB	34.54MB
+babelpluginnamedassetimport	735.50MB	735.50MB
+reactapppolyfill	735.50MB	735.50MB
+postcsscssnext	138.86MB	132.81MB
+coffeescript	366.46MB	365.31MB
+handlebars	392.24MB	337.21MB
+firebaseadmin	241.78MB	236.22MB
+firebase		
+reactmodal	115.93MB	113.81MB
+reactnativevectoricons	58.30MB	58.35MB
+fsextra	35.74MB	35.74MB
+bson	210.82MB	153.98MB
+moment	142.72MB	139.93MB
+winston	67.05MB	34.36MB
+sassloader	181.89MB	181.86MB
+mysql	17.83MB	17.83MB
+archiver	17.14MB	16.97MB
+oclifpluginhelp	113.34MB	113.36MB
+gulp	34.34MB	34.24MB
+nodepregyp	82.44MB	82.03MB
+xlsx	75.33MB	75.24MB
+babelloader		
+servestatic	31.65MB	31.00MB
+cleancss	18.85MB	18.73MB
+mimetypes	30.35MB	30.35MB
+cheerio	149.38MB	149.39MB
+datefns		
+canvas	98.25MB	98.24MB
+nodegyp	88.45MB	88.45MB
+rcslider	44.54MB	71.33MB
+jquery	67.57MB	67.38MB
+async	80.47MB	66.22MB
+koa	120.25MB	119.70MB
+rawbody	32.00MB	31.40MB
+reactslick		
+enzyme	130.60MB	
+cssloader		
+inquirer	125.57MB	124.80MB
+compression	31.96MB	31.37MB
+urllib	94.81MB	94.54MB
+reactstrap		
+vuei18n		
+stylus	10.78MB	10.70MB
+redux	160.37MB	160.00MB
+tape	38.28MB	38.19MB
+typescript	165.55MB	159.48MB
+grunt	98.44MB	98.44MB
+nodemon	40.72MB	31.78MB
+imagesize	111.26MB	111.26MB
+lintstaged	77.54MB	76.71MB
+marked	102.63MB	72.82MB
+babeleslint	45.39MB	45.10MB
+htmlminifier	52.51MB	50.22MB
+cssnano		
+filetype	99.12MB	99.10MB
+eslintpluginjsxa11y	187.29MB	187.29MB
+send	31.48MB	30.84MB
+immutable		
+sqlite3	80.14MB	80.10MB
+tsloader		
+tslintconfigprettier		
+es6shim	86.03MB	86.00MB
+simplegit	98.79MB	98.88MB
+codemirror	335.94MB	335.94MB
+polymerpolymer	338.19MB	294.37MB
+reactdnd		
+reactdndhtml5backend		
+three	56.86MB	56.57MB
+angular		
+angularanimate		
+less	61.90MB	63.32MB
+expresssession	30.57MB	30.57MB
+tsnode	296.00MB	292.01MB
+chokidar	101.01MB	100.64MB
+buffer	48.90MB	48.91MB
+levelup	68.82MB	68.61MB
+log4js	101.87MB	102.91MB
+yeomanenvironment	161.72MB	161.33MB
+ioredis	113.46MB	111.96MB
+uglifyjs	509.72KB	509.72KB
+history	193.14MB	192.90MB
+mqtt	128.67MB	128.24MB
+validator		
+alifdnext		
+reacthotloader		
+apollolink		
+apollolinkhttp		
+iview		
+superagent	242.18MB	240.10MB
+emberclibabel	122.46MB	113.72MB
+elementui		
+cliux	97.29MB	98.25MB
+vue	540.02MB	541.15MB
+nodemailer	35.43MB	35.39MB
+vuetemplatecompiler	540.02MB	541.15MB
+jade	58.57MB	58.38MB
+awesometypescriptloader	82.01MB	82.08MB
+mobxreact	529.69MB	531.35MB
+web3		
+bluebird	61.59MB	63.16MB
+helmet	121.27MB	121.27MB
+jsdoc	86.92MB	80.03MB
+tslint		
+eslintpluginreact	109.57MB	109.44MB
+mysql2	97.14MB	107.74MB
+ejs	34.34MB	33.10MB
+socketioclient		
+socketio	163.69MB	159.38MB
+joi	78.22MB	78.23MB
+yeomangenerator	232.72MB	235.29MB
+systemjs	41.72MB	41.57MB
+nodeforge	55.39MB	55.37MB
+oclifcommand	116.42MB	117.18MB
+bodyparser	34.81MB	34.52MB
+nodesass	33.35MB	33.30MB
+elasticsearch	127.01MB	126.87MB
+inversify	138.23MB	137.02MB
+webpackcli	206.15MB	206.00MB
+leveldown	226.72MB	226.68MB
+nodegit	203.61MB	196.33MB
+babylon	216.04MB	216.05MB
+d3	14.75MB	14.63MB
+pino	77.17MB	76.97MB
+sharp	186.21MB	185.99MB
+discordjs	152.93MB	152.84MB
+eslintpluginimport	108.97MB	108.96MB
+serialport	231.51MB	219.46MB
+ws	46.40MB	46.12MB
+nanoid		
+raven		
+puppeteer	168.40MB	168.11MB
