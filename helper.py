@@ -136,3 +136,12 @@ def IFF(statement, true_val, false_val):
         return true_val
     else:
         return false_val
+
+
+def add_count(dict, val):
+    """Add count of `val` in `dict`"""
+    if val in dict:
+        dict[val] += 1
+    else:
+        dict[val] = 1
+    return dict
