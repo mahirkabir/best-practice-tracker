@@ -18,6 +18,8 @@ TEST_FALSE = "FAILED"
 
 TAG_DEPENDENCIES = "dependencies"
 TAG_DEVDEPENDENCIES = "devDependencies"
+TAG_SCRIPTS = "scripts"
+TAG_BUILD_SCRIPTS = "build"
 
 TECH_TILDE = "tilde"
 TECH_CARET = "caret"
@@ -26,3 +28,5 @@ TECH_LT_GT = "lt-gt"
 TECH_OTHERS = "others"
 
 DDP_DEDUPED = "deduped"
+
+ERROR_CODE_NOT_FOUND = 404
