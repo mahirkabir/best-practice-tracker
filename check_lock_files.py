@@ -165,7 +165,6 @@ if __name__ == "__main__":
     writer.close()
 
     range_limit = 50
-    repos_sz = 1
     for i in range(0, repos_sz, range_limit):
         print("Processing repo [%s..%s]:" % (str(i), str(i + range_limit - 1)))
 
