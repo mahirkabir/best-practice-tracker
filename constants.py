@@ -20,6 +20,7 @@ TAG_DEPENDENCIES = "dependencies"
 TAG_DEVDEPENDENCIES = "devDependencies"
 TAG_SCRIPTS = "scripts"
 TAG_BUILD_SCRIPTS = "build"
+TAG_EMPTY = "empty"
 
 TECH_TILDE = "tilde"
 TECH_CARET = "caret"
