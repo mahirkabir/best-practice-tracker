@@ -5,6 +5,7 @@ import os
 import constants
 import re
 from tqdm import tqdm
+import helper
 
 
 def is_totally_fixed(package_json, section):
@@ -66,7 +67,9 @@ def get_lock_file_info(repo_link):
     return result
 
 
-if __name__ == "__main__":
+if __name__ == "__main__OFF":
+    """"Check the existence of lock file in repos
+    NOTE: Activate this main function to check lock file existence"""
     reader = open(os.path.join("data", "npm_rank_sorted.txt"), "r")
 
     repos = reader.readlines()
@@ -93,3 +96,131 @@ if __name__ == "__main__":
         writer.close()
 
     reader.close()
+
+
+def get_lock_file_repos(org_repos, path):
+    """Filter the repos by keeping only the ones with lock file(s)"""
+    dict_org_repo_lock_files = {}
+    reader = open(path, "r")
+    lines = reader.readlines()[1:]
+    reader.close()
+    for line in lines:
+        parts = line.split("\t")
+        dict_org_repo_lock_files[parts[0]] = []
+
+        if parts[1] == "1":
+            dict_org_repo_lock_files[parts[0]].append("package-lock.json")
+        if parts[2] == "1":
+            dict_org_repo_lock_files[parts[0]].append("npm-shrinkwrap.json")
+        if parts[3] == "1":
+            dict_org_repo_lock_files[parts[0]].append("yarn.lock")
+
+    dict_repo_lock_files = {}
+    repos = []
+    for repo in org_repos:
+        if repo["name"] in dict_org_repo_lock_files and len(dict_org_repo_lock_files[repo["name"]]) > 0:
+            repos.append(repo)
+            dict_repo_lock_files[repo["name"]
+                                 ] = dict_org_repo_lock_files[repo["name"]]
+
+    return dict_org_repo_lock_files, repos
+
+
+def get_commit_info(repo_loc, lock_file):
+    """Find first commit no. and order for `lock_file`"""
+    commit = ""
+    order = -1
+
+    total_commits = order = helper.execute_cmd(
+        repo_loc, "git rev-list --count HEAD")[1].replace("\n", "")
+    result = helper.execute_cmd(
+        repo_loc, "git log --diff-filter=A -- " + lock_file)
+    commit = result[1].split("\n")[0].split(" ")[1]
+
+    helper.execute_cmd(repo_loc, "git checkout " + commit)
+    order = helper.execute_cmd(
+        repo_loc, "git rev-list --count HEAD")[1].replace("\n", "")
+
+    return commit, order,  total_commits
+
+
+if __name__ == "__main__":
+    """Check when the lock file was introduced first
+    NOTE: Activate this main function to check the inital commit of lock file"""
+
+    dataset_path = helper.get_config("PATHS", "DATASET_PATH")
+    org_repos = helper.get_repos(os.path.join(
+        ".", "data", "npm_rank_sorted.txt"))
+
+    dict_repo_lock_files, repos = get_lock_file_repos(org_repos, os.path.join(
+        "results", "paper_data", "repo_lock_files.txt"
+    ))
+
+    repos_sz = len(repos)
+
+    writer = open(os.path.join("results", "paper_data",
+                               "lock_file_init_commit.txt"), "w", encoding="utf-8")
+    writer.write(
+        "Repository\tLock File\tCommit No.\tCommit Order(Total)\n")
+    writer.close()
+
+    range_limit = 50
+    repos_sz = 1
+    for i in range(0, repos_sz, range_limit):
+        print("Processing repo [%s..%s]:" % (str(i), str(i + range_limit - 1)))
+
+        # First clone the (<= range_limit) repositories in dataset folder
+        left_repos = min(i + range_limit, repos_sz)
+        for j in tqdm(range(i, left_repos)):
+            repo = repos[j]
+
+            try:
+                repo["name"] = helper.clone_repo_to_dir(
+                    dataset_path, repo["url"], repo["name"])
+
+            except Exception as ex:
+                print("Error cloning [%s]: %s" % (repo["name"], str(ex)))
+
+        # Process each one of the cloned repositories
+        for j in tqdm(range(i, left_repos)):
+            repo = repos[j]
+
+            repo_loc = os.path.join(dataset_path, repo["name"])
+            try:
+                """
+                1. For each lock file, find the initial commit of the lock file
+                2. Checkout the commit
+                3. Check the commit count till that commit
+                4. Record the info
+                """
+
+                lock_files = dict_repo_lock_files[repo["name"]]
+
+                for lock_file in lock_files:
+                    result = {"name": repo["name"], "lock-type": lock_file, "first-commit": "",
+                              "commit-order": ""}
+
+                    result["first-commit"], result["commit-order"], total_commits = get_commit_info(
+                        repo_loc, lock_file)
+
+                    writer = open(os.path.join("results", "paper_data",
+                                               "lock_file_init_commit.txt"), "a", encoding="utf-8")
+                    writer.write(
+                        "%s\t%s\t%s\t%s(%s)\n" % (result["name"], result["lock-type"],
+                                                  result["first-commit"], result["commit-order"],
+                                                                              str(total_commits)))
+                    writer.close()
+
+            except Exception as ex:
+                print("Error processing [%s]: %s" % (repo["name"], str(ex)))
+
+        # Delete the (<= range_limit) repositories in dataset folder
+        for j in tqdm(range(i, left_repos)):
+            repo = repos[j]
+
+            try:
+                helper.remove_folder(
+                    dataset_path, repo["name"])
+
+            except Exception as ex:
+                print("Error deleting [%s]: %s" % (repo["name"], str(ex)))
