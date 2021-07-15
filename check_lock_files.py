@@ -131,17 +131,30 @@ def get_commit_info(repo_loc, lock_file):
     commit = ""
     order = -1
 
-    total_commits = order = helper.execute_cmd(
-        repo_loc, "git rev-list --count HEAD")[1].replace("\n", "")
+    # total_commits = order = helper.execute_cmd(
+    #     repo_loc, "git rev-list --count HEAD")[1].replace("\n", "")
     result = helper.execute_cmd(
         repo_loc, "git log --diff-filter=A -- " + lock_file)
     commit = result[1].split("\n")[0].split(" ")[1]
 
-    helper.execute_cmd(repo_loc, "git checkout " + commit)
-    order = helper.execute_cmd(
-        repo_loc, "git rev-list --count HEAD")[1].replace("\n", "")
+    # NOTE: Was used to find the order of the commit
+    # helper.execute_cmd(repo_loc, "git checkout " + commit)
+    # order = helper.execute_cmd(
+    #     repo_loc, "git rev-list --count HEAD")[1].replace("\n", "")
 
-    return commit, order,  total_commits
+    parts = result[1].split("\n")
+    for part in parts:
+        const_str = "Date:   "
+        if const_str in part:
+            part = part.replace(const_str, "")
+            date_parts = part.split(" ")
+            month = date_parts[1]
+            year = date_parts[-2]           
+            time = month + "||" + year
+
+
+    # return commit, order,  total_commits
+    return commit, time
 
 
 if __name__ == "__main__":
@@ -161,7 +174,7 @@ if __name__ == "__main__":
     writer = open(os.path.join("results", "paper_data",
                                "lock_file_init_commit.txt"), "w", encoding="utf-8")
     writer.write(
-        "Repository\tLock File\tCommit No.\tCommit Order(Total)\n")
+        "Repository\tLock File\tCommit No.\tCommit Time\n")
     writer.close()
 
     range_limit = 50
@@ -197,17 +210,16 @@ if __name__ == "__main__":
 
                 for lock_file in lock_files:
                     result = {"name": repo["name"], "lock-type": lock_file, "first-commit": "",
-                              "commit-order": ""}
+                              "commit-time": ""}
 
-                    result["first-commit"], result["commit-order"], total_commits = get_commit_info(
+                    result["first-commit"], result["commit-time"] = get_commit_info(
                         repo_loc, lock_file)
 
                     writer = open(os.path.join("results", "paper_data",
                                                "lock_file_init_commit.txt"), "a", encoding="utf-8")
                     writer.write(
-                        "%s\t%s\t%s\t%s(%s)\n" % (result["name"], result["lock-type"],
-                                                  result["first-commit"], result["commit-order"],
-                                                                              str(total_commits)))
+                        "%s\t%s\t%s\t%s\n" % (result["name"], result["lock-type"],
+                                                  result["first-commit"], result["commit-time"]))
                     writer.close()
 
             except Exception as ex:
