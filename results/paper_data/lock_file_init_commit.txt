@@ -291,3 +291,6 @@ reactapollo	package-lock.json	ed75b71f3f166a0921d89dc89dfaa7b0d908dde3	Jul||2017
 apolloclient	package-lock.json	7947c985a81477d8b22e6f91cf7d84cedf219aca	Jun||2017
 apollocacheinmemory	package-lock.json	7947c985a81477d8b22e6f91cf7d84cedf219aca	Jun||2017
 npm	package-lock.json	af71102dd6173226bce79e7ef6d66a63843fdf23	May||2017
+typescript	package-lock.json	5bcb353e18aeefcddbc9eadb8bdbae8c11c59d10	Oct||2017
+seleniumwebdriver	package-lock.json	44a65458205d105a528722df7b4b1e9e9ddf0f81	May||2019
+three	package-lock.json	2ca5f65662a1ecfa6ce01598a7578baff078f217	May||2018
