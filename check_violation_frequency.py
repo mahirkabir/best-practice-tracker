@@ -73,7 +73,7 @@ if __name__ == "__main__":
     repos_sz = len(repos)
 
     result = {"unused": 0, "duplicate": 0, "vulnerable": 0,
-              "duplicate-fixed": 0, "vulnerable-fixed": 0}
+              "duplicate-fixed": 0, "duplicate-part-fixed": 0, "vulnerable-fixed": 0}
 
     for repo in tqdm(repos):
         unused_cnt = count_unused(os.path.join(
@@ -100,6 +100,9 @@ if __name__ == "__main__":
         # if all duplicates are fixed
         result["duplicate-fixed"] += int(duplicate_cnt >
                                          0 and fixed_duplicate_cnt == 0)
+        result["duplicate-part-fixed"] += int(
+            duplicate_cnt > 0 and fixed_duplicate_cnt < duplicate_cnt)
+
         # if all vulnerabilities are fixed
         result["vulnerable-fixed"] += int(vulnerable_cnt >
                                           0 and fixed_vulnerable_cnt == 0)
