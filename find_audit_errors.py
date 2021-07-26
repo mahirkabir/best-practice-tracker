@@ -49,9 +49,9 @@ if __name__ == "__main__":
 
     keywords = ["is not recognized as an internal or external command",
                 "resolve dependency", "no such file or directory", "Unsupported URL Type",
-                "git dep preparation failed", "Cannot destructure property", "up to date",
+                "git dep preparation failed", "Cannot destructure property",
                 "Cannot convert undefined or null to object", "a package version that doesn't exist", 
-                "Unsupported platform", "Could not read from remote repository"]
+                "Unsupported platform", "Could not read from remote repository", "up to date"]
 
     dict_keyword_frequency = {}
     for keyword in keywords:
