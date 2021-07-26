@@ -9,6 +9,12 @@ def get_audit(repo_loc):
     """Run `npm audit` and return the result. True if no vulnerability detected"""
     result = helper.execute_cmd(repo_loc, "npm audit")
     # ommitting found from regex pattern as it doesn't always appear ***for > 0 vulnerabilities***
+
+    # TODO:
+    """
+    "Severity: ", "fix available" - look for these strings in result[1]
+    """
+
     vul_search_res = re.search("\d+ vulnerabilities", result[1])
 
     if vul_search_res:
