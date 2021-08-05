@@ -165,7 +165,7 @@ if __name__ == "__main__":
                     result = {"name": repo["name"], "tag": tag["tag"], "initial": "", "package-lock": "",
                               "audit-fix": "", "audit-fix-force": ""}
                     install_lock_output = ["", ""]
-                    fix_audit_output = ["", ""]
+                    fix_audit_output = ["", ""]   
 
                     init_audit_result = get_audit(repo_loc)
 
