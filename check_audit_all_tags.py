@@ -97,7 +97,8 @@ if __name__ == "__main__":
     repos = []
     for repo in org_repos:
         if dict_auditable_repos[repo["name"]]:
-            repos.append(repo)
+            if not os.path.isdir(os.path.join("results", "audit_checker_all_tags", repo["name"])):
+                repos.append(repo)
 
     repos_sz = len(repos)
 
@@ -126,8 +127,8 @@ if __name__ == "__main__":
             repo = repos[j]
 
             try:
-                # repo["name"] = helper.clone_repo_to_dir(
-                #     dataset_path, repo["url"], repo["name"])
+                repo["name"] = helper.clone_repo_to_dir(
+                    dataset_path, repo["url"], repo["name"])
 
                 dict_tags[repo["name"]] = get_tags(
                     os.path.join(dataset_path, repo["name"]), 5)
@@ -150,6 +151,10 @@ if __name__ == "__main__":
 
             repo_loc = os.path.join(dataset_path, repo["name"])
 
+            if not repo["name"] in dict_tags:
+                print(repo["name"] + " does not exist in dictionary")
+                continue
+
             for tag in dict_tags[repo["name"]]:
                 repo_name = repo["name"] + "-" + tag["tag"]
                 helper.execute_cmd(repo_loc, "git checkout tags/" + tag["tag"])
@@ -165,7 +170,7 @@ if __name__ == "__main__":
                     result = {"name": repo["name"], "tag": tag["tag"], "initial": "", "package-lock": "",
                               "audit-fix": "", "audit-fix-force": ""}
                     install_lock_output = ["", ""]
-                    fix_audit_output = ["", ""]   
+                    fix_audit_output = ["", ""]
 
                     init_audit_result = get_audit(repo_loc)
 
@@ -229,13 +234,13 @@ if __name__ == "__main__":
                     print("Error processing [%s]: %s" %
                           (repo["name"], str(ex)))
 
-        # # Delete the (<= range_limit) repositories in dataset folder
-        # for j in tqdm(range(i, left_repos)):
-        #     repo = repos[j]
+        # Delete the (<= range_limit) repositories in dataset folder
+        for j in tqdm(range(i, left_repos)):
+            repo = repos[j]
 
-        #     try:
-        #         helper.remove_folder(
-        #             dataset_path, repo["name"])
+            try:
+                helper.remove_folder(
+                    dataset_path, repo["name"])
 
-        #     except Exception as ex:
-        #         print("Error deleting [%s]: %s" % (repo["name"], str(ex)))
+            except Exception as ex:
+                print("Error deleting [%s]: %s" % (repo["name"], str(ex)))

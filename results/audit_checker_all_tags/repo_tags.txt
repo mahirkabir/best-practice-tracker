@@ -568,3 +568,79 @@ lodashisfunction	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
 lodashisstring	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
 lodashtemplate	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
 lodashisempty	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+fontawesome	5.15.3|5.15.2|5.15.1|5.15.0|5.14.0|
+fortawesomefontawesomesvgcore	5.15.3|5.15.2|5.15.1|5.15.0|5.14.0|
+fortawesomefreesolidsvgicons	5.15.3|5.15.2|5.15.1|5.15.0|5.14.0|
+crypto	
+fs	
+http	
+childprocess	
+passportstrategy	v1.0.0|
+os	v0.1.2|
+clear	v0.1.0|v0.0.1|v0.0.0|
+requirejs	2.3.6|latest|2.3.5|2.3.4|2.3.3|
+connectflash	v0.1.1|v0.1.0|
+pathisabsolute	v2.0.0|v1.0.1|v1.0.0|
+hashsum	v2.0.0|v1.0.2|v1.0.1|
+deepassign	v2.0.0|v1.0.0|
+path	v0.12.7|v0.11.14|v0.4.10|
+babelhelpervuejsxmergeprops	
+vinylbuffer	v1.0.1|v1.0.0|
+base64	v1.0.0|v0.1.0|
+keypress	v0.2.1|v0.1.0|v0.0.2|v0.0.1|
+iniparser	1.0.5|1.0.4|1.0.3|1.0.2|1.0.1|
+jestpnpresolver	v1.2.1|v1.2.0|v1.0.2|
+gulpconflict	0.4.0|0.3.0|0.2.0|0.1.2|0.1.1|
+identityobjproxy	
+texttable	0.2.0|0.1.1|0.1.0|0.0.1|0.0.0|
+utilsmerge	v1.0.1|v1.0.0|
+jsonstablestringify	1.0.1|1.0.0|0.1.3|0.1.2|0.1.1|
+sha1	v1.1.1|v1.1.0|v1.0.1|v1.0.0|v0.0.1|
+sprintf	0.1.5|v0.1.4|v0.1.3|v0.1.2|v0.1.1|
+tspnp	v1.2.0|v1.1.6|v1.1.4|v1.1.2|v1.1.0|
+querystring	v0.2.1|v0.2.0|v0.1.0|v0.0.4|v0.0.3|
+utf8	v3.0.0|v2.1.2|v2.1.1|v2.1.0|v2.0.0|
+babelplugintransformdecoratorslegacy	v1.3.5|v1.3.4|v1.3.3|v1.3.2|v1.3.1|
+jsonstringifysafe	v5.0.1|v5.0.0|v4.0.0|v3.0.0|v2.0.0|
+userhome	2.0.0|v1.1.1|v1.1.0|v1.0.0|
+validurl	v1.0.9|v1.0.8|v1.0.7|v1.0.6|v1.0.5|
+once	v1.4.0|v1.3.3|v1.3.2|v1.3.1|v1.3.0|
+debounce	1.2.1|1.2.0|1.1.0|1.0.2|1.0.1|
+assertplus	v1.0.0|v0.2.0|v0.1.5|v0.1.4|v0.1.3|
+requiredir	1.2.0|1.1.0|1.0.0|0.3.2|0.3.1|
+vinylsourcestream	v2.0.0|v1.1.2|v1.1.1|v1.1.0|v1.0.0|
+ispromise	4.0.0|3.0.0|2.2.2|2.2.1|2.2.0|
+stacktrace	1.0.0-pre1|v0.0.10|v0.0.9|0.0.8|v0.0.7|
+postcssnormalize	10.0.0|9.0.0|v0.3.0|v0.2.0|v0.1.2|
+randombytes	v2.1.0|v2.0.6|v2.0.5|v2.0.4|v2.0.3|
+inherits	v2.0.4|v2.0.3|v2.0.2|v1.0.1|v2.0.1|
+urljoin	v4.0.1|v4.0.0|v3.0.0|v2.0.5|v2.0.4|
+clui	
+reactlifecyclescompat	
+nodedir	
+nomnom	
+wrench	
+mapstream	
+inversify	5.1.1|5.1.0|5.0.5|5.0.4|5.0.3|
+webpackcli	@webpack-cli/serve@1.5.1|webpack-cli@4.7.2|@webpack-cli/configtest@1.0.4|@webpack-cli/generators@2.2.0|@webpack-cli/info@1.3.0|
+nodegit	v0.28.0-alpha.9|v0.28.0-alpha.8|v0.28.0-alpha.7|v0.28.0-alpha.6|v0.28.0-alpha.5|
+babylon	v7.0.0-beta.30|v7.0.0-beta.29|v7.0.0-beta.28|v7.0.0-beta.27|v7.0.0-beta.26|
+d3	v7.0.0|v6.7.0|v6.6.2|v6.6.1|v6.6.0|
+sharp	v0.28.3|v0.28.2|v0.28.1|v0.28.0|v0.28.0-beta1|
+lodashisplainobject	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+lodashuniq	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+lodashisfunction	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+lodashisstring	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+lodashisempty	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+lodashmap	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+lodashforeach	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+lodashflatten	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+lodashisobject	4.17.21|4.17.21-es|4.17.21-npm|4.17.20-es|4.17.20|
+graphqltools	@graphql-tools/batch-delegate@8.0.6|@graphql-tools/delegate@8.0.6|@graphql-tools/links@8.0.6|@graphql-tools/stitch@8.0.7|@graphql-tools/stitching-directives@2.0.6|
+mathjs	v9.4.4|v9.4.3|v9.4.2|v9.4.1|v9.4.0|
+rollup	v2.56.0|v2.55.1|v2.55.0|v2.54.0|v2.53.3|
+connect	3.7.0|3.6.6|3.6.5|3.6.4|3.6.3|
+stylelint	13.13.1|13.13.0|13.12.0|13.11.0|13.10.0|
+pouchdb	7.2.2|7.2.1|7.1.1|7.0.0|untagged-284e82356fa074b3c011|
+express	5.0.0-alpha.8|4.17.1|4.17.0|5.0.0-alpha.7|4.16.4|
+reactapollo	@apollo/react-components@4.0.0|@apollo/react-hoc@4.0.0|@apollo/react-hooks@4.0.0|@apollo/react-ssr@4.0.0|@apollo/react-testing@4.0.0|
