@@ -244,3 +244,7 @@ if __name__ == "__main__":
 
             except Exception as ex:
                 print("Error deleting [%s]: %s" % (repo["name"], str(ex)))
+
+# prune out the ones having err in any top 5 tag
+# group the projects based on tags (all first versions together, ... we will have 5 groups for 5 tags)
+# hypothesis: with time, devs will either introduce more vulnerabilities or less vulnerabilities
