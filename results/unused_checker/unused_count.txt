@@ -1,7 +1,7 @@
 Repository	Unused Dependencies
-fontawesome	0
-fortawesomefontawesomesvgcore	0
-fortawesomefreesolidsvgicons	0
+fontawesome	-2
+fortawesomefontawesomesvgcore	-2
+fortawesomefreesolidsvgicons	-2
 crypto	0
 fs	0
 http	0

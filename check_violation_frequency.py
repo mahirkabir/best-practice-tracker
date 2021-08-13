@@ -15,6 +15,9 @@ def count_unused(path):
         for line in lines:
             if "* " in line and not ": " in line:
                 cnt += 1
+            if "Path . does not contain a package.json file" in line:
+                cnt = -2
+                break
 
         return cnt
     except:
