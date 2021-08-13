@@ -13,7 +13,7 @@ def count_unused(path):
         reader.close()
 
         for line in lines:
-            if "* " in line:
+            if "* " in line and not ": " in line:
                 cnt += 1
 
         return cnt
@@ -80,7 +80,13 @@ if __name__ == "__main__":
     ddp_writer.write("Repository\tOriginal Duplicates\n")
     ddp_writer.close()
 
+    unused_writer = open(os.path.join("results", "unused_checker",
+                                      "unused_count.txt"), "w", encoding="utf-8")
+    unused_writer.write("Repository\tUnused Dependencies\n")
+    unused_writer.close()
+
     ddp_err_repos = []
+    unused_err_repos = []
 
     for repo in tqdm(repos):
         unused_cnt = count_unused(os.path.join(
@@ -121,10 +127,17 @@ if __name__ == "__main__":
         if duplicate_cnt == -1:
             ddp_err_repos.append(repo)
 
+        unused_writer = open(os.path.join("results", "unused_checker",
+                                          "unused_count.txt"), "a", encoding="utf-8")
+        unused_writer.write("%s\t%s\n" % (repo["name"], unused_cnt))
+        unused_writer.close()
+        if unused_cnt == -1:
+            unused_err_repos.append(repo)
+
     print(result)
 
     # dataset_path = helper.get_config("PATHS", "DATASET_PATH")
-    # repos = ddp_err_repos
+    # repos = unused_err_repos
     # repos_sz = len(repos)
 
     # range_limit = 50
@@ -150,10 +163,9 @@ if __name__ == "__main__":
     #         repo_loc = os.path.join(dataset_path, repo["name"])
 
     #         try:
-    #             helper.execute_cmd(repo_loc, "npm i")
-    #             result = helper.execute_cmd(repo_loc, "npm ls --all")
-    #             helper.record(os.path.join("results", "ddp_checker",
-    #                                        repo["name"]), "before_ddp.txt", result[1])
+    #             result = helper.execute_cmd(repo_loc, "npx depcheck")
+    #             helper.record(os.path.join("results", "unused_checker",
+    #                                        repo["name"]), "unused_pre.txt", result[1])
     #         except Exception as ex:
     #             print("Error processing [%s]: %s" % (repo["name"], str(ex)))
 
