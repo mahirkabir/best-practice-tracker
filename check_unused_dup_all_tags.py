@@ -108,7 +108,6 @@ if __name__ == "__main__":
             repos.append(repo)
 
     repos_sz = len(repos)
-    repos_sz = 5
 
     unused_writer = open(os.path.join("results", "unused_dup_checker_all_tags",
                                       "unused_results_all_tags.txt"), "w", encoding="utf-8")
