@@ -88,9 +88,8 @@ def count_duplicate(content):
 if __name__ == "__main__":
     """Check if best practices are used in package.json files"""
 
-    reader = open(os.path.join(
-        "results", "unused_dup_checker_all_tags", "repo_tags.txt"))
-    lines = reader.readlines()
+    reader = open(os.path.join(".", "repo_tags.txt"), "r", encoding="utf-8")
+    lines = reader.readlines()[1:]
     reader.close()
     dict_tags = {}
     for line in lines:
