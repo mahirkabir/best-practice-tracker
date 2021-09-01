@@ -47,13 +47,15 @@ def get_unused_dup_repos(path):
 
     return dict_repos
 
+
 def clean_repos(path, dict_repos):
     """Clean all entries of repos not in `dict_repos`"""
-    output = "Repository\tPackage-Lock\tNpm-ShrinkWrap\tYarn\tAll-Fixed\tNo-Dependency"
-
     reader = open(path, "r")
     lines = reader.readlines()
     reader.close()
+
+    output = lines[0].replace("\n", "")
+    lines = lines[1:]
 
     for line in lines:
         parts = line.split("\t")
@@ -63,6 +65,7 @@ def clean_repos(path, dict_repos):
     writer = open(path, "w")
     writer.write(output)
     writer.close()
+
 
 if __name__ == "__main__":
     """Cleans out repositories from results that no longer exist in dataset"""
@@ -83,3 +86,6 @@ if __name__ == "__main__":
 
     clean_repos(os.path.join("results", "paper_data",
                              "repo_lock_files.txt"), dict_current_repos)
+
+    clean_repos(os.path.join("results", "paper_data",
+                             "lock_file_init_commit.txt"), dict_current_repos)
