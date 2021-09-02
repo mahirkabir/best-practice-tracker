@@ -71,13 +71,23 @@ if __name__ == "__main__":
     writer = open(os.path.join(
         "results", "audit_checker_all_tags", "vul_count_all_tags.txt"), "w", encoding="utf-8")
 
+    reader = open(os.path.join(".", "repo_tags.txt"), "r", encoding="utf-8")
+    lines = reader.readlines()[1:]
+    reader.close()
+    dict_tags = {}
+    for line in lines:
+        line = line.strip()
+        parts = line.split("\t")
+        dict_tags[parts[0]] = parts[1][0: len(parts[1]) - 1].split("|")
+
     err_cnt = 0
     below_five_tags_repos = []
+    dict_atleast_one_err_repos = {}
     for repo in repos:
         repo_path = os.path.join(
             "results", "audit_checker_all_tags", repo["name"])
-        if os.path.isdir(repo_path):
-            tags = os.listdir(repo_path)
+        if repo["name"] in dict_tags:
+            tags = dict_tags[repo["name"]]
             tags_cnt = len(tags)
             if tags_cnt < 5:
                 below_five_tags_repos.append(
@@ -134,6 +144,13 @@ if __name__ == "__main__":
                     if cnt_post == "":
                         cnt_post = cnt_pre
 
+                    if "ERR" in after_fix:
+                        if repo["name"] not in dict_atleast_one_err_repos:
+                            dict_atleast_one_err_repos[repo["name"]] = 0
+
+                        dict_atleast_one_err_repos[repo["name"]] += 1
+                        continue
+
                     writer.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\n" %
                                  (repo["name"], tag, cnt_pre, cnt_post, init, after_i, after_fix))
                 except Exception as ex:
@@ -152,6 +169,15 @@ if __name__ == "__main__":
 
     for repo in below_five_tags_repos:
         writer.write(repo["name"] + "\t" + str(repo["tag_cnt"]))
+        writer.write("\n")
+
+    writer.close()
+
+    writer = open(os.path.join(
+        "results", "audit_checker_all_tags", "atleast_one_err_repos.txt"), "w", encoding="utf-8")
+
+    for repo in dict_atleast_one_err_repos:
+        writer.write(repo)
         writer.write("\n")
 
     writer.close()
