@@ -68,9 +68,6 @@ if __name__ == "__main__":
 
     repos_sz = len(repos)
 
-    writer = open(os.path.join(
-        "results", "audit_checker_all_tags", "vul_count_all_tags.txt"), "w", encoding="utf-8")
-
     reader = open(os.path.join(".", "repo_tags.txt"), "r", encoding="utf-8")
     lines = reader.readlines()[1:]
     reader.close()
@@ -81,8 +78,9 @@ if __name__ == "__main__":
         dict_tags[parts[0]] = parts[1][0: len(parts[1]) - 1].split("|")
 
     err_cnt = 0
-    below_five_tags_repos = []
+    dict_below_five_tags_repos = {}
     dict_atleast_one_err_repos = {}
+    output = ""
     for repo in repos:
         repo_path = os.path.join(
             "results", "audit_checker_all_tags", repo["name"])
@@ -90,8 +88,8 @@ if __name__ == "__main__":
             tags = dict_tags[repo["name"]]
             tags_cnt = len(tags)
             if tags_cnt < 5:
-                below_five_tags_repos.append(
-                    {"name": repo["name"], "tag_cnt": len(tags)})
+                dict_below_five_tags_repos[repo["name"]] = {
+                    "name": repo["name"], "tag_cnt": len(tags)}
                 continue
             for tag in tags:
                 tag_path = os.path.join(repo_path, tag)
@@ -151,23 +149,22 @@ if __name__ == "__main__":
                         dict_atleast_one_err_repos[repo["name"]] += 1
                         continue
 
-                    writer.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\n" %
-                                 (repo["name"], tag, cnt_pre, cnt_post, init, after_i, after_fix))
+                    output += ("%s\t%s\t%s\t%s\t%s\t%s\t%s\n" %
+                               (repo["name"], tag, cnt_pre, cnt_post, init, after_i, after_fix))
                 except Exception as ex:
                     print(str(ex))
 
         else:
             # print(repo["name"] + " does not exist")
             err_cnt += 1
-            below_five_tags_repos.append(
-                {"name": repo["name"], "tag_cnt": 0})
-
-    writer.close()
+            dict_below_five_tags_repos[repo["name"]] = {
+                "name": repo["name"], "tag_cnt": 0}
 
     writer = open(os.path.join(
         "results", "audit_checker_all_tags", "below_five_tags_repos.txt"), "w", encoding="utf-8")
 
-    for repo in below_five_tags_repos:
+    for repo_name in dict_below_five_tags_repos:
+        repo = dict_below_five_tags_repos[repo_name]
         writer.write(repo["name"] + "\t" + str(repo["tag_cnt"]))
         writer.write("\n")
 
@@ -179,5 +176,16 @@ if __name__ == "__main__":
     for repo in dict_atleast_one_err_repos:
         writer.write(repo)
         writer.write("\n")
+
+    writer.close()
+
+    writer = open(os.path.join(
+        "results", "audit_checker_all_tags", "vul_count_all_tags.txt"), "w", encoding="utf-8")
+
+    for line in output.split("\n"):
+        parts = line.split("\t")
+        if not (parts[0] in dict_below_five_tags_repos or parts[0] in dict_atleast_one_err_repos):
+            writer.write(line)
+            writer.write("\n")
 
     writer.close()

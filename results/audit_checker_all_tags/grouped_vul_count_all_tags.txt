@@ -1,5 +1,4 @@
-Tag order from latest-to-earliest[1-to-5]: 1						
-requirejs	2.3.6	0	0	ERR	No Vul (Changed)	No Vul
+Tag order from latest-to-earliest[1-to-5]: 1
 iniparser	1.0.5	0	0	ERR	No Vul (Changed)	No Vul
 gulpconflict	0.4.0	7	7	ERR	Vul Found (Changed)	Vul Found
 texttable	0.2.0	2	2	ERR	Vul Found (Changed)	Vul Found
@@ -317,6 +316,7 @@ reactonclickoutside	v6.11.2	1	1	Vul Found	Vul Found	Vul Found
 hammerjs	v2.0.8	26	26	ERR	Vul Found (Changed)	Vul Found
 level	v7.0.0	3	3	ERR	Vul Found (Changed)	Vul Found
 dockerode	v3.3.0	2	0	Vul Found	Vul Found	No Vul (Changed)
+phosphorwidgets	@phosphor/application@1.7.3	34	18	ERR	Vul Found (Changed)	Vul Found
 styleloader	v3.2.1	2	2	Vul Found	Vul Found	Vul Found
 sockjsclient	v1.5.1	15	6	Vul Found	Vul Found	Vul Found
 underscore	1.13.1	28	16	Vul Found	Vul Found	Vul Found
@@ -428,22 +428,42 @@ reactdevutils	create-react-app@4.0.3	9	9	ERR	Vul Found (Changed)	Vul Found
 jsbeautify	v1.14.0	1	0	Vul Found	Vul Found	No Vul (Changed)
 postcsscssnext	3.1.0	35	16	ERR	Vul Found (Changed)	Vul Found
 coffeescript	2.5.1	15	2	Vul Found	Vul Found	Vul Found
+handlebars	v4.7.7	21	10	Vul Found	Vul Found	Vul Found
+reactmodal	v3.14.3	7	3	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v8.1.0	7	0	ERR	Vul Found (Changed)	No Vul (Changed)
 bson	v4.4.1	4	4	Vul Found	Vul Found	Vul Found
 moment	2.29.1	11	1	Vul Found	Vul Found	Vul Found
 winston	v3.3.3	8	3	Vul Found	Vul Found	Vul Found
+oclifpluginhelp	v3.2.2	3	3	ERR	Vul Found (Changed)	Vul Found
 gulp	v4.0.2	16	16	ERR	Vul Found (Changed)	Vul Found
 nodepregyp	v1.0.5	4	0	Vul Found	Vul Found	No Vul (Changed)
 xlsx	v0.17.0	7	7	ERR	Vul Found (Changed)	Vul Found
 servestatic	v1.14.1	3	3	ERR	Vul Found (Changed)	Vul Found
 cleancss	v5.1.5	2	0	Vul Found	Vul Found	No Vul (Changed)
 mimetypes	2.1.32	0	0	ERR	No Vul (Changed)	No Vul
+async	v3.2.0	22	7	Vul Found	Vul Found	Vul Found
+rawbody	2.4.1	4	4	ERR	Vul Found (Changed)	Vul Found
+cssloader	v6.2.0	0	0	No Vul	No Vul	No Vul
+inquirer	@inquirer/checkbox@0.0.16-alpha.0	5	1	ERR	Vul Found (Changed)	Vul Found
+compression	1.7.4	4	4	ERR	Vul Found (Changed)	Vul Found
+urllib	2.37.3	5	5	ERR	Vul Found (Changed)	Vul Found
+stylus	0.54.8	7	3	Vul Found	Vul Found	Vul Found
+imagesize	v1.0.0	2	0	ERR	Vul Found (Changed)	No Vul (Changed)
+lintstaged	v11.1.1	5	0	ERR	Vul Found (Changed)	No Vul (Changed)
+three	r131	1	0	Vul Found	Vul Found	No Vul (Changed)
+less	v4.1.1	21	12	Vul Found	Vul Found	Vul Found
+expresssession	v1.17.2	1	1	ERR	Vul Found (Changed)	Vul Found
+tsnode	v10.1.0	5	0	Vul Found	Vul Found	No Vul (Changed)
+buffer	v6.0.3	4	4	ERR	Vul Found (Changed)	Vul Found
+levelup	v5.0.1	4	4	ERR	Vul Found (Changed)	Vul Found
+log4js	v6.3.0	6	1	Vul Found	Vul Found	Vul Found
 superagent	v6.1.0	39	32	ERR	Vul Found (Changed)	Vul Found
 emberclibabel	v7.26.6	23	12	ERR	Vul Found (Changed)	Vul Found
 cliux	v5.6.3	1	0	ERR	Vul Found (Changed)	No Vul (Changed)
 vue	v2.6.14	29	18	ERR	Vul Found (Changed)	Vul Found
 bluebird	v3.7.2	22	19	Vul Found	Vul Found	Vul Found
 helmet	v4.6.0	3	0	Vul Found	Vul Found	No Vul (Changed)
+jsdoc	3.6.7	4	4	Vul Found	Vul Found	Vul Found
 mysql2	v2.3.0	4	1	Vul Found	Vul Found	Vul Found
 ejs	v3.1.6	5	0	Vul Found	Vul Found	No Vul (Changed)
 yeomangenerator	v5.4.0	7	1	Vul Found	Vul Found	Vul Found
@@ -453,19 +473,27 @@ oclifcommand	v1.8.0	12	1	ERR	Vul Found (Changed)	Vul Found
 bodyparser	1.19.0	3	3	ERR	Vul Found (Changed)	Vul Found
 nodesass	v6.0.1	0	0	ERR	No Vul (Changed)	No Vul
 inversify	5.1.1	4	1	Vul Found	Vul Found	Vul Found
+webpackcli	@webpack-cli/configtest@1.0.4	2	2	Vul Found	Vul Found	Vul Found
 nodegit	v0.28.0-alpha.9	11	5	Vul Found	Vul Found	Vul Found
 babylon	v7.0.0-beta.30	25	13	ERR	Vul Found (Changed)	Vul Found
 d3	v7.0.0	0	0	ERR	No Vul (Changed)	No Vul
 sharp	v0.28.3	2	2	ERR	Vul Found (Changed)	Vul Found
 webpackdevmiddleware	v5.0.0	0	0	ERR	No Vul (Changed)	No Vul
+lodash	4.17.21	0	0	No Vul	No Vul	No Vul
+tsjest	v27.0.4	0	0	No Vul	No Vul	No Vul
+preact	10.5.14	0	0	No Vul	No Vul	No Vul
+mocha	v9.0.3	9	9	ERR	Vul Found (Changed)	Vul Found
+browsersync	v2.27.5	0	0	ERR	No Vul (Changed)	No Vul
+graphql	v15.5.1	5	0	Vul Found	Vul Found	No Vul (Changed)
 mathjs	v9.4.4	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.56.0	0	0	No Vul	No Vul	No Vul
 connect	3.7.0	2	2	ERR	Vul Found (Changed)	Vul Found
 stylelint	13.13.1	8	0	Vul Found	Vul Found	No Vul (Changed)
 pouchdb	7.2.2	28	1	Vul Found	Vul Found	Vul Found
 express	5.0.0-alpha.8	4	4	ERR	Vul Found (Changed)	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 2						
-requirejs	latest	0	0	No Vul	No Vul	No Vul
+reactapollo	@apollo/react-components@4.0.0	11	2	Vul Found	Vul Found	Vul Found
+npm	v7.20.3	0	0	No Vul	No Vul	No Vul
+Tag order from latest-to-earliest[1-to-5]: 2
 iniparser	1.0.4	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.3.0	7	7	Vul Found	Vul Found	Vul Found
 texttable	0.1.1	2	2	Vul Found	Vul Found	Vul Found
@@ -783,6 +811,7 @@ reactonclickoutside	v6.11.1	1	1	Vul Found	Vul Found	Vul Found
 hammerjs	v2.0.7	26	26	Vul Found	Vul Found	Vul Found
 level	v6.0.1	3	5	Vul Found	Vul Found	Vul Found
 dockerode	v3.2.1	0	0	No Vul	No Vul	No Vul
+phosphorwidgets	@phosphor/commands@1.7.2	18	18	Vul Found	Vul Found	Vul Found
 styleloader	v3.2.0	2	2	Vul Found	Vul Found	Vul Found
 sockjsclient	v1.5.0	6	6	Vul Found	Vul Found	Vul Found
 underscore	1.13.0	16	16	Vul Found	Vul Found	Vul Found
@@ -894,22 +923,42 @@ reactdevutils	react-dev-utils@11.0.3	9	9	Vul Found	Vul Found	Vul Found
 jsbeautify	v1.13.13	0	0	No Vul	No Vul	No Vul
 postcsscssnext	3.0.2	16	16	Vul Found	Vul Found	Vul Found
 coffeescript	2.5.0	2	2	Vul Found	Vul Found	Vul Found
+handlebars	v4.7.6	10	10	Vul Found	Vul Found	Vul Found
+reactmodal	v3.14.1	3	3	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v8.0.0	0	0	No Vul	No Vul	No Vul
 bson	v4.4.0	4	4	Vul Found	Vul Found	Vul Found
 moment	2.29.0	1	0	Vul Found	Vul Found	No Vul (Changed)
 winston	v3.3.2	3	2	Vul Found	Vul Found	Vul Found
+oclifpluginhelp	v3.2.1	0	0	No Vul	No Vul	No Vul
 gulp	v4.0.1	16	16	Vul Found	Vul Found	Vul Found
 nodepregyp	v1.0.3	0	0	No Vul	No Vul	No Vul
 xlsx	v0.16.8	7	5	Vul Found	Vul Found	Vul Found
 servestatic	v1.14.0	3	3	Vul Found	Vul Found	Vul Found
 cleancss	v5.1.4	0	0	No Vul	No Vul	No Vul
 mimetypes	2.1.31	0	0	No Vul	No Vul	No Vul
+async	v3.1.1	7	5	Vul Found	Vul Found	Vul Found
+rawbody	2.4.0	4	4	Vul Found	Vul Found	Vul Found
+cssloader	v6.1.0	0	0	No Vul	No Vul	No Vul
+inquirer	@inquirer/confirm@0.0.15-alpha.0	1	1	Vul Found	Vul Found	Vul Found
+compression	1.7.3	4	10	Vul Found	Vul Found	Vul Found
+urllib	2.37.2	5	5	Vul Found	Vul Found	Vul Found
+stylus	0.54.7	3	3	Vul Found	Vul Found	Vul Found
+imagesize	v0.9.6	0	0	No Vul	No Vul	No Vul
+lintstaged	v11.1.0	0	0	No Vul	No Vul	No Vul
+three	r130	0	0	No Vul	No Vul	No Vul
+less	v4.1.0	12	12	Vul Found	Vul Found	Vul Found
+expresssession	v1.17.1	1	1	Vul Found	Vul Found	Vul Found
+tsnode	v10.0.0	0	0	No Vul	No Vul	No Vul
+buffer	v6.0.2	4	4	Vul Found	Vul Found	Vul Found
+levelup	v5.0.0	4	4	Vul Found	Vul Found	Vul Found
+log4js	v6.2.1	1	1	Vul Found	Vul Found	Vul Found
 superagent	v6.0.0	32	31	Vul Found	Vul Found	Vul Found
 emberclibabel	v7.26.5	12	12	Vul Found	Vul Found	Vul Found
 cliux	v5.6.2	0	0	No Vul	No Vul	No Vul
 vue	v2.6.13	18	18	Vul Found	Vul Found	Vul Found
 bluebird	v3.7.1	19	19	Vul Found	Vul Found	Vul Found
 helmet	v4.5.0	0	0	No Vul	No Vul	No Vul
+jsdoc	@jsdoc/cli@0.2.4	10	4	Vul Found	Vul Found	Vul Found
 mysql2	v2.2.5	1	1	Vul Found	Vul Found	Vul Found
 ejs	v3.1.5	0	0	No Vul	No Vul	No Vul
 yeomangenerator	v5.3.0	1	1	Vul Found	Vul Found	Vul Found
@@ -919,19 +968,27 @@ oclifcommand	v1.7.0	1	0	Vul Found	Vul Found	No Vul (Changed)
 bodyparser	1.18.3	3	10	Vul Found	Vul Found	Vul Found
 nodesass	v6.0.0	0	0	No Vul	No Vul	No Vul
 inversify	5.1.0	1	1	Vul Found	Vul Found	Vul Found
+webpackcli	@webpack-cli/generators@2.2.0	2	2	Vul Found	Vul Found	Vul Found
 nodegit	v0.28.0-alpha.8	5	5	Vul Found	Vul Found	Vul Found
 babylon	v7.0.0-beta.29	13	13	Vul Found	Vul Found	Vul Found
 d3	v6.7.0	0	0	No Vul	No Vul	No Vul
 sharp	v0.28.2	2	2	Vul Found	Vul Found	Vul Found
 webpackdevmiddleware	v4.3.0	0	0	No Vul	No Vul	No Vul
+lodash	4.17.21-es	0	0	No Vul	No Vul	No Vul
+tsjest	v27.0.3	0	0	No Vul	No Vul	No Vul
+preact	10.5.13	0	0	No Vul	No Vul	No Vul
+mocha	v9.0.2	0	0	No Vul	No Vul	No Vul
+browsersync	v2.27.4	0	0	No Vul	No Vul	No Vul
+graphql	v16.0.0-alpha.5	0	0	No Vul	No Vul	No Vul
 mathjs	v9.4.3	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.55.1	0	0	No Vul	No Vul	No Vul
 connect	3.6.6	2	13	Vul Found	Vul Found	Vul Found
 stylelint	13.13.0	0	0	No Vul	No Vul	No Vul
 pouchdb	7.2.1	1	1	Vul Found	Vul Found	Vul Found
 express	4.17.1	4	4	Vul Found	Vul Found	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 3						
-requirejs	2.3.5	0	0	No Vul	No Vul	No Vul
+reactapollo	@apollo/react-hoc@4.0.0	2	2	Vul Found	Vul Found	Vul Found
+npm	v6.14.14	1	1	Vul Found	Vul Found	Vul Found
+Tag order from latest-to-earliest[1-to-5]: 3
 iniparser	1.0.3	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.2.0	7	7	Vul Found	Vul Found	Vul Found
 texttable	0.1.0	2	2	Vul Found	Vul Found	Vul Found
@@ -1249,6 +1306,7 @@ reactonclickoutside	v6.11.0	1	1	Vul Found	Vul Found	Vul Found
 hammerjs	v2.0.6	26	26	Vul Found	Vul Found	Vul Found
 level	v6.0.0	5	6	Vul Found	Vul Found	Vul Found
 dockerode	v3.2.0	0	0	No Vul	No Vul	No Vul
+phosphorwidgets	@phosphor/datagrid@0.3.1	18	18	Vul Found	Vul Found	Vul Found
 styleloader	v3.1.0	2	2	Vul Found	Vul Found	Vul Found
 sockjsclient	v1.4.0	6	6	Vul Found	Vul Found	Vul Found
 underscore	1.13.0-3	16	16	Vul Found	Vul Found	Vul Found
@@ -1360,22 +1418,42 @@ reactdevutils	react-scripts@4.0.3	9	9	Vul Found	Vul Found	Vul Found
 jsbeautify	v1.13.12	0	0	No Vul	No Vul	No Vul
 postcsscssnext	3.0.1	16	16	Vul Found	Vul Found	Vul Found
 coffeescript	2.4.1	2	2	Vul Found	Vul Found	Vul Found
+handlebars	v4.7.5	22	12	Vul Found	Vul Found	Vul Found
+reactmodal	v3.14.2	3	3	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v7.1.0	0	0	No Vul	No Vul	No Vul
 bson	v4.3.0	4	4	Vul Found	Vul Found	Vul Found
 moment	2.28.0	0	0	No Vul	No Vul	No Vul
 winston	v3.3.1	2	2	Vul Found	Vul Found	Vul Found
+oclifpluginhelp	v3.2.0	6	1	ERR	Vul Found (Changed)	Vul Found
 gulp	v4.0.0	16	14	Vul Found	Vul Found	Vul Found
 nodepregyp	v1.0.2	0	0	No Vul	No Vul	No Vul
 xlsx	v0.16.7	5	5	Vul Found	Vul Found	Vul Found
 servestatic	v1.13.2	3	10	Vul Found	Vul Found	Vul Found
 cleancss	v5.1.3	0	0	No Vul	No Vul	No Vul
 mimetypes	2.1.30	0	0	No Vul	No Vul	No Vul
+async	v2.6.3	5	5	Vul Found	Vul Found	Vul Found
+rawbody	2.3.3	4	6	Vul Found	Vul Found	Vul Found
+cssloader	v6.0.0	0	0	No Vul	No Vul	No Vul
+inquirer	@inquirer/core@0.0.16-alpha.0	1	1	Vul Found	Vul Found	Vul Found
+compression	1.7.2	10	10	Vul Found	Vul Found	Vul Found
+urllib	2.37.1	5	5	Vul Found	Vul Found	Vul Found
+stylus	0.54.6	3	3	Vul Found	Vul Found	Vul Found
+imagesize	v0.9.7	0	0	No Vul	No Vul	No Vul
+lintstaged	v11.0.1	0	0	No Vul	No Vul	No Vul
+three	r129	0	0	No Vul	No Vul	No Vul
+less	v3.13.1	12	12	Vul Found	Vul Found	Vul Found
+expresssession	v1.17.0	1	3	Vul Found	Vul Found	Vul Found
+tsnode	v9.1.1	0	0	No Vul	No Vul	No Vul
+buffer	v5.7.1	4	4	Vul Found	Vul Found	Vul Found
+levelup	v4.4.0	4	5	Vul Found	Vul Found	Vul Found
+log4js	v6.2.0	1	1	Vul Found	Vul Found	Vul Found
 superagent	v5.3.1	31	31	Vul Found	Vul Found	Vul Found
 emberclibabel	v7.26.4	12	12	Vul Found	Vul Found	Vul Found
 cliux	v5.6.1	0	0	No Vul	No Vul	No Vul
 vue	v2.6.12	18	18	Vul Found	Vul Found	Vul Found
 bluebird	v3.7.0	19	19	Vul Found	Vul Found	Vul Found
 helmet	v4.5.0-rc.1	0	0	No Vul	No Vul	No Vul
+jsdoc	@jsdoc/cli@0.2.5	4	4	Vul Found	Vul Found	Vul Found
 mysql2	v2.2.4	1	1	Vul Found	Vul Found	Vul Found
 ejs	v3.1.3	0	0	No Vul	No Vul	No Vul
 yeomangenerator	v5.2.0	1	1	Vul Found	Vul Found	Vul Found
@@ -1385,19 +1463,27 @@ oclifcommand	v1.6.1	0	0	No Vul	No Vul	No Vul
 bodyparser	1.18.2	10	10	Vul Found	Vul Found	Vul Found
 nodesass	v5.0.0	0	0	No Vul	No Vul	No Vul
 inversify	5.0.5	1	1	Vul Found	Vul Found	Vul Found
+webpackcli	@webpack-cli/info@1.3.0	2	2	Vul Found	Vul Found	Vul Found
 nodegit	v0.28.0-alpha.7	5	5	Vul Found	Vul Found	Vul Found
 babylon	v7.0.0-beta.28	13	13	Vul Found	Vul Found	Vul Found
 d3	v6.6.2	0	0	No Vul	No Vul	No Vul
 sharp	v0.28.1	2	2	Vul Found	Vul Found	Vul Found
 webpackdevmiddleware	v4.2.0	0	0	No Vul	No Vul	No Vul
+lodash	4.17.21-npm	0	0	No Vul	No Vul	No Vul
+tsjest	v27.0.2	0	0	No Vul	No Vul	No Vul
+preact	10.5.12	0	0	No Vul	No Vul	No Vul
+mocha	v9.0.1	0	0	No Vul	No Vul	No Vul
+browsersync	v2.27.2	0	0	No Vul	No Vul	No Vul
+graphql	v16.0.0-alpha.4	0	0	No Vul	No Vul	No Vul
 mathjs	v9.4.2	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.55.0	0	0	No Vul	No Vul	No Vul
 connect	3.6.5	13	13	Vul Found	Vul Found	Vul Found
 stylelint	13.12.0	0	0	No Vul	No Vul	No Vul
 pouchdb	7.1.1	1	1	Vul Found	Vul Found	Vul Found
 express	4.17.0	4	4	Vul Found	Vul Found	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 4						
-requirejs	2.3.4	0	0	No Vul	No Vul	No Vul
+reactapollo	@apollo/react-hooks@4.0.0	2	2	Vul Found	Vul Found	Vul Found
+npm	v7.20.2	1	1	Vul Found	Vul Found	Vul Found
+Tag order from latest-to-earliest[1-to-5]: 4
 iniparser	1.0.2	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.1.2	7	7	Vul Found	Vul Found	Vul Found
 texttable	0.0.1	2	2	Vul Found	Vul Found	Vul Found
@@ -1715,6 +1801,7 @@ reactonclickoutside	v6.10.0	1	1	Vul Found	Vul Found	Vul Found
 hammerjs	v2.0.5	26	26	Vul Found	Vul Found	Vul Found
 level	v5.0.1	6	10	Vul Found	Vul Found	Vul Found
 dockerode	v3.1.0	0	0	No Vul	No Vul	No Vul
+phosphorwidgets	@phosphor/datastore@0.8.0	18	18	Vul Found	Vul Found	Vul Found
 styleloader	v3.0.0	2	2	Vul Found	Vul Found	Vul Found
 sockjsclient	v1.3.0	6	6	Vul Found	Vul Found	Vul Found
 underscore	1.12.1	16	16	Vul Found	Vul Found	Vul Found
@@ -1826,22 +1913,42 @@ reactdevutils	v4.0.3	9	9	Vul Found	Vul Found	Vul Found
 jsbeautify	v1.13.11	0	0	No Vul	No Vul	No Vul
 postcsscssnext	3.0.0	16	16	Vul Found	Vul Found	Vul Found
 coffeescript	2.4.0	2	2	Vul Found	Vul Found	Vul Found
+handlebars	v4.7.4	0	0	No Vul	No Vul	No Vul
+reactmodal	v3.13.1	3	3	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v7.0.0	0	0	No Vul	No Vul	No Vul
 bson	v1.1.6	4	4	Vul Found	Vul Found	Vul Found
 moment	2.27.0	0	0	No Vul	No Vul	No Vul
 winston	v2.4.5	2	2	Vul Found	Vul Found	Vul Found
+oclifpluginhelp	v3.1.0	1	1	Vul Found	Vul Found	Vul Found
 gulp	v4.0.0-alpha.3	14	15	Vul Found	Vul Found	Vul Found
 nodepregyp	v1.0.1	0	0	No Vul	No Vul	No Vul
 xlsx	v0.16.6	5	5	Vul Found	Vul Found	Vul Found
 servestatic	v1.13.1	10	10	Vul Found	Vul Found	Vul Found
 cleancss	v5.1.2	0	0	No Vul	No Vul	No Vul
 mimetypes	2.1.29	0	0	No Vul	No Vul	No Vul
+async	v3.1.0	5	5	Vul Found	Vul Found	Vul Found
+rawbody	2.3.2	6	6	Vul Found	Vul Found	Vul Found
+cssloader	v5.2.7	4	1	Vul Found	Vul Found	Vul Found
+inquirer	@inquirer/editor@0.0.9-alpha.0	1	1	Vul Found	Vul Found	Vul Found
+compression	1.7.1	10	10	Vul Found	Vul Found	Vul Found
+urllib	2.37.0	5	6	Vul Found	Vul Found	Vul Found
+stylus	0.54.5	3	3	Vul Found	Vul Found	Vul Found
+imagesize	v0.9.5	0	0	No Vul	No Vul	No Vul
+lintstaged	v11.0.0	0	0	No Vul	No Vul	No Vul
+three	r128	0	0	No Vul	No Vul	No Vul
+less	v4.0.0	0	0	No Vul	No Vul	No Vul
+expresssession	v1.16.2	3	3	Vul Found	Vul Found	Vul Found
+tsnode	v9.1.0	0	0	No Vul	No Vul	No Vul
+buffer	v6.0.1	4	4	Vul Found	Vul Found	Vul Found
+levelup	v4.3.2	5	6	Vul Found	Vul Found	Vul Found
+log4js	v6.1.2	1	1	Vul Found	Vul Found	Vul Found
 superagent	v5.3.0	31	31	Vul Found	Vul Found	Vul Found
 emberclibabel	v7.26.3	12	12	Vul Found	Vul Found	Vul Found
 cliux	v5.6.0	0	0	No Vul	No Vul	No Vul
 vue	v2.6.11	18	18	Vul Found	Vul Found	Vul Found
 bluebird	v3.6.0	19	19	Vul Found	Vul Found	Vul Found
 helmet	v4.4.1	0	0	No Vul	No Vul	No Vul
+jsdoc	@jsdoc/core@0.3.3	4	4	Vul Found	Vul Found	Vul Found
 mysql2	v2.2.3	1	1	Vul Found	Vul Found	Vul Found
 ejs	v3.1.2	0	0	No Vul	No Vul	No Vul
 yeomangenerator	v5.1.0	1	1	Vul Found	Vul Found	Vul Found
@@ -1851,19 +1958,27 @@ oclifcommand	v1.6.0	0	0	No Vul	No Vul	No Vul
 bodyparser	1.18.1	10	10	Vul Found	Vul Found	Vul Found
 nodesass	v4.14.1	0	0	No Vul	No Vul	No Vul
 inversify	5.0.4	1	1	Vul Found	Vul Found	Vul Found
+webpackcli	@webpack-cli/serve@1.5.0	8	2	ERR	Vul Found (Changed)	Vul Found
 nodegit	v0.28.0-alpha.6	5	5	Vul Found	Vul Found	Vul Found
 babylon	v7.0.0-beta.27	13	13	Vul Found	Vul Found	Vul Found
 d3	v6.6.1	0	0	No Vul	No Vul	No Vul
 sharp	v0.28.0	2	2	Vul Found	Vul Found	Vul Found
 webpackdevmiddleware	v4.1.0	0	0	No Vul	No Vul	No Vul
+lodash	4.17.20-es	0	0	ERR	No Vul (Changed)	No Vul
+tsjest	v27.0.1	5	1	Vul Found	Vul Found	Vul Found
+preact	10.5.11	20	20	Vul Found	Vul Found	Vul Found
+mocha	v9.0.0	12	7	Vul Found	Vul Found	Vul Found
+browsersync	v2.27.3	0	0	No Vul	No Vul	No Vul
+graphql	v16.0.0-alpha.3	0	0	No Vul	No Vul	No Vul
 mathjs	v9.4.1	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.54.0	0	0	No Vul	No Vul	No Vul
 connect	3.6.4	13	13	Vul Found	Vul Found	Vul Found
 stylelint	13.11.0	0	0	No Vul	No Vul	No Vul
 pouchdb	7.0.0	1	1	Vul Found	Vul Found	Vul Found
 express	5.0.0-alpha.7	4	4	Vul Found	Vul Found	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 5						
-requirejs	2.3.3	0	0	No Vul	No Vul	No Vul
+reactapollo	@apollo/react-ssr@4.0.0	2	2	Vul Found	Vul Found	Vul Found
+npm	v7.20.1	1	1	Vul Found	Vul Found	Vul Found
+Tag order from latest-to-earliest[1-to-5]: 5
 iniparser	1.0.1	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.1.1	7	7	Vul Found	Vul Found	Vul Found
 texttable	0.0.0	2	2	Vul Found	Vul Found	Vul Found
@@ -2181,6 +2296,7 @@ reactonclickoutside	v6.9.1	1	1	Vul Found	Vul Found	Vul Found
 hammerjs	2.0.4	26	26	Vul Found	Vul Found	Vul Found
 level	v5.0.0	10	10	Vul Found	Vul Found	Vul Found
 dockerode	v3.0.2	0	0	No Vul	No Vul	No Vul
+phosphorwidgets	@phosphor/default-theme@0.1.8	18	18	Vul Found	Vul Found	Vul Found
 styleloader	v2.0.0	2	2	Vul Found	Vul Found	Vul Found
 sockjsclient	v1.2.0	6	6	Vul Found	Vul Found	Vul Found
 underscore	1.13.0-2	16	16	Vul Found	Vul Found	Vul Found
@@ -2292,22 +2408,42 @@ reactdevutils	cra-template-typescript@1.1.2	9	10	Vul Found	Vul Found	Vul Found
 jsbeautify	v1.13.10	0	0	No Vul	No Vul	No Vul
 postcsscssnext	2.11.0	16	16	Vul Found	Vul Found	Vul Found
 coffeescript	2.3.2	2	2	Vul Found	Vul Found	Vul Found
+handlebars	v3.0.8	0	0	No Vul	No Vul	No Vul
+reactmodal	v3.12.1	3	3	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v6.7.0	0	0	No Vul	No Vul	No Vul
 bson	v4.2.3	4	4	Vul Found	Vul Found	Vul Found
 moment	2.26.0	0	0	No Vul	No Vul	No Vul
 winston	v3.3.0	2	2	Vul Found	Vul Found	Vul Found
+oclifpluginhelp	v3.0.1	1	1	Vul Found	Vul Found	Vul Found
 gulp	v4.0.0-alpha.2	15	15	Vul Found	Vul Found	Vul Found
 nodepregyp	v1.0.0	0	0	No Vul	No Vul	No Vul
 xlsx	v0.16.5	5	5	Vul Found	Vul Found	Vul Found
 servestatic	v1.13.0	10	10	Vul Found	Vul Found	Vul Found
 cleancss	v5.1.1	0	0	No Vul	No Vul	No Vul
 mimetypes	2.1.28	0	0	No Vul	No Vul	No Vul
+async	v3.0.1	5	5	Vul Found	Vul Found	Vul Found
+rawbody	2.3.1	6	6	Vul Found	Vul Found	Vul Found
+cssloader	v5.2.6	1	1	Vul Found	Vul Found	Vul Found
+inquirer	@inquirer/expand@0.0.16-alpha.0	1	1	Vul Found	Vul Found	Vul Found
+compression	1.7.0	10	10	Vul Found	Vul Found	Vul Found
+urllib	2.36.1	6	6	Vul Found	Vul Found	Vul Found
+stylus	0.54.4	3	3	Vul Found	Vul Found	Vul Found
+imagesize	v0.9.4	0	0	No Vul	No Vul	No Vul
+lintstaged	v10.5.4	0	0	No Vul	No Vul	No Vul
+three	r127	0	0	No Vul	No Vul	No Vul
+less	v3.13.0	12	12	Vul Found	Vul Found	Vul Found
+expresssession	v1.16.0	4	4	ERR	Vul Found (Changed)	Vul Found
+tsnode	v9.0.0	0	0	No Vul	No Vul	No Vul
+buffer	v6.0.0	4	4	Vul Found	Vul Found	Vul Found
+levelup	v4.3.1	6	6	Vul Found	Vul Found	Vul Found
+log4js	v6.1.1	1	1	Vul Found	Vul Found	Vul Found
 superagent	v5.2.2	31	31	Vul Found	Vul Found	Vul Found
 emberclibabel	v7.26.2	12	12	Vul Found	Vul Found	Vul Found
 cliux	v5.5.1	0	0	No Vul	No Vul	No Vul
 vue	v2.6.10	18	18	Vul Found	Vul Found	Vul Found
 bluebird	v3.5.5	19	19	Vul Found	Vul Found	Vul Found
 helmet	v4.4.0	0	0	No Vul	No Vul	No Vul
+jsdoc	@jsdoc/core@0.4.0	4	4	Vul Found	Vul Found	Vul Found
 mysql2	v2.2.2	1	1	Vul Found	Vul Found	Vul Found
 ejs	v3.0.2	0	0	No Vul	No Vul	No Vul
 yeomangenerator	v5.0.1	1	1	Vul Found	Vul Found	Vul Found
@@ -2317,14 +2453,23 @@ oclifcommand	v1.6.0-rc1.2	0	0	No Vul	No Vul	No Vul
 bodyparser	1.18.0	10	10	Vul Found	Vul Found	Vul Found
 nodesass	v4.14.0	0	0	No Vul	No Vul	No Vul
 inversify	5.0.3	1	1	Vul Found	Vul Found	Vul Found
+webpackcli	@webpack-cli/serve@1.5.1	6	2	ERR	Vul Found (Changed)	Vul Found
 nodegit	v0.28.0-alpha.5	5	5	Vul Found	Vul Found	Vul Found
 babylon	v7.0.0-beta.26	13	13	Vul Found	Vul Found	Vul Found
 d3	v6.6.0	0	0	No Vul	No Vul	No Vul
 sharp	v0.28.0-beta1	2	2	Vul Found	Vul Found	Vul Found
 webpackdevmiddleware	v4.0.4	0	0	No Vul	No Vul	No Vul
+lodash	4.17.20	0	0	No Vul	No Vul	No Vul
+tsjest	v27.0.0	1	1	Vul Found	Vul Found	Vul Found
+preact	10.5.10	20	20	Vul Found	Vul Found	Vul Found
+mocha	v8.4.0	7	6	Vul Found	Vul Found	Vul Found
+browsersync	v2.27.0	5	2	Vul Found	Vul Found	Vul Found
+graphql	v16.0.0-alpha.3.experimental-stream-defer.2	0	0	No Vul	No Vul	No Vul
 mathjs	v9.4.0	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.53.3	0	0	No Vul	No Vul	No Vul
 connect	3.6.3	13	13	Vul Found	Vul Found	Vul Found
 stylelint	13.10.0	0	0	No Vul	No Vul	No Vul
 pouchdb	untagged-284e82356fa074b3c011	1	1	Vul Found	Vul Found	Vul Found
 express	4.16.4	4	4	Vul Found	Vul Found	Vul Found
+reactapollo	@apollo/react-testing@4.0.0	2	2	Vul Found	Vul Found	Vul Found
+npm	v7.20.0	1	1	Vul Found	Vul Found	Vul Found
