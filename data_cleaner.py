@@ -48,7 +48,7 @@ def get_unused_dup_repos(path):
     return dict_repos
 
 
-def clean_repos(path, dict_repos):
+def clean_repos(path, dict_repos, keyword=""):
     """Clean all entries of repos not in `dict_repos`"""
     reader = open(path, "r")
     lines = reader.readlines()
@@ -60,6 +60,10 @@ def clean_repos(path, dict_repos):
     for line in lines:
         parts = line.split("\t")
         if parts[0] in dict_repos:
+            output += "\n" + line.replace("\n", "")
+
+        if keyword != "" and keyword in line:
+            # If special keyword is in the line, then add it to output
             output += "\n" + line.replace("\n", "")
 
     writer = open(path, "w")
@@ -89,3 +93,7 @@ if __name__ == "__main__":
 
     clean_repos(os.path.join("results", "paper_data",
                              "lock_file_init_commit.txt"), dict_current_repos)
+
+    clean_repos(os.path.join("results", "audit_checker_all_tags",
+                             "grouped_vul_count_all_tags.txt"), dict_current_repos,
+                "Tag order from latest-to-earliest[1-to-5]:")

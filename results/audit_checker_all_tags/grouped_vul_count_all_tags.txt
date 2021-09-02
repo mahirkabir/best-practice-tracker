@@ -1,7 +1,4 @@
-Tag order from latest-to-earliest[1-to-5]: 1
-fontawesome	5.15.3	0	0	No Vul	No Vul	No Vul
-fortawesomefontawesomesvgcore	5.15.3	0	0	ERR	No Vul (Changed)	No Vul
-fortawesomefreesolidsvgicons	5.15.3	0	0	ERR	No Vul (Changed)	No Vul
+Tag order from latest-to-earliest[1-to-5]: 1						
 requirejs	2.3.6	0	0	ERR	No Vul (Changed)	No Vul
 iniparser	1.0.5	0	0	ERR	No Vul (Changed)	No Vul
 gulpconflict	0.4.0	7	7	ERR	Vul Found (Changed)	Vul Found
@@ -364,7 +361,6 @@ forktscheckerwebpackplugin	v7.0.0-alpha.4	12	0	ERR	Vul Found (Changed)	No Vul (C
 yaml	v2.0.0-7	0	0	No Vul	No Vul	No Vul
 rx	v4.1.0	4	4	ERR	Vul Found (Changed)	Vul Found
 phantomjsprebuilt	2.1.14	9	9	ERR	Vul Found (Changed)	Vul Found
-phantomjs	2.1.14	9	9	ERR	Vul Found (Changed)	Vul Found
 needle	v2.5.2	2	1	Vul Found	Vul Found	Vul Found
 accepts	1.3.7	3	3	ERR	Vul Found (Changed)	Vul Found
 es6promise	v4.2.8	41	18	ERR	Vul Found (Changed)	Vul Found
@@ -429,12 +425,7 @@ redis	v4.0.0-next.5	0	0	No Vul	No Vul	No Vul
 commandlineargs	v5.2.0	0	0	No Vul	No Vul	No Vul
 husky	v7.0.1	1	1	Vul Found	Vul Found	Vul Found
 reactdevutils	create-react-app@4.0.3	9	9	ERR	Vul Found (Changed)	Vul Found
-babelpresetreactapp	create-react-app@4.0.3	9	9	ERR	Vul Found (Changed)	Vul Found
-eslintconfigreactapp	create-react-app@4.0.3	9	9	ERR	Vul Found (Changed)	Vul Found
-reactscripts	create-react-app@4.0.3	9	9	ERR	Vul Found (Changed)	Vul Found
 jsbeautify	v1.14.0	1	0	Vul Found	Vul Found	No Vul (Changed)
-babelpluginnamedassetimport	create-react-app@4.0.3	9	9	ERR	Vul Found (Changed)	Vul Found
-reactapppolyfill	create-react-app@4.0.3	9	9	ERR	Vul Found (Changed)	Vul Found
 postcsscssnext	3.1.0	35	16	ERR	Vul Found (Changed)	Vul Found
 coffeescript	2.5.1	15	2	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v8.1.0	7	0	ERR	Vul Found (Changed)	No Vul (Changed)
@@ -467,25 +458,13 @@ babylon	v7.0.0-beta.30	25	13	ERR	Vul Found (Changed)	Vul Found
 d3	v7.0.0	0	0	ERR	No Vul (Changed)	No Vul
 sharp	v0.28.3	2	2	ERR	Vul Found (Changed)	Vul Found
 webpackdevmiddleware	v5.0.0	0	0	ERR	No Vul (Changed)	No Vul
-lodashisplainobject	4.17.21	23	15	Vul Found	Vul Found	Vul Found
-lodashuniq	4.17.21	23	15	Vul Found	Vul Found	Vul Found
-lodashisfunction	4.17.21	23	15	Vul Found	Vul Found	Vul Found
-lodashisstring	4.17.21	23	15	Vul Found	Vul Found	Vul Found
-lodashisempty	4.17.21	23	15	Vul Found	Vul Found	Vul Found
-lodashmap	4.17.21	23	15	Vul Found	Vul Found	Vul Found
-lodashforeach	4.17.21	23	15	Vul Found	Vul Found	Vul Found
-lodashflatten	4.17.21	23	15	Vul Found	Vul Found	Vul Found
-lodashisobject	4.17.21	23	15	Vul Found	Vul Found	Vul Found
 mathjs	v9.4.4	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.56.0	0	0	No Vul	No Vul	No Vul
 connect	3.7.0	2	2	ERR	Vul Found (Changed)	Vul Found
 stylelint	13.13.1	8	0	Vul Found	Vul Found	No Vul (Changed)
 pouchdb	7.2.2	28	1	Vul Found	Vul Found	Vul Found
 express	5.0.0-alpha.8	4	4	ERR	Vul Found (Changed)	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 2
-fontawesome	5.15.2	0	0	No Vul	No Vul	No Vul
-fortawesomefontawesomesvgcore	5.15.2	0	0	No Vul	No Vul	No Vul
-fortawesomefreesolidsvgicons	5.15.2	0	0	No Vul	No Vul	No Vul
+Tag order from latest-to-earliest[1-to-5]: 2						
 requirejs	latest	0	0	No Vul	No Vul	No Vul
 iniparser	1.0.4	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.3.0	7	7	Vul Found	Vul Found	Vul Found
@@ -848,7 +827,6 @@ forktscheckerwebpackplugin	v6.3.1	0	0	No Vul	No Vul	No Vul
 yaml	v2.0.0-6	0	0	No Vul	No Vul	No Vul
 rx	v4.0.8	4	4	Vul Found	Vul Found	Vul Found
 phantomjsprebuilt	2.1.13	9	9	Vul Found	Vul Found	Vul Found
-phantomjs	2.1.13	9	9	Vul Found	Vul Found	Vul Found
 needle	v2.5.1	1	1	Vul Found	Vul Found	Vul Found
 accepts	1.3.6	3	3	Vul Found	Vul Found	Vul Found
 es6promise	v4.2.7	18	18	Vul Found	Vul Found	Vul Found
@@ -913,12 +891,7 @@ redis	v4.0.0-next.4	0	0	No Vul	No Vul	No Vul
 commandlineargs	v5.1.3	2	2	Vul Found	Vul Found	Vul Found
 husky	v7.0.0	1	1	Vul Found	Vul Found	Vul Found
 reactdevutils	react-dev-utils@11.0.3	9	9	Vul Found	Vul Found	Vul Found
-babelpresetreactapp	react-dev-utils@11.0.3	9	9	Vul Found	Vul Found	Vul Found
-eslintconfigreactapp	react-dev-utils@11.0.3	9	9	Vul Found	Vul Found	Vul Found
-reactscripts	react-dev-utils@11.0.3	9	9	Vul Found	Vul Found	Vul Found
 jsbeautify	v1.13.13	0	0	No Vul	No Vul	No Vul
-babelpluginnamedassetimport	react-dev-utils@11.0.3	9	9	Vul Found	Vul Found	Vul Found
-reactapppolyfill	react-dev-utils@11.0.3	9	9	Vul Found	Vul Found	Vul Found
 postcsscssnext	3.0.2	16	16	Vul Found	Vul Found	Vul Found
 coffeescript	2.5.0	2	2	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v8.0.0	0	0	No Vul	No Vul	No Vul
@@ -951,25 +924,13 @@ babylon	v7.0.0-beta.29	13	13	Vul Found	Vul Found	Vul Found
 d3	v6.7.0	0	0	No Vul	No Vul	No Vul
 sharp	v0.28.2	2	2	Vul Found	Vul Found	Vul Found
 webpackdevmiddleware	v4.3.0	0	0	No Vul	No Vul	No Vul
-lodashisplainobject	4.17.21-es	15	15	Vul Found	Vul Found	Vul Found
-lodashuniq	4.17.21-es	15	15	Vul Found	Vul Found	Vul Found
-lodashisfunction	4.17.21-es	15	15	Vul Found	Vul Found	Vul Found
-lodashisstring	4.17.21-es	15	15	Vul Found	Vul Found	Vul Found
-lodashisempty	4.17.21-es	15	15	Vul Found	Vul Found	Vul Found
-lodashmap	4.17.21-es	15	15	Vul Found	Vul Found	Vul Found
-lodashforeach	4.17.21-es	15	15	Vul Found	Vul Found	Vul Found
-lodashflatten	4.17.21-es	15	15	Vul Found	Vul Found	Vul Found
-lodashisobject	4.17.21-es	15	15	Vul Found	Vul Found	Vul Found
 mathjs	v9.4.3	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.55.1	0	0	No Vul	No Vul	No Vul
 connect	3.6.6	2	13	Vul Found	Vul Found	Vul Found
 stylelint	13.13.0	0	0	No Vul	No Vul	No Vul
 pouchdb	7.2.1	1	1	Vul Found	Vul Found	Vul Found
 express	4.17.1	4	4	Vul Found	Vul Found	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 3
-fontawesome	5.15.1	0	0	No Vul	No Vul	No Vul
-fortawesomefontawesomesvgcore	5.15.1	0	0	No Vul	No Vul	No Vul
-fortawesomefreesolidsvgicons	5.15.1	0	0	No Vul	No Vul	No Vul
+Tag order from latest-to-earliest[1-to-5]: 3						
 requirejs	2.3.5	0	0	No Vul	No Vul	No Vul
 iniparser	1.0.3	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.2.0	7	7	Vul Found	Vul Found	Vul Found
@@ -1332,7 +1293,6 @@ forktscheckerwebpackplugin	v6.3.0	0	0	No Vul	No Vul	No Vul
 yaml	v2.0.0-5	2	0	Vul Found	Vul Found	No Vul (Changed)
 rx	v4.0.7	4	4	Vul Found	Vul Found	Vul Found
 phantomjsprebuilt	2.1.12	9	9	Vul Found	Vul Found	Vul Found
-phantomjs	2.1.12	9	9	Vul Found	Vul Found	Vul Found
 needle	v2.5.0	1	1	Vul Found	Vul Found	Vul Found
 accepts	1.3.5	3	7	Vul Found	Vul Found	Vul Found
 es6promise	v4.2.6	18	18	Vul Found	Vul Found	Vul Found
@@ -1397,12 +1357,7 @@ redis	v4.0.0-next.3	0	0	No Vul	No Vul	No Vul
 commandlineargs	v5.1.2	2	2	Vul Found	Vul Found	Vul Found
 husky	v6.0.0	1	1	Vul Found	Vul Found	Vul Found
 reactdevutils	react-scripts@4.0.3	9	9	Vul Found	Vul Found	Vul Found
-babelpresetreactapp	react-scripts@4.0.3	9	9	Vul Found	Vul Found	Vul Found
-eslintconfigreactapp	react-scripts@4.0.3	9	9	Vul Found	Vul Found	Vul Found
-reactscripts	react-scripts@4.0.3	9	9	Vul Found	Vul Found	Vul Found
 jsbeautify	v1.13.12	0	0	No Vul	No Vul	No Vul
-babelpluginnamedassetimport	react-scripts@4.0.3	9	9	Vul Found	Vul Found	Vul Found
-reactapppolyfill	react-scripts@4.0.3	9	9	Vul Found	Vul Found	Vul Found
 postcsscssnext	3.0.1	16	16	Vul Found	Vul Found	Vul Found
 coffeescript	2.4.1	2	2	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v7.1.0	0	0	No Vul	No Vul	No Vul
@@ -1435,25 +1390,13 @@ babylon	v7.0.0-beta.28	13	13	Vul Found	Vul Found	Vul Found
 d3	v6.6.2	0	0	No Vul	No Vul	No Vul
 sharp	v0.28.1	2	2	Vul Found	Vul Found	Vul Found
 webpackdevmiddleware	v4.2.0	0	0	No Vul	No Vul	No Vul
-lodashisplainobject	4.17.21-npm	15	15	Vul Found	Vul Found	Vul Found
-lodashuniq	4.17.21-npm	15	15	Vul Found	Vul Found	Vul Found
-lodashisfunction	4.17.21-npm	15	15	Vul Found	Vul Found	Vul Found
-lodashisstring	4.17.21-npm	15	15	Vul Found	Vul Found	Vul Found
-lodashisempty	4.17.21-npm	15	15	Vul Found	Vul Found	Vul Found
-lodashmap	4.17.21-npm	15	15	Vul Found	Vul Found	Vul Found
-lodashforeach	4.17.21-npm	15	15	Vul Found	Vul Found	Vul Found
-lodashflatten	4.17.21-npm	15	15	Vul Found	Vul Found	Vul Found
-lodashisobject	4.17.21-npm	15	15	Vul Found	Vul Found	Vul Found
 mathjs	v9.4.2	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.55.0	0	0	No Vul	No Vul	No Vul
 connect	3.6.5	13	13	Vul Found	Vul Found	Vul Found
 stylelint	13.12.0	0	0	No Vul	No Vul	No Vul
 pouchdb	7.1.1	1	1	Vul Found	Vul Found	Vul Found
 express	4.17.0	4	4	Vul Found	Vul Found	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 4
-fontawesome	5.15.0	0	0	No Vul	No Vul	No Vul
-fortawesomefontawesomesvgcore	5.15.0	0	0	No Vul	No Vul	No Vul
-fortawesomefreesolidsvgicons	5.15.0	0	0	No Vul	No Vul	No Vul
+Tag order from latest-to-earliest[1-to-5]: 4						
 requirejs	2.3.4	0	0	No Vul	No Vul	No Vul
 iniparser	1.0.2	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.1.2	7	7	Vul Found	Vul Found	Vul Found
@@ -1816,7 +1759,6 @@ forktscheckerwebpackplugin	v6.2.13	0	0	No Vul	No Vul	No Vul
 yaml	v2.0.0-4	0	0	No Vul	No Vul	No Vul
 rx	v4.0.6	4	4	Vul Found	Vul Found	Vul Found
 phantomjsprebuilt	2.1.10	9	9	Vul Found	Vul Found	Vul Found
-phantomjs	2.1.10	9	9	Vul Found	Vul Found	Vul Found
 needle	v2.3.3	1	1	Vul Found	Vul Found	Vul Found
 accepts	1.3.4	7	7	Vul Found	Vul Found	Vul Found
 es6promise	v4.2.5	18	18	Vul Found	Vul Found	Vul Found
@@ -1881,12 +1823,7 @@ redis	v4.0.0-next.2	0	0	No Vul	No Vul	No Vul
 commandlineargs	v5.1.1	2	2	Vul Found	Vul Found	Vul Found
 husky	v5.2.0	1	1	Vul Found	Vul Found	Vul Found
 reactdevutils	v4.0.3	9	9	Vul Found	Vul Found	Vul Found
-babelpresetreactapp	v4.0.3	9	9	Vul Found	Vul Found	Vul Found
-eslintconfigreactapp	v4.0.3	9	9	Vul Found	Vul Found	Vul Found
-reactscripts	v4.0.3	9	9	Vul Found	Vul Found	Vul Found
 jsbeautify	v1.13.11	0	0	No Vul	No Vul	No Vul
-babelpluginnamedassetimport	v4.0.3	9	9	Vul Found	Vul Found	Vul Found
-reactapppolyfill	v4.0.3	9	9	Vul Found	Vul Found	Vul Found
 postcsscssnext	3.0.0	16	16	Vul Found	Vul Found	Vul Found
 coffeescript	2.4.0	2	2	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v7.0.0	0	0	No Vul	No Vul	No Vul
@@ -1919,25 +1856,13 @@ babylon	v7.0.0-beta.27	13	13	Vul Found	Vul Found	Vul Found
 d3	v6.6.1	0	0	No Vul	No Vul	No Vul
 sharp	v0.28.0	2	2	Vul Found	Vul Found	Vul Found
 webpackdevmiddleware	v4.1.0	0	0	No Vul	No Vul	No Vul
-lodashisplainobject	4.17.20-es	15	15	Vul Found	Vul Found	Vul Found
-lodashuniq	4.17.20-es	15	15	Vul Found	Vul Found	Vul Found
-lodashisfunction	4.17.20-es	15	15	Vul Found	Vul Found	Vul Found
-lodashisstring	4.17.20-es	15	15	Vul Found	Vul Found	Vul Found
-lodashisempty	4.17.20-es	15	15	Vul Found	Vul Found	Vul Found
-lodashmap	4.17.20-es	15	15	Vul Found	Vul Found	Vul Found
-lodashforeach	4.17.20-es	15	15	Vul Found	Vul Found	Vul Found
-lodashflatten	4.17.20-es	15	15	Vul Found	Vul Found	Vul Found
-lodashisobject	4.17.20-es	15	15	Vul Found	Vul Found	Vul Found
 mathjs	v9.4.1	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.54.0	0	0	No Vul	No Vul	No Vul
 connect	3.6.4	13	13	Vul Found	Vul Found	Vul Found
 stylelint	13.11.0	0	0	No Vul	No Vul	No Vul
 pouchdb	7.0.0	1	1	Vul Found	Vul Found	Vul Found
 express	5.0.0-alpha.7	4	4	Vul Found	Vul Found	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 5
-fontawesome	5.14.0	0	0	No Vul	No Vul	No Vul
-fortawesomefontawesomesvgcore	5.14.0	0	0	No Vul	No Vul	No Vul
-fortawesomefreesolidsvgicons	5.14.0	0	0	No Vul	No Vul	No Vul
+Tag order from latest-to-earliest[1-to-5]: 5						
 requirejs	2.3.3	0	0	No Vul	No Vul	No Vul
 iniparser	1.0.1	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.1.1	7	7	Vul Found	Vul Found	Vul Found
@@ -2300,7 +2225,6 @@ forktscheckerwebpackplugin	v6.2.12	0	0	No Vul	No Vul	No Vul
 yaml	v1.10.2	0	0	No Vul	No Vul	No Vul
 rx	v4.0.5	4	4	Vul Found	Vul Found	Vul Found
 phantomjsprebuilt	2.1.9	9	9	Vul Found	Vul Found	Vul Found
-phantomjs	2.1.9	9	9	Vul Found	Vul Found	Vul Found
 needle	v2.3.2	1	1	Vul Found	Vul Found	Vul Found
 accepts	1.3.3	7	6	Vul Found	Vul Found	Vul Found
 es6promise	v4.2.4	18	18	Vul Found	Vul Found	Vul Found
@@ -2365,12 +2289,7 @@ redis	v4.0.0-next.1	0	0	No Vul	No Vul	No Vul
 commandlineargs	v5.1.0	2	2	Vul Found	Vul Found	Vul Found
 husky	v5.1.3	1	1	Vul Found	Vul Found	Vul Found
 reactdevutils	cra-template-typescript@1.1.2	9	10	Vul Found	Vul Found	Vul Found
-babelpresetreactapp	cra-template-typescript@1.1.2	9	10	Vul Found	Vul Found	Vul Found
-eslintconfigreactapp	cra-template-typescript@1.1.2	9	10	Vul Found	Vul Found	Vul Found
-reactscripts	cra-template-typescript@1.1.2	9	10	Vul Found	Vul Found	Vul Found
 jsbeautify	v1.13.10	0	0	No Vul	No Vul	No Vul
-babelpluginnamedassetimport	cra-template-typescript@1.1.2	9	10	Vul Found	Vul Found	Vul Found
-reactapppolyfill	cra-template-typescript@1.1.2	9	9	Vul Found	Vul Found	Vul Found
 postcsscssnext	2.11.0	16	16	Vul Found	Vul Found	Vul Found
 coffeescript	2.3.2	2	2	Vul Found	Vul Found	Vul Found
 reactnativevectoricons	v6.7.0	0	0	No Vul	No Vul	No Vul
@@ -2403,15 +2322,6 @@ babylon	v7.0.0-beta.26	13	13	Vul Found	Vul Found	Vul Found
 d3	v6.6.0	0	0	No Vul	No Vul	No Vul
 sharp	v0.28.0-beta1	2	2	Vul Found	Vul Found	Vul Found
 webpackdevmiddleware	v4.0.4	0	0	No Vul	No Vul	No Vul
-lodashisplainobject	4.17.20	15	15	Vul Found	Vul Found	Vul Found
-lodashuniq	4.17.20	15	15	Vul Found	Vul Found	Vul Found
-lodashisfunction	4.17.20	15	15	Vul Found	Vul Found	Vul Found
-lodashisstring	4.17.20	15	15	Vul Found	Vul Found	Vul Found
-lodashisempty	4.17.20	15	15	Vul Found	Vul Found	Vul Found
-lodashmap	4.17.20	15	15	Vul Found	Vul Found	Vul Found
-lodashforeach	4.17.20	15	15	Vul Found	Vul Found	Vul Found
-lodashflatten	4.17.20	15	15	Vul Found	Vul Found	Vul Found
-lodashisobject	4.17.20	15	15	Vul Found	Vul Found	Vul Found
 mathjs	v9.4.0	3	3	Vul Found	Vul Found	Vul Found
 rollup	v2.53.3	0	0	No Vul	No Vul	No Vul
 connect	3.6.3	13	13	Vul Found	Vul Found	Vul Found
