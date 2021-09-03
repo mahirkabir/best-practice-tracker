@@ -63,13 +63,12 @@ if __name__ == "__main__":
     repos = []
     for repo in org_repos:
         if dict_auditable_repos[repo["name"]]:
-            if dict_auditable_repos[repo["name"]]:
-                repos.append(repo)
+            repos.append(repo)
 
     repos_sz = len(repos)
 
     reader = open(os.path.join(".", "repo_tags.txt"), "r", encoding="utf-8")
-    lines = reader.readlines()[1:]
+    lines = reader.readlines()
     reader.close()
     dict_tags = {}
     for line in lines:
