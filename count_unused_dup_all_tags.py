@@ -1,6 +1,7 @@
 import os
 import re
 from tqdm import tqdm
+import helper
 
 
 def get_repo_tags(path):
@@ -39,15 +40,16 @@ def count_duplicates(npm_ls_path):
         m = re.search("\w.*@\d\.\d.\d", line)
         if m:
             library_version = m.group(0)  # library@version
-            if library_version in dict_dups:
+            library = library_version.split("@")[0]
+            if library in dict_dups:
                 cnt += 1
-                dict_dups[library_version] += 1
+                dict_dups[library] += 1
             else:
-                dict_dups[library_version] = 1
+                dict_dups[library] = 1
 
-            if dict_dups[library_version] == 2:
+            if dict_dups[library] == 2:
                 # List the duplicates when it's found the second time
-                duplicates += library_version + "\n"
+                duplicates += library + "\n"
 
     if len(duplicates) > 0:
         duplicates = duplicates[0:len(duplicates) - 1]  # Removing last \n
@@ -94,8 +96,14 @@ if __name__ == "__main__":
             try:
                 tag_loc = os.path.join(
                     "results", "unused_dup_checker_all_tags", repo, tag)
-                cnt, _ = count_duplicates(os.path.join(tag_loc, "npm_ls.txt"))
+                cnt, duplicates = count_duplicates(
+                    os.path.join(tag_loc, "npm_ls.txt"))
                 writer_ddp.write("%s\t%s\t%s\n" % (repo, tag, cnt))
+
+                if duplicates != "":
+                    helper.record(
+                        tag_loc, "duplicates_just_lib.txt", duplicates)
+
             except Exception as ex:
                 print(str(ex))
 

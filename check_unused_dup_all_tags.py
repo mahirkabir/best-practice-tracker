@@ -67,6 +67,7 @@ def count_duplicate(content):
                 line = line.replace("\n", "")
                 m = re.search("\w.*@\d\.\d.\d", line)
                 if m:
+                    # TODO: Need to consider all versions of the same library to be the same
                     library_version = m.group(0)  # library@version
                     if library_version in dict_dups:
                         cnt += 1
