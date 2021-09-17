@@ -1,4 +1,5 @@
-Tag order from latest-to-earliest[1-to-5]: 1
+Tag order from latest-to-earliest[1-to-5]: 1						
+requirejs	2.3.6	0	0	ERR	No Vul (Changed)	No Vul
 iniparser	1.0.5	0	0	ERR	No Vul (Changed)	No Vul
 gulpconflict	0.4.0	7	7	ERR	Vul Found (Changed)	Vul Found
 texttable	0.2.0	2	2	ERR	Vul Found (Changed)	Vul Found
@@ -493,7 +494,8 @@ pouchdb	7.2.2	28	1	Vul Found	Vul Found	Vul Found
 express	5.0.0-alpha.8	4	4	ERR	Vul Found (Changed)	Vul Found
 reactapollo	@apollo/react-components@4.0.0	11	2	Vul Found	Vul Found	Vul Found
 npm	v7.20.3	0	0	No Vul	No Vul	No Vul
-Tag order from latest-to-earliest[1-to-5]: 2
+Tag order from latest-to-earliest[1-to-5]: 2						
+requirejs	latest	0	0	No Vul	No Vul	No Vul
 iniparser	1.0.4	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.3.0	7	7	Vul Found	Vul Found	Vul Found
 texttable	0.1.1	2	2	Vul Found	Vul Found	Vul Found
@@ -988,7 +990,8 @@ pouchdb	7.2.1	1	1	Vul Found	Vul Found	Vul Found
 express	4.17.1	4	4	Vul Found	Vul Found	Vul Found
 reactapollo	@apollo/react-hoc@4.0.0	2	2	Vul Found	Vul Found	Vul Found
 npm	v6.14.14	1	1	Vul Found	Vul Found	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 3
+Tag order from latest-to-earliest[1-to-5]: 3						
+requirejs	2.3.5	0	0	No Vul	No Vul	No Vul
 iniparser	1.0.3	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.2.0	7	7	Vul Found	Vul Found	Vul Found
 texttable	0.1.0	2	2	Vul Found	Vul Found	Vul Found
@@ -1483,7 +1486,8 @@ pouchdb	7.1.1	1	1	Vul Found	Vul Found	Vul Found
 express	4.17.0	4	4	Vul Found	Vul Found	Vul Found
 reactapollo	@apollo/react-hooks@4.0.0	2	2	Vul Found	Vul Found	Vul Found
 npm	v7.20.2	1	1	Vul Found	Vul Found	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 4
+Tag order from latest-to-earliest[1-to-5]: 4						
+requirejs	2.3.4	0	0	No Vul	No Vul	No Vul
 iniparser	1.0.2	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.1.2	7	7	Vul Found	Vul Found	Vul Found
 texttable	0.0.1	2	2	Vul Found	Vul Found	Vul Found
@@ -1978,7 +1982,8 @@ pouchdb	7.0.0	1	1	Vul Found	Vul Found	Vul Found
 express	5.0.0-alpha.7	4	4	Vul Found	Vul Found	Vul Found
 reactapollo	@apollo/react-ssr@4.0.0	2	2	Vul Found	Vul Found	Vul Found
 npm	v7.20.1	1	1	Vul Found	Vul Found	Vul Found
-Tag order from latest-to-earliest[1-to-5]: 5
+Tag order from latest-to-earliest[1-to-5]: 5						
+requirejs	2.3.3	0	0	No Vul	No Vul	No Vul
 iniparser	1.0.1	0	0	No Vul	No Vul	No Vul
 gulpconflict	0.1.1	7	7	Vul Found	Vul Found	Vul Found
 texttable	0.0.0	2	2	Vul Found	Vul Found	Vul Found
