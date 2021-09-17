@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
     print("Counting Duplicate Dependencies")
     writer_ddp = open(os.path.join(
-        "results", "unused_dup_checker_all_tags", "duplicates_all_tags"), "w")
+        "results", "unused_dup_checker_all_tags", "duplicates_all_tags.txt"), "w")
     writer_ddp.write("Repository\tTag\tOriginal Duplicates\n")
 
     for i in range(0, 5):
