@@ -1,6 +1,7 @@
 import os
 import helper
 import re
+from tqdm import tqdm
 
 
 def count_duplicates(npm_ls_path):
@@ -21,15 +22,16 @@ def count_duplicates(npm_ls_path):
         m = re.search("\w.*@\d\.\d.\d", line)
         if m:
             library_version = m.group(0)  # library@version
-            if library_version in dict_dups:
+            library = library_version.split("@")[0]
+            if library in dict_dups:
                 cnt += 1
-                dict_dups[library_version] += 1
+                dict_dups[library] += 1
             else:
-                dict_dups[library_version] = 1
+                dict_dups[library] = 1
 
-            if dict_dups[library_version] == 2:
+            if dict_dups[library] == 2:
                 # List the duplicates when it's found the second time
-                duplicates += library_version + "\n"
+                duplicates += library + "\n"
 
     if len(duplicates) > 0:
         duplicates = duplicates[0:len(duplicates) - 1]  # Removing last \n
@@ -63,7 +65,7 @@ if __name__ == "__main__":
         ".", "data", "npm_rank_sorted.txt"))
 
     output = ""
-    for repo in repos:
+    for repo in tqdm(repos):
         try:
             repo_path = os.path.join(
                 "results", "unused_checker", repo["name"])
@@ -82,16 +84,20 @@ if __name__ == "__main__":
     writer.close()
 
     output = ""
-    for repo in repos:
+    for repo in tqdm(repos):
         try:
             repo_path = os.path.join(
                 "results", "ddp_checker", repo["name"])
 
-            cnt, _ = count_duplicates(
+            cnt, duplicates = count_duplicates(
                 os.path.join(repo_path, "before_ddp.txt"))
 
             output += ("%s\t%s\n" %
                        (repo["name"], cnt))
+
+            if duplicates != "":
+                helper.record(repo_path,
+                              "duplicates_just_lib.txt", duplicates)
 
         except Exception as ex:
             print(str(ex))
