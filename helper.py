@@ -1,7 +1,7 @@
 import os
+import shutil
 import subprocess
 import configparser
-from shutil import copy2
 import re
 
 
@@ -145,3 +145,14 @@ def add_count(dict, val):
     else:
         dict[val] = 1
     return dict
+
+
+def copy_folder(src, dest):
+    """Copy src folder content to dest"""
+    """
+    /E – Copy subdirectories, including any empty ones.
+    /H - Copy files with hidden and system file attributes
+    /C - Continue copying even if an error occurs.
+    /I - If in doubt, always assume the destination is a folder. e.g. when the destination does not exist.
+    """
+    execute_cmd(src, "xcopy %s %s /E/H/C/I" % (src, dest))
