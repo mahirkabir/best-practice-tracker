@@ -62,16 +62,16 @@ if __name__ == "__main__":
         for dir in tqdm(dirs):
             path = os.path.join(src, dir)
             result_path = os.path.join(result, dir)
-
+            # MOST IMPORTANT: How many dedupe removes
             result_npm_i = helper.execute_cmd(path, "npm i")
-            result_ls_init = helper.execute_cmd(path, "npm ls --all")
+            # result_ls_init = helper.execute_cmd(path, "npm ls --all")
             result_test_init = helper.execute_cmd(path, "npm run test")
             result_ddp = helper.execute_cmd(path, "npm dedupe")
             result_ls_after = helper.execute_cmd(path, "npm ls --all")
             result_test_after = helper.execute_cmd(path, "npm run test")
 
             helper.record(result_path, "npm_i.txt", result_npm_i[1])
-            helper.record(result_path, "npm_ls_init.txt", result_ls_init[1])
+            # helper.record(result_path, "npm_ls_init.txt", result_ls_init[1])
             helper.record(result_path, "npm_test_init.txt",
                           result_test_init[1])
             helper.record(result_path, "npm_ddp.txt", result_ddp[1])
