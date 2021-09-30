@@ -1,0 +1,26 @@
+<REPO LINK>
+
+**Title**: Audit vulnerabilities detected in the <PROJECT> project on Tag: <TAG>
+
+**Issue**: We detected vulnerable dependencies in your project by using the command “npm audit”:
+<VULNERABILITY REPORT>
+
+**Questions**: We are conducting a research study on vulnerable dependencies in open-source JS projects. We are curious:
+1. Will you fix the vulnerabilities mentioned above? (Yes/No), and why?:
+2. Do you have any additional comments? (If so, please write it down):
+
+
+For any publication or research report based on this study, we will share all responses from developers in an anonymous way. Both your projects and personal information will be kept confidential.
+
+**Description**: Many popular NPM packages have been found vulnerable and may carry significant risks [1]. Developers are recommended to monitor and avoid the vulnerable versions of the library. The vulnerabilities have been identified and reported by other developers, and their descriptions are available in the npm registry [2].
+
+**Steps to reproduce**:
+- Go to the root folder of the project where the package.json file located
+- Execute “npm audit”
+- Look at the list of vulnerabilities reported
+
+**Suggested Solution**: Npm has introduced the “npm audit fix” command to fix the vulnerabilities. Execute the command to apply remediation to the dependency tree.
+
+**References**:
+2019. 10 npm Security Best Practices.  https://snyk.io/blog/ten-npm-security-best-practices/.
+2021. npm-audit. https://docs.npmjs.com/cli/v7/commands/npm-audit.
