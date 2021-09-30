@@ -8,6 +8,12 @@ def get_vul_report(repo, tag):
     lines = reader.readlines()
     reader.close()
 
+    if len(lines) == 0:
+        reader = open(os.path.join("results", "audit_checker_all_tags",
+                                   repo, tag, "init_audit.txt"), "r", encoding="utf-8")
+        lines = reader.readlines()
+        reader.close()
+
     report = ""
     for line in lines:
         report += line
