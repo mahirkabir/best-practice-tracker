@@ -1,0 +1,24 @@
+<REPO LINK>
+
+**Title**: Unused packages detected in the <PROJECT> project on Tag: <TAG>
+
+**Issue**: We have detected the following unused dependencies in your project:
+<UNUSED DEPENDENCIES>
+
+**Questions**: We are conducting a research study on the unused packages in JS projects. We were curious:
+1. Will you remove the unused packages mentioned above? (Yes/No), and why?:
+2. Do you have any additional comments? (If so, please write it down):
+
+
+For any publication or research report based on this study, we will share all responses from developers in an anonymous way. Both your projects and personal information will be kept confidential.
+
+**Rationale**: When a JS application depends on too many packages, its attack surface can grow dramatically; hackers can get a higher chance of successfully exploiting the vulnerabilities inside those packages and escalating the potential damage. Therefore, JS application developers are recommended to remove unused packages from their projects, in order to eliminate the security risks unnecessarily incurred by those packages. 
+
+
+**Steps to reproduce**:
+- Execute the “npx depcheck” command to print the list of all the unused dependencies
+
+**Suggested Solution**: Please look at the unused dependencies list and uninstall them if they do not find them necessary.
+
+**Resources**:
+https://www.npmjs.com/package/depcheck 

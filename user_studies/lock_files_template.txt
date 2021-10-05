@@ -1,0 +1,28 @@
+<REPO LINK>
+
+**Title**: No lock file found in the <PROJECT> project on Tag: <TAG>
+
+**Issue**: There is no package-lock.json or npm-shrinkwrap.json file uploaded to the GitHub repository <REPO LINK>
+
+**Questions**: We are conducting a research study on the lock files used in JS projects. We were curious:
+1. Will you upload any lock files to GitHub as recommended above? (Yes/No), and why?:
+2. Do you have any additional comments? (If so, please write it down):
+
+
+For any publication or research report based on this study, we will share all responses from developers in an anonymous way. Both your projects and personal information will be kept confidential.
+
+**Rationale**: NPM introduced package-lock.json and npm-shrimpwrap.json files to capture the exact dependency tree installed at any point in time. When package.json defines the required dependencies and their respective versions using semantic versioning (e.g., “express”: “^4.16.4”), npm always downloads the latest version of packages to satisfy the specified version ranges (e.g., 4.17.1)[1]. If the latest version of any package keeps changing and has backward incompatibility issues with previous versions, the project may have an inconsistent running environment and get intermittent failures. In such scenarios, it can be very difficult for developers to debug programs and settle down the software environment [2].
+
+**List of Risks**:
+- Nondeterministic package downloads and installations across different environments [3]
+- Produce irreproducible builds [4]
+- Inconsistent results of program execution [5]
+
+**Suggested Solution**: Please fixate the dependencies by either specifying the exact library version in the package.json file or by uploading the package-lock.json or npm-shrinkwrap.json file to GitHub.
+
+**References**:
+https://docs.npmjs.com/cli/v7/configuring-npm/package-lock-json 
+https://blog.logrocket.com/why-you-should-use-package-lock-json/ 
+2019.  10 npm Security Best Practices. https://snyk.io/blog/ten-npm-security-best-practices/.
+Pronnoy Goswami, Saksham Gupta, Zhiyuan Li, Na Meng, and Daphne Yao. 2020. Investigating The Reproducibility of NPM Packages. In2020 IEEE International 
+2021.  Npm Security Best Practices.  https://bytesafe.dev/posts/npm-security-best-practices/#no9-deterministic-results.

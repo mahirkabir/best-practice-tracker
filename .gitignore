@@ -138,3 +138,6 @@ results/audit_checker_all_tags/*/
 results/audit_checker_all_tags/audit_results_one_tag.txt
 results/unused_dup_checker_all_tags/*/
 user_studies/audit_issues/
+user_studies/unused_issues/
+user_studies/duplicate_issues/
+user_studies/lock_issues/

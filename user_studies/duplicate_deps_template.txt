@@ -1,0 +1,26 @@
+<REPO LINK>
+
+**Title**: Duplicate packages detected in the <PROJECT> project on Tag: <TAG>
+
+**Issue**: We say a project has duplicated dependencies if any package dependency occurs multiple times in the dependency tree. After analyzing the dependency tree, we have detected duplicate packages in your project.
+<DUPLICATE DEPENDENCIES>
+
+**Questions**: We are conducting a research study on the duplicated package dependencies in JS projects. We were curious: 
+1. Will you remove the duplicates mentioned above? (Yes/No), and why?:
+2. Do you have any additional comments? (If so, please write it down):
+
+
+For any publication or research report based on this study, we will share all responses from developers in an anonymous way. Both your projects and personal information will be kept confidential.
+
+**Rationale**: When a JS application depends on too many packages or on multiple versions of the same package, its attack surface can grow dramatically; hackers can get a higher chance of successfully exploiting the vulnerabilities inside those packages (or versions), and escalating the potential damage. The unnecessary and duplicated dependencies can also make JS projects bloat and lead to extra memory/computation overhead. Therefore, JS application developers are recommended to remove unused and duplicated packages from their projects, in order to eliminate the security risks unnecessarily incurred by those dependencies. 
+
+
+**Steps to reproduce**:
+- Execute the “npm ls --all” command to print the dependency tree of the project containing all the libraries and their corresponding versions
+- Check if any library exists more than once in the tree
+
+
+**Suggested Solution**: Execute the “npm dedupe” command to reduce the number of duplicate packages, or to manually modify package.json files
+
+**Resource**:
+https://docs.npmjs.com/cli/v7/commands/npm-dedupe 
