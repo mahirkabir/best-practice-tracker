@@ -16,7 +16,7 @@ def get_tag(output):
     return ""
 
 
-if __name__ == "__main__":
+if __name__ == "__main__DOWNLOAD":
     """Download all dataset repositories and store them in (external) drive"""
     dataset_path = helper.get_config("PATHS", "DATASET_PATH")
     repos = helper.get_repos(os.path.join(
@@ -108,3 +108,29 @@ if __name__ == "__main__":
     3. Create 5 (or less) copies of all repositories in <DATASET>/tags folder. Name them as tag names
     4. Reset the HEADs of <DATASET>/tags folders to the folder-name tags
     """
+
+if __name__ == "__main__":
+    """Run npm i on the downloaded repositories"""
+    dataset_path = helper.get_config("PATHS", "DATASET_PATH")
+    repos = helper.get_repos(os.path.join(
+        ".", "data", "npm_rank_sorted.txt"))
+
+    repos_sz = len(repos)
+
+    range_limit = 50
+    for i in range(0, repos_sz, range_limit):
+        print("Processing repo [%s..%s]:" % (str(i), str(i + range_limit - 1)))
+
+        # First clone the (<= range_limit) repositories in dataset folder
+        left_repos = min(i + range_limit, repos_sz)
+        # Process each one of the cloned repositories
+        for j in tqdm(range(i, left_repos)):
+            repo = repos[j]
+
+            repo_loc = os.path.join(dataset_path, "after_npm_i", repo["name"])
+
+            try:
+                helper.execute_cmd(repo_loc, 'npm i')
+            except Exception as ex:
+                print("Error processing [%s]: %s" %
+                      (repo["name"], str(ex)))
