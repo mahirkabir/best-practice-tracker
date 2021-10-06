@@ -109,7 +109,7 @@ if __name__ == "__main__DOWNLOAD":
     4. Reset the HEADs of <DATASET>/tags folders to the folder-name tags
     """
 
-if __name__ == "__main__":
+if __name__ == "__main__NPM_I":
     """Run npm i on the downloaded repositories"""
     dataset_path = helper.get_config("PATHS", "DATASET_PATH")
     repos = helper.get_repos(os.path.join(
@@ -134,3 +134,29 @@ if __name__ == "__main__":
             except Exception as ex:
                 print("Error processing [%s]: %s" %
                       (repo["name"], str(ex)))
+
+if __name__ == "__main__":
+    """Copy original version to two places (for - ddp-test, and audit-fix-test)"""
+    dataset_path = helper.get_config("PATHS", "DATASET_PATH")
+    src = os.path.join(dataset_path, "originals")
+    dest_ddp = os.path.join(dataset_path, "test_check_after_ddp_fix")
+    dest_audit_fix = os.path.join(dataset_path, "test_check_after_audit_fix")
+    dirs = os.listdir(src)
+
+    print("Copy for ddp-test check")
+    for dir in tqdm(dirs):
+        try:
+            if not os.path.isdir(os.path.join(dest_ddp, dir)):
+                helper.copy_folder(os.path.join(src, dir),
+                                   os.path.join(dest_ddp, dir))
+        except Exception as ex:
+            print(str(dir) + " " + str(ex))
+
+    print("Copy for audit-fix-test check")
+    for dir in tqdm(dirs):
+        try:
+            if not os.path.isdir(os.path.join(dest_audit_fix, dir)):
+                helper.copy_folder(os.path.join(src, dir),
+                                   os.path.join(dest_audit_fix, dir))
+        except Exception as ex:
+            print(str(dir) + " " + str(ex))
