@@ -109,7 +109,7 @@ if __name__ == "__main__DOWNLOAD":
     4. Reset the HEADs of <DATASET>/tags folders to the folder-name tags
     """
 
-if __name__ == "__main__NPM_I":
+if __name__ == "__main__":
     """Run npm i on the downloaded repositories"""
     dataset_path = helper.get_config("PATHS", "DATASET_PATH")
     repos = helper.get_repos(os.path.join(
@@ -117,25 +117,45 @@ if __name__ == "__main__NPM_I":
 
     repos_sz = len(repos)
 
-    range_limit = 50
-    for i in range(0, repos_sz, range_limit):
-        print("Processing repo [%s..%s]:" % (str(i), str(i + range_limit - 1)))
+    if False:
+        range_limit = 50
+        for i in range(0, repos_sz, range_limit):
+            print("Processing repo [%s..%s]:" % (str(i), str(i + range_limit - 1)))
 
-        # First clone the (<= range_limit) repositories in dataset folder
-        left_repos = min(i + range_limit, repos_sz)
-        # Process each one of the cloned repositories
-        for j in tqdm(range(i, left_repos)):
-            repo = repos[j]
+            # First clone the (<= range_limit) repositories in dataset folder
+            left_repos = min(i + range_limit, repos_sz)
+            # Process each one of the cloned repositories
+            for j in tqdm(range(i, left_repos)):
+                repo = repos[j]
 
-            repo_loc = os.path.join(dataset_path, "after_npm_i", repo["name"])
+                repo_loc = os.path.join(dataset_path, "test_check_after_ddp_fix", repo["name"])
 
-            try:
-                helper.execute_cmd(repo_loc, 'npm i')
-            except Exception as ex:
-                print("Error processing [%s]: %s" %
-                      (repo["name"], str(ex)))
+                try:
+                    helper.execute_cmd(repo_loc, 'npm i')
+                except Exception as ex:
+                    print("Error processing [%s]: %s" %
+                        (repo["name"], str(ex)))
 
-if __name__ == "__main__":
+    if False:
+        range_limit = 50
+        for i in range(0, repos_sz, range_limit):
+            print("Processing repo [%s..%s]:" % (str(i), str(i + range_limit - 1)))
+
+            # First clone the (<= range_limit) repositories in dataset folder
+            left_repos = min(i + range_limit, repos_sz)
+            # Process each one of the cloned repositories
+            for j in tqdm(range(i, left_repos)):
+                repo = repos[j]
+
+                repo_loc = os.path.join(dataset_path, "test_check_after_audit_fix", repo["name"])
+
+                try:
+                    helper.execute_cmd(repo_loc, 'npm i')
+                except Exception as ex:
+                    print("Error processing [%s]: %s" %
+                        (repo["name"], str(ex)))
+
+if __name__ == "__main__COPY":
     """Copy original version to two places (for - ddp-test, and audit-fix-test)"""
     dataset_path = helper.get_config("PATHS", "DATASET_PATH")
     src = os.path.join(dataset_path, "originals")
