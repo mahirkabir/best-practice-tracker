@@ -36,9 +36,10 @@ if __name__ == "__main__":
             repo_path = os.path.join(
                 dataset_path, "test_check_after_ddp_fix", repo)
 
-            if not os.path.exists(os.path.join(result_path, repo)):
-                if repo == "webpacknodeexternals" or repo == "nib" or repo == "jszip":
-                    continue
+            # if not os.path.exists(os.path.join(result_path, repo)):
+            if True:
+                # if not repo in ["webpacknodeexternals", "nib", "jszip"]:
+                #     continue
 
                 # test_result_before = helper.execute_cmd(
                 #     repo_path, "npm run test")
@@ -46,27 +47,7 @@ if __name__ == "__main__":
                 npm_dedupe_result = helper.execute_cmd(repo_path, "npm dedupe")
                 npm_ls_after = helper.execute_cmd(repo_path, "npm ls --all")
                 # test_result_after = helper.execute_cmd(
-                #     repo_path, "npm run test")                                                                                           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                #     repo_path, "npm run test")
 
                 # helper.record(os.path.join(result_path, repo),
                 #               "test_before.txt", test_result_before[1])
