@@ -156,3 +156,10 @@ def copy_folder(src, dest):
     /I - If in doubt, always assume the destination is a folder. e.g. when the destination does not exist.
     """
     execute_cmd(src, "xcopy %s %s /E/H/C/I" % (src, dest))
+
+
+def get_tag_time(path, tag):
+    """Get commit timestamp of `tag` of repository located in `path`"""
+    cmd = "git log -1 --format=%ai " + tag
+    result = execute_cmd(path, cmd)
+    return result[1].strip()
