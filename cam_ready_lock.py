@@ -86,7 +86,7 @@ def get_first_commit_time(repo_loc):
     return commit, time, det_time
 
 
-if __name__ == "__main__":
+if __name__ == "__main__CHECK_LOCK":
     """Check if package lock files are committed after the initial commit"""
     dataset_path = helper.get_config("PATHS", "DATASET_PATH")
     repos = helper.get_repos(os.path.join(".", "data", "npm_rank_sorted.txt"))
@@ -122,3 +122,36 @@ if __name__ == "__main__":
             print(repo["name"] + ": " + str(ex))
 
     writer.close()
+
+if __name__ == "__main__":
+    """Check the date of the initial commit"""
+    dataset_path = helper.get_config("PATHS", "DATASET_PATH")
+    repos = helper.get_repos(os.path.join(".", "data", "npm_rank_sorted.txt"))
+
+    writer = open(os.path.join("results", "camera_ready", "first_commit_date.txt"),
+                  "w", encoding="utf-8")
+    writer.write(
+        "Repository\tFirst-Commit-Time\tFirst-Commit-Month\n")
+
+    cnt_existed_before_2017 = 0
+
+    for repo in tqdm(repos):
+        try:
+            repo_loc = os.path.join(dataset_path, "originals", repo["name"])
+            _, det_time, first_commit_time = get_first_commit_time(repo_loc)
+
+            if int(det_time.split("||")[1]) < 2017:
+                cnt_existed_before_2017 += 1
+
+            writer.write(
+                "%s\t%s\t%s\n" % (
+                    repo["name"],
+                    str(first_commit_time),
+                    str(det_time)
+                ))
+        except Exception as ex:
+            print(repo["name"] + ": " + str(ex))
+
+    writer.close()
+
+    print(cnt_existed_before_2017)
