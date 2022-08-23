@@ -64,7 +64,7 @@ if __name__ == "__main__":
     repos = helper.get_repos(os.path.join(
         ".", "data", "npm_rank_sorted.txt"))
 
-    """output = ""
+    output = ""
     for repo in tqdm(repos):
         try:
             repo_path = os.path.join(
@@ -81,7 +81,7 @@ if __name__ == "__main__":
     writer = open(os.path.join("results", "paper_data",
                                "unused_all_package_one_tag.txt"), "w", encoding="utf-8")
     writer.write(output)
-    writer.close()"""
+    writer.close()
 
     output = ""
     for repo in tqdm(repos):
