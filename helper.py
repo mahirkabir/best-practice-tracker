@@ -163,3 +163,26 @@ def get_tag_time(path, tag):
     cmd = "git log -1 --format=%ai " + tag
     result = execute_cmd(path, cmd)
     return result[1].strip()
+
+
+def get_tags(path):
+    """Get tags of repositories located in paths"""
+    reader = open(path, "r", encoding="utf-8")
+    lines = reader.readlines()
+    reader.close()
+
+    dict_tags = {}
+    for line in lines:
+        parts = line.split("\t")
+        repo = parts[0]
+        tags = parts[1].split("|")
+        tag_times = parts[2].split("|")
+
+        if tags[-1] == "":
+            tags = tags[:len(tags) - 1]
+        if tag_times[-1] == "\n":
+            tag_times = tag_times[:len(tag_times) - 1]
+
+        dict_tags[repo] = {"tags": tags, "tag_times": tag_times}
+
+    return dict_tags
