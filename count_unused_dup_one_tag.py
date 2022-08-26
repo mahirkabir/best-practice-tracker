@@ -1,3 +1,4 @@
+from errno import ENETUNREACH
 import os
 import helper
 import re
@@ -58,9 +59,8 @@ def count_unused(path):
     return cnt
 
 
-if __name__ == "__main__":
-    """Count unused and dup for the latest version of all packages"""
-
+if __name__ == "__main__UNUSED":
+    """Count unused libs for the latest version of all packages"""
     repos = helper.get_repos(os.path.join(
         ".", "data", "npm_rank_sorted.txt"))
 
@@ -83,15 +83,17 @@ if __name__ == "__main__":
     writer.write(output)
     writer.close()
 
+if __name__ == "__main__":
+    """Count unused and dup for the latest version of all packages"""
+
+    repos = helper.get_repos(os.path.join(
+        ".", "data", "npm_rank_sorted.txt"))
+
+    dup_writer = open(os.path.join("user_studies",
+                                   "duplicate_repos.txt"), "w", encoding="utf-8")
     output = ""
     for repo in tqdm(repos):
         try:
-            # repo_path = os.path.join(
-            #     "results", "ddp_checker", repo["name"])
-
-            # cnt, duplicates = count_duplicates(
-            #     os.path.join(repo_path, "before_ddp.txt"))
-
             npm_ls_path = os.path.join(
                 "results", "camera_ready", "dup_checker")
 
@@ -104,10 +106,12 @@ if __name__ == "__main__":
             if duplicates != "":
                 helper.record(os.path.join(npm_ls_path, "just_libs"),
                               repo["name"] + ".txt", duplicates)
+                dup_writer.write(repo["name"] + "\n")
 
         except Exception as ex:
             print(str(ex))
 
+    dup_writer.close()
     writer = open(os.path.join("results", "paper_data",
                                "dup_all_package_one_tag.txt"), "w", encoding="utf-8")
     writer.write(output)

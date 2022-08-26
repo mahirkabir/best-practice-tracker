@@ -1,10 +1,11 @@
 import os
+from tqdm import tqdm
 
 
 def get_duplicate_deps(repo, tag):
     """Get duplicate dependencies for `tag` of `repo`"""
-    reader = open(os.path.join("results", "ddp_checker",
-                               repo, "duplicates_just_lib.txt"), "r", encoding="utf-8")
+    reader = open(os.path.join("results", "camera_ready", "dup_checker",
+                               "just_libs", repo + ".txt"), "r", encoding="utf-8")
     lines = reader.readlines()
     reader.close()
 
@@ -48,7 +49,8 @@ if __name__ == "__main__":
             dict_repo_latest_tag[parts[0]] = tags[0]
 
     study_repos = []
-    reader = open(os.path.join(".", "user_studies", "duplicate_repos.txt"), "r")
+    reader = open(os.path.join(".", "user_studies",
+                               "duplicate_repos.txt"), "r")
     lines = reader.readlines()
     reader.close()
     for line in lines:
@@ -62,8 +64,11 @@ if __name__ == "__main__":
     for line in lines:
         template += line
 
-    for repo in study_repos:
+    for repo in tqdm(study_repos):
         try:
+            if repo not in dict_repo_latest_tag:
+                # Only generating issues for repos with 5 tags
+                continue
             report = get_duplicate_deps(repo, dict_repo_latest_tag[repo])
             generated_issue = generate_issue(
                 template, repo, dict_repo_latest_tag[repo], dict_repo_url[repo], report)
