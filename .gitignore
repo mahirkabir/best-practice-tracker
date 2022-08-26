@@ -141,4 +141,4 @@ user_studies/audit_issues/
 user_studies/unused_issues/
 user_studies/duplicate_issues/
 user_studies/lock_issues/
-results/camera_ready/dup_checker/
+results/camera_ready/*/
